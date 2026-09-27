@@ -1,0 +1,7 @@
+# Only the files listed in MANIFEST.sha256 are registered.
+__pycache__/
+*.pyc
+cleaned_data/
+cleaned_data*.zip
+phase0c_received/
+private/

@@ -1,0 +1,14 @@
+{
+ "rule": "numpy.quantile(method='linear'), target region, defined N_eff_dn",
+ "c1_log_neff_dn": 1.3115967530387782,
+ "c2_log_neff_dn": 1.8797472966711477,
+ "c1_neff_dn": 3.7120962835309284,
+ "c2_neff_dn": 6.551848978929241,
+ "z_denoise": 1.645,
+ "target_region_auc_lr": [
+  0.6,
+  0.85
+ ],
+ "raw_sensitivity_c1_log_neff_raw": 1.715843358824666,
+ "raw_sensitivity_c2_log_neff_raw": 2.384264915639182
+}

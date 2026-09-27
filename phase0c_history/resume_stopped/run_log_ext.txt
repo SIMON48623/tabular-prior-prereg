@@ -1,0 +1,612 @@
+scan_start active_max=47312 candidates=131 pending=131
+44598	included	included
+44600	included	included
+44599	included	included
+44602	included	included
+44601	included	included
+44608	included	included
+44610	included	included
+44609	included	included
+44611	included	included
+44612	included	included
+44628	included	included
+44629	included	included
+44630	included	included
+44631	included	included
+44632	included	included
+44644	included	included
+44643	included	included
+44645	included	included
+44647	included	included
+44646	included	included
+44658	included	included
+44660	included	included
+44659	included	included
+44662	included	included
+44661	included	included
+44673	included	included
+44674	included	included
+44676	included	included
+44675	included	included
+44677	included	included
+44679	included	included
+44678	included	included
+44680	included	included
+44681	included	included
+44682	included	included
+44708	included	included
+44709	included	included
+44710	included	included
+44711	included	included
+44723	included	included
+44712	included	included
+44724	included	included
+44726	included	included
+44725	included	included
+44727	included	included
+44759	included	included
+44758	included	included
+44760	included	included
+44762	included	included
+44761	included	included
+44764	excluded	p_used_outside_5_100
+44763	excluded	p_used_outside_5_100
+44766	excluded	p_used_outside_5_100
+44767	excluded	p_used_outside_5_100
+44765	excluded	p_used_outside_5_100
+44773	included	included
+44775	included	included
+44774	included	included
+44776	included	included
+45023	included	included
+44777	included	included
+45039	included	included
+45059	included	included
+45063	included	included
+45545	included	included
+45077	included	included
+45553	included	included
+45557	excluded	p_used_outside_5_100
+45604	included	included
+45686	included	included
+45562	included	included
+45712	included	included
+45711	included	included
+45717	included	included
+45748	excluded	p_used_outside_5_100
+46116	included	included
+46279	included	included
+46280	included	included
+46281	included	included
+46358	included	included
+46365	included	included
+46359	included	included
+46416	included	included
+46421	included	included
+46422	included	included
+46431	included	included
+46482	included	included
+46298	included	included
+46483	included	included
+46502	included	included
+46532	included	included
+46517	included	included
+46535	included	included
+46562	included	included
+46590	included	included
+46595	excluded	p_used_outside_5_100
+46602	included	included
+46605	excluded	p_used_outside_5_100
+46630	excluded	p_used_outside_5_100
+46667	included	included
+46719	excluded	p_used_outside_5_100
+46733	excluded	p_used_outside_5_100
+46758	excluded	p_used_outside_5_100
+46800	excluded	p_used_outside_5_100
+46846	included	included
+46864	excluded	p_used_outside_5_100
+46865	excluded	p_used_outside_5_100
+46868	included	included
+46876	included	included
+46877	excluded	p_used_outside_5_100
+46911	included	included
+46915	included	included
+46860	included	included
+46927	included	included
+46916	included	included
+46925	included	included
+46938	included	included
+46930	included	included
+46940	included	included
+46951	included	included
+46952	included	included
+46956	included	included
+46969	included	included
+47044	included	included
+47050	included	included
+47052	included	included
+47150	included	included
+47151	included	included
+47152	included	included
+47153	included	included
+46950	included	included
+scan_complete candidates=131 included=114
+clean	3	ok	seconds=6.631
+clean	15	failed	RuntimeError:feature_order_mismatch expected=['Bare_Nuclei', 'Bland_Chromatin', 'Cell_Shape_Uniformity', 'Cell_Size_Uniformity', 'Clump_Thickness', 'Marginal_Adhesion', 'Mitoses', 'Normal_Nucleoli', 'Single_Epi_Cell_Size'] got=['Clump_Thickness', 'Cell_Size_Uniformity', 'Cell_Shape_Uniformity', 'Marginal_Adhesion', 'Single_Epi_Cell_Size', 'Bare_Nuclei', 'Bland_Chromatin', 'Normal_Nucleoli', 'Mitoses']
+clean	15	ok	seconds=0.217
+clean	29	ok	seconds=6.716
+clean	31	ok	seconds=6.503
+clean	37	ok	seconds=4.748
+clean	38	ok	seconds=6.865
+clean	44	ok	seconds=7.141
+clean	50	ok	seconds=5.488
+clean	1049	ok	seconds=6.586
+clean	1050	ok	seconds=7.649
+clean	1063	ok	seconds=5.458
+clean	1067	ok	seconds=6.108
+clean	1068	ok	seconds=5.254
+clean	1480	ok	seconds=5.228
+clean	1489	ok	seconds=5.691
+clean	1494	ok	seconds=7.749
+clean	1510	ok	seconds=5.835
+clean	6332	ok	seconds=6.548
+clean	23381	ok	seconds=5.568
+clean	40701	ok	seconds=10.091
+clean	40983	ok	seconds=6.798
+clean	40981	ok	seconds=5.752
+clean	41146	ok	seconds=10.561
+clean	41156	ok	seconds=6.007
+clean	13	ok	seconds=4.953
+clean	24	ok	seconds=7.854
+clean	25	ok	seconds=8.057
+clean	27	ok	seconds=5.130
+clean	40	ok	seconds=10.491
+clean	49	ok	seconds=6.546
+clean	51	ok	seconds=5.685
+clean	53	ok	seconds=5.433
+clean	56	ok	seconds=4.894
+clean	59	ok	seconds=7.633
+clean	333	ok	seconds=8.076
+clean	334	ok	seconds=5.333
+clean	335	ok	seconds=4.719
+clean	336	ok	seconds=5.294
+clean	337	ok	seconds=6.107
+clean	446	ok	seconds=5.343
+clean	451	ok	seconds=5.867
+clean	466	ok	seconds=4.571
+clean	470	ok	seconds=6.204
+clean	481	ok	seconds=4.621
+clean	715	ok	seconds=11.626
+clean	720	ok	seconds=8.077
+clean	721	ok	seconds=6.574
+clean	723	ok	seconds=13.382
+clean	725	ok	seconds=7.137
+clean	728	ok	seconds=5.020
+clean	730	ok	seconds=5.923
+clean	732	ok	seconds=10.381
+clean	733	ok	seconds=4.674
+clean	735	ok	seconds=12.498
+clean	737	ok	seconds=7.149
+clean	740	ok	seconds=5.703
+clean	743	ok	seconds=5.332
+clean	744	ok	seconds=5.277
+clean	746	ok	seconds=6.376
+clean	749	ok	seconds=5.606
+clean	751	ok	seconds=5.828
+clean	752	ok	seconds=69.369
+clean	757	ok	seconds=5.128
+clean	761	ok	seconds=7.591
+clean	763	ok	seconds=6.483
+clean	766	ok	seconds=6.493
+clean	769	ok	seconds=6.264
+clean	770	ok	seconds=5.443
+clean	773	ok	seconds=5.834
+clean	776	ok	seconds=4.688
+clean	778	ok	seconds=5.977
+clean	779	ok	seconds=5.953
+clean	786	ok	seconds=4.937
+clean	792	ok	seconds=6.655
+clean	793	ok	seconds=4.604
+clean	794	ok	seconds=6.312
+clean	796	ok	seconds=4.614
+clean	797	ok	seconds=7.460
+clean	798	ok	seconds=5.824
+clean	799	ok	seconds=5.219
+clean	805	ok	seconds=6.242
+clean	806	ok	seconds=20.832
+clean	807	ok	seconds=19.712
+clean	810	ok	seconds=6.678
+clean	813	ok	seconds=5.763
+clean	816	ok	seconds=13.019
+clean	818	ok	seconds=5.546
+clean	824	ok	seconds=5.123
+clean	825	ok	seconds=5.627
+clean	826	ok	seconds=5.115
+clean	830	ok	seconds=4.963
+clean	831	ok	seconds=4.866
+clean	832	ok	seconds=5.649
+clean	833	ok	seconds=49.536
+clean	837	ok	seconds=6.488
+clean	838	ok	seconds=6.038
+clean	840	ok	seconds=5.710
+clean	844	ok	seconds=5.218
+clean	845	ok	seconds=5.999
+clean	849	ok	seconds=6.200
+clean	853	ok	seconds=5.208
+clean	855	ok	seconds=5.880
+clean	858	ok	seconds=5.109
+clean	863	ok	seconds=5.043
+clean	866	ok	seconds=6.257
+clean	869	ok	seconds=5.453
+clean	870	ok	seconds=5.567
+clean	873	ok	seconds=6.054
+clean	877	ok	seconds=9.045
+clean	879	ok	seconds=5.725
+clean	880	ok	seconds=5.127
+clean	884	ok	seconds=4.714
+clean	888	ok	seconds=6.510
+clean	896	ok	seconds=8.561
+clean	897	ok	seconds=5.577
+clean	903	ok	seconds=11.207
+clean	904	ok	seconds=7.126
+clean	908	ok	seconds=6.427
+clean	910	ok	seconds=5.891
+clean	911	ok	seconds=4.845
+clean	912	ok	seconds=5.769
+clean	913	ok	seconds=5.354
+clean	915	ok	seconds=5.092
+clean	917	ok	seconds=5.866
+clean	918	ok	seconds=6.379
+clean	920	ok	seconds=7.150
+clean	926	ok	seconds=6.166
+clean	930	ok	seconds=5.483
+clean	933	ok	seconds=5.347
+clean	934	ok	seconds=5.024
+clean	935	ok	seconds=4.855
+clean	936	ok	seconds=5.258
+clean	937	ok	seconds=7.880
+clean	939	ok	seconds=5.078
+clean	943	ok	seconds=5.120
+clean	957	ok	seconds=5.618
+clean	958	ok	seconds=5.582
+clean	961	ok	seconds=5.101
+clean	962	ok	seconds=4.921
+clean	966	ok	seconds=5.709
+clean	967	ok	seconds=5.366
+clean	975	ok	seconds=5.287
+clean	979	ok	seconds=7.754
+clean	983	ok	seconds=5.444
+clean	986	ok	seconds=5.880
+clean	987	ok	seconds=5.428
+clean	989	ok	seconds=4.979
+clean	990	ok	seconds=5.368
+clean	991	ok	seconds=4.561
+clean	993	ok	seconds=7.713
+clean	994	ok	seconds=5.253
+clean	995	ok	seconds=6.897
+clean	996	ok	seconds=5.208
+clean	999	ok	seconds=7.230
+clean	1000	ok	seconds=8.676
+clean	1002	ok	seconds=8.935
+clean	1003	ok	seconds=5.154
+clean	1005	ok	seconds=6.724
+clean	1010	ok	seconds=5.674
+clean	1011	ok	seconds=4.673
+clean	1016	ok	seconds=5.161
+clean	1018	ok	seconds=9.174
+clean	1021	ok	seconds=6.177
+clean	1023	ok	seconds=5.728
+clean	1024	ok	seconds=5.073
+clean	1025	ok	seconds=5.149
+clean	1037	ok	seconds=6.027
+clean	1048	ok	seconds=5.063
+clean	1065	ok	seconds=5.974
+clean	1071	ok	seconds=5.128
+clean	1073	ok	seconds=4.941
+clean	1121	ok	seconds=5.971
+clean	1167	ok	seconds=4.843
+clean	1412	ok	seconds=7.317
+clean	1442	ok	seconds=5.807
+clean	1443	ok	seconds=5.663
+clean	1444	ok	seconds=5.513
+clean	1446	ok	seconds=5.868
+clean	1447	ok	seconds=5.546
+clean	1449	ok	seconds=5.693
+clean	1451	ok	seconds=5.640
+clean	1453	ok	seconds=6.059
+clean	1467	ok	seconds=5.967
+clean	1495	ok	seconds=4.708
+clean	1496	ok	seconds=8.992
+clean	1498	ok	seconds=4.791
+clean	1504	ok	seconds=5.847
+clean	1506	ok	seconds=5.151
+clean	1507	ok	seconds=6.155
+clean	1511	ok	seconds=5.224
+clean	1524	ok	seconds=4.752
+clean	1547	ok	seconds=5.529
+clean	1558	ok	seconds=5.909
+clean	1600	ok	seconds=6.136
+clean	4329	ok	seconds=5.415
+clean	23499	ok	seconds=5.268
+clean	40648	ok	seconds=5.326
+clean	40680	ok	seconds=5.022
+clean	40690	ok	seconds=4.970
+clean	40693	ok	seconds=4.733
+clean	40702	ok	seconds=5.443
+clean	40705	ok	seconds=6.497
+clean	40710	ok	seconds=5.063
+clean	40945	ok	seconds=5.526
+clean	40999	ok	seconds=6.624
+clean	41005	ok	seconds=6.426
+clean	41007	ok	seconds=6.072
+clean	41430	ok	seconds=6.454
+clean	41538	ok	seconds=4.809
+clean	41945	ok	seconds=5.337
+clean	41946	ok	seconds=5.583
+clean	42172	ok	seconds=4.950
+clean	42192	ok	seconds=5.653
+clean	42638	ok	seconds=5.088
+clean	43255	ok	seconds=5.255
+clean	43595	ok	seconds=4.997
+clean	43892	ok	seconds=5.595
+clean	43893	ok	seconds=5.650
+clean	43895	ok	seconds=5.768
+clean	43946	ok	seconds=6.383
+clean	43947	ok	seconds=7.200
+clean	43949	ok	seconds=5.146
+clean	43958	ok	seconds=6.058
+clean	43973	ok	seconds=5.412
+clean	43976	ok	seconds=7.106
+clean	43980	ok	seconds=5.192
+clean	44095	ok	seconds=6.913
+clean	44097	ok	seconds=5.495
+clean	44098	ok	seconds=5.591
+clean	44149	ok	seconds=5.419
+clean	44155	ok	seconds=5.227
+clean	44186	ok	seconds=7.535
+clean	44227	ok	seconds=5.557
+clean	44232	ok	seconds=5.534
+clean	44345	ok	seconds=5.343
+clean	44347	ok	seconds=5.372
+clean	44349	ok	seconds=5.573
+clean	44350	ok	seconds=5.185
+clean	44351	ok	seconds=5.292
+clean	44352	ok	seconds=5.088
+clean	44362	ok	seconds=5.461
+clean	44363	ok	seconds=5.639
+clean	44364	ok	seconds=5.963
+clean	44365	ok	seconds=5.685
+clean	44366	ok	seconds=5.596
+clean	44367	ok	seconds=6.674
+clean	44368	ok	seconds=5.477
+clean	44369	ok	seconds=5.219
+clean	44370	ok	seconds=5.152
+clean	44371	ok	seconds=5.162
+clean	44377	ok	seconds=4.819
+clean	44378	ok	seconds=4.949
+clean	44379	ok	seconds=5.352
+clean	44380	ok	seconds=5.310
+clean	44381	ok	seconds=5.406
+clean	44382	ok	seconds=5.930
+clean	44383	ok	seconds=5.435
+clean	44384	ok	seconds=5.397
+clean	44385	ok	seconds=5.478
+clean	44386	ok	seconds=5.580
+clean	44387	ok	seconds=5.630
+clean	44388	ok	seconds=6.421
+clean	44389	ok	seconds=5.979
+clean	44390	ok	seconds=6.905
+clean	44391	ok	seconds=5.595
+clean	44392	ok	seconds=5.297
+clean	44393	ok	seconds=5.450
+clean	44394	ok	seconds=5.653
+clean	44395	ok	seconds=5.612
+clean	44396	ok	seconds=5.406
+clean	44397	ok	seconds=5.483
+clean	44398	ok	seconds=5.527
+clean	44399	ok	seconds=7.011
+clean	44400	ok	seconds=5.358
+clean	44401	ok	seconds=5.465
+clean	44402	ok	seconds=4.661
+clean	44403	ok	seconds=5.013
+clean	44404	ok	seconds=4.748
+clean	44405	ok	seconds=4.957
+clean	44406	ok	seconds=5.013
+clean	44407	ok	seconds=5.182
+clean	44408	ok	seconds=5.324
+clean	44409	ok	seconds=5.294
+clean	44410	ok	seconds=5.412
+clean	44411	ok	seconds=4.936
+clean	44412	ok	seconds=13.012
+clean	44413	ok	seconds=7.059
+clean	44414	ok	seconds=7.303
+clean	44415	ok	seconds=7.027
+clean	44416	ok	seconds=8.797
+clean	44417	ok	seconds=6.186
+clean	44418	ok	seconds=12.335
+clean	44419	ok	seconds=6.434
+clean	44420	ok	seconds=5.566
+clean	44421	ok	seconds=5.397
+clean	44423	ok	seconds=6.536
+clean	44424	ok	seconds=6.001
+clean	44425	ok	seconds=5.555
+clean	44426	ok	seconds=6.192
+clean	44427	ok	seconds=5.776
+clean	44428	ok	seconds=8.929
+clean	44429	ok	seconds=6.764
+clean	44430	ok	seconds=7.296
+clean	44431	ok	seconds=6.788
+clean	44432	ok	seconds=6.536
+clean	44438	ok	seconds=6.096
+clean	44439	ok	seconds=7.148
+clean	44440	ok	seconds=5.788
+clean	44441	ok	seconds=5.864
+clean	44442	ok	seconds=5.910
+clean	44443	ok	seconds=6.397
+clean	44444	ok	seconds=6.961
+clean	44445	ok	seconds=6.666
+clean	44446	ok	seconds=6.874
+clean	44447	ok	seconds=7.065
+clean	44448	ok	seconds=5.403
+clean	44449	ok	seconds=5.006
+clean	44450	ok	seconds=5.485
+clean	44451	ok	seconds=5.578
+clean	44452	ok	seconds=4.941
+clean	44453	ok	seconds=6.293
+clean	44454	ok	seconds=6.419
+clean	44455	ok	seconds=5.900
+clean	44456	ok	seconds=6.166
+clean	44457	ok	seconds=6.509
+clean	44458	ok	seconds=5.819
+clean	44459	ok	seconds=5.554
+clean	44460	ok	seconds=5.879
+clean	44461	ok	seconds=5.755
+clean	44462	ok	seconds=5.200
+clean	44463	ok	seconds=7.252
+clean	44464	ok	seconds=6.589
+clean	44465	ok	seconds=6.830
+clean	44466	ok	seconds=6.416
+clean	44467	ok	seconds=6.898
+clean	44483	ok	seconds=5.319
+clean	44484	ok	seconds=68.867
+clean	44485	ok	seconds=5.034
+clean	44486	ok	seconds=5.223
+clean	44487	ok	seconds=5.916
+clean	44488	ok	seconds=5.402
+clean	44489	ok	seconds=5.456
+clean	44490	ok	seconds=5.233
+clean	44491	ok	seconds=5.285
+clean	44492	ok	seconds=5.621
+clean	44493	ok	seconds=6.290
+clean	44494	ok	seconds=6.130
+clean	44495	ok	seconds=5.654
+clean	44497	ok	seconds=6.547
+clean	44498	ok	seconds=6.254
+clean	44499	ok	seconds=5.686
+clean	44500	ok	seconds=5.572
+clean	44501	ok	seconds=6.722
+clean	44502	ok	seconds=5.494
+clean	44538	ok	seconds=24.666
+clean	44539	ok	seconds=23.571
+clean	44540	ok	seconds=22.801
+clean	44541	ok	seconds=23.384
+clean	44542	ok	seconds=40.139
+clean	44568	ok	seconds=11.325
+clean	44569	ok	seconds=11.399
+clean	44570	ok	seconds=14.963
+clean	44571	ok	seconds=15.187
+clean	44572	ok	seconds=10.753
+clean	44598	ok	seconds=0.057
+clean	44599	ok	seconds=0.077
+clean	44600	ok	seconds=0.056
+clean	44601	ok	seconds=0.056
+clean	44602	ok	seconds=0.055
+clean	44608	ok	seconds=0.054
+clean	44609	ok	seconds=0.058
+clean	44610	ok	seconds=0.056
+clean	44611	ok	seconds=0.055
+clean	44612	ok	seconds=0.055
+clean	44628	ok	seconds=0.045
+clean	44629	ok	seconds=0.042
+clean	44630	ok	seconds=0.040
+clean	44631	ok	seconds=0.046
+clean	44632	ok	seconds=0.042
+clean	44643	ok	seconds=0.093
+clean	44644	ok	seconds=0.093
+clean	44645	ok	seconds=0.102
+clean	44646	ok	seconds=0.093
+clean	44647	ok	seconds=0.096
+clean	44658	ok	seconds=0.048
+clean	44659	ok	seconds=0.043
+clean	44660	ok	seconds=0.047
+clean	44661	ok	seconds=0.045
+clean	44662	ok	seconds=0.044
+clean	44673	ok	seconds=0.104
+clean	44674	ok	seconds=0.081
+clean	44675	ok	seconds=0.085
+clean	44676	ok	seconds=0.079
+clean	44677	ok	seconds=0.088
+clean	44678	ok	seconds=0.040
+clean	44679	ok	seconds=0.040
+clean	44680	ok	seconds=0.040
+clean	44681	ok	seconds=0.041
+clean	44682	ok	seconds=0.040
+clean	44708	ok	seconds=0.072
+clean	44709	ok	seconds=0.063
+clean	44710	ok	seconds=0.066
+clean	44711	ok	seconds=0.065
+clean	44712	ok	seconds=0.068
+clean	44723	ok	seconds=0.047
+clean	44724	ok	seconds=0.048
+clean	44725	ok	seconds=0.045
+clean	44726	ok	seconds=0.046
+clean	44727	ok	seconds=0.045
+clean	44758	ok	seconds=0.079
+clean	44759	ok	seconds=0.080
+clean	44760	ok	seconds=0.082
+clean	44761	ok	seconds=0.081
+clean	44762	ok	seconds=0.079
+clean	44773	ok	seconds=0.100
+clean	44774	ok	seconds=0.091
+clean	44775	ok	seconds=0.083
+clean	44776	ok	seconds=0.096
+clean	44777	ok	seconds=0.086
+clean	45023	ok	seconds=0.057
+clean	45039	ok	seconds=0.043
+clean	45059	ok	seconds=0.063
+clean	45063	ok	seconds=0.043
+clean	45077	ok	seconds=0.071
+clean	45545	ok	seconds=0.030
+clean	45553	ok	seconds=0.071
+clean	45562	ok	seconds=0.043
+clean	45604	ok	seconds=0.025
+clean	45686	ok	seconds=0.083
+clean	45711	ok	seconds=0.033
+clean	45712	ok	seconds=0.032
+clean	45717	ok	seconds=0.032
+clean	46116	ok	seconds=0.031
+clean	46279	ok	seconds=0.030
+clean	46280	ok	seconds=0.070
+clean	46281	ok	seconds=0.209
+clean	46298	ok	seconds=0.056
+clean	46358	ok	seconds=0.048
+clean	46359	ok	seconds=0.048
+clean	46365	ok	seconds=0.042
+clean	46416	ok	seconds=0.035
+clean	46421	ok	seconds=0.114
+clean	46422	ok	seconds=0.081
+clean	46431	ok	seconds=0.084
+clean	46482	ok	seconds=0.036
+clean	46483	ok	seconds=0.051
+clean	46502	ok	seconds=0.058
+clean	46517	ok	seconds=0.052
+clean	46532	ok	seconds=0.036
+clean	46535	ok	seconds=0.033
+clean	46562	ok	seconds=0.045
+clean	46590	ok	seconds=0.028
+clean	46602	ok	seconds=0.040
+clean	46667	ok	seconds=0.034
+clean	46846	ok	seconds=0.038
+clean	46860	ok	seconds=0.139
+clean	46868	ok	seconds=0.087
+clean	46876	ok	seconds=0.038
+clean	46911	ok	seconds=0.046
+clean	46915	ok	seconds=0.051
+clean	46916	ok	seconds=0.150
+clean	46925	ok	seconds=0.044
+clean	46927	ok	seconds=0.029
+clean	46930	ok	seconds=0.055
+clean	46938	ok	seconds=0.041
+clean	46940	ok	seconds=0.053
+clean	46950	ok	seconds=0.127
+clean	46951	ok	seconds=0.036
+clean	46952	ok	seconds=0.058
+clean	46956	ok	seconds=0.040
+clean	46969	ok	seconds=0.214
+clean	47044	ok	seconds=0.030
+clean	47050	ok	seconds=0.028
+clean	47052	ok	seconds=0.029
+clean	47150	ok	seconds=0.063
+clean	47151	ok	seconds=0.054
+clean	47152	ok	seconds=0.053
+clean	47153	ok	seconds=0.094

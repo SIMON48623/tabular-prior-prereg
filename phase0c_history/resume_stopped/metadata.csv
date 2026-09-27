@@ -1,0 +1,516 @@
+openml_id,name,version,tags,original_data_url,citation,collection_date,creator,medical_terms,n_numeric,n_categorical,missing_share,n1,n0
+3,kr-vs-kp,1,,https://archive.ics.uci.edu/ml/datasets/Chess+(King-Rook+vs.+King-Pawn),https://archive.ics.uci.edu/ml/citation_policy.html,1989-08-01,Alen Shapiro,,0,36,0.0,1527,1669
+13,breast-cancer,1,,http://archive.ics.uci.edu/ml/datasets/Breast+Cancer,"M. Zwitter and M. Soklic, University Medical Centre, Institute of Oncology, Ljubljana, Slovenia",1988-07-11,Matjaz Zwitter;Milan Soklic,breast;cancer;medic;tumor,0,9,0.0034965034965034965,85,201
+15,breast-w,1,,http://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+(original),"Dr. William H. Wolberg, University of Wisconsin Hospitals, Madison.",1992-07-15,Dr. William H. Wolberg,breast;cancer;diagnos;hospital;medic;tumor,9,0,0.002543315848036878,241,458
+24,mushroom,1,,https://archive.ics.uci.edu/ml/datasets/mushroom,"The Audubon Society Field Guide to North American Mushrooms (1981). G. H. Lincoff (Pres.), New York: Alfred A. Knopf",1987-04-27,Jeff Schlimmer,,0,21,0.0,3916,4208
+25,colic,1,,https://archive.ics.uci.edu/ml/datasets/Horse+Colic,https://archive.ics.uci.edu/ml/citation_policy.html,1989-08-06,Mary McLeish;Matt Cecile,blood;clinic;heart;hospital;infect;medic;pathol;surg,5,14,0.09496567505720824,136,232
+27,colic,2,,,,,,,5,10,0.12028985507246377,136,232
+29,credit-approval,1,,https://archive.ics.uci.edu/ml/datasets/credit+approval,http://archive.ics.uci.edu/ml/citation_policy.html,1987,,,6,9,0.006473429951690821,307,383
+31,credit-g,1,,https://archive.ics.uci.edu/ml/datasets/statlog+(german+credit+data),https://archive.ics.uci.edu/ml/citation_policy.html,1994-11-17,Dr. Hans Hofmann,,7,13,0.0,300,700
+37,diabetes,1,,https://archive.ics.uci.edu/ml/datasets/pima+indians+diabetes,https://www.jair.org/index.php/jair/article/view/10129,1995-03-01,Peter D. Turney,blood;diabet;diagnos;disease;health;kidney;medic;patient;pregnan,8,0,0.0,268,500
+38,sick,1,,https://archive.ics.uci.edu/ml/datasets/thyroid+disease,"Thyroid disease records supplied by the Garavan Institute and J. Ross Quinlan, New South Wales Institute, Syndney, Australia. 1987.",1987-01-01,Ross Quinlan,disease;medic;pregnan;surg;thyroid;tumor,6,20,0.023370584876417327,231,3541
+40,sonar,1,,"https://archive.ics.uci.edu/ml/datasets/Connectionist+Bench+(Sonar,+Mines+vs.+Rocks)",https://archive.ics.uci.edu/ml/citation_policy.html,1988-10-30,R. Paul Gorman,spect,60,0,0.0,97,111
+44,spambase,1,,https://archive.ics.uci.edu/ml/datasets/spambase,https://archive.ics.uci.edu/ml/citation_policy.html,1999-07-01,Mark Hopkins;Erik Reeber;George Forman;Jaap Suermondt;Hewlett-Packard Labs,,57,0,0.0,1813,2788
+49,heart-c,1,,https://archive.ics.uci.edu/ml/datasets/heart+disease,"1. Hungarian Institute of Cardiology. Budapest: Andras Janosi, M.D.
+2. University Hospital, Zurich, Switzerland: William Steinbrunn, M.D.
+3. University Hospital, Basel, Switzerland: Matthias Pfisterer, M.D.
+4. V.A. Medical Center, Long Beach and Cleveland Clinic Foundation:Robert Detrano, M.D., Ph.D.",1988-07-01,Andras Janosi;William Steinbrunn;Matthias Pfisterer;Robert Detrano,blood;cardi;clinic;diabet;diagnos;disease;ecg;heart;hospital;medic;patient,6,7,0.001777100787001777,138,165
+50,tic-tac-toe,1,,https://archive.ics.uci.edu/ml/datasets/Tic-Tac-Toe+Endgame,https://archive.ics.uci.edu/ml/citation_policy.html,1991-08-19,David W. Aha,,0,9,0.0,332,626
+51,heart-h,1,,,,,,blood;cardi;clinic;diabet;diagnos;disease;ecg;heart;hospital;medic;patient,5,5,0.011904761904761904,106,188
+53,heart-statlog,1,,http://archive.ics.uci.edu/ml/datasets/statlog+(heart),https://archive.ics.uci.edu/ml/citation_policy.html,,,blood;cardi;disease;heart,13,0,0.0,120,150
+56,vote,1,,https://archive.ics.uci.edu/ml/datasets/congressional+voting+records,https://archive.ics.uci.edu/ml/citation_policy.html,1987-04-27,Congressional Quarterly Inc,,0,15,0.057777777777777775,168,267
+59,ionosphere,1,,http://archive.ics.uci.edu/ml/datasets/Ionosphere,https://archive.ics.uci.edu/ml/citation_policy.html,1989-01-01,Space Physics Group of the Applied Physics Laboratory at Johns Hopkins University,,34,0,0.0,126,225
+333,monks-problems-1,1,,https://archive.ics.uci.edu/ml/datasets/MONK's+Problems,https://archive.ics.uci.edu/ml/citation_policy.html,1992-10-01,Sebastian Thrun,,0,6,0.0,278,278
+334,monks-problems-2,1,,https://archive.ics.uci.edu/ml/datasets/MONK's+Problems,https://archive.ics.uci.edu/ml/citation_policy.html,October 1992,Sebastian Thrun,,0,6,0.0,206,395
+335,monks-problems-3,1,,https://archive.ics.uci.edu/ml/datasets/MONK's+Problems,https://archive.ics.uci.edu/ml/citation_policy.html,1992-10-01,Sebastian Thrun,,0,6,0.0,266,288
+336,SPECT,1,,https://archive.ics.uci.edu/ml/datasets/SPECT+Heart,https://archive.ics.uci.edu/ml/citation_policy.html,2001-10-01,Krzysztof J. Cios;Lukasz A.,cardi;diagnos;heart;medic;patient;spect,0,22,0.0,55,212
+337,SPECTF,1,,https://archive.ics.uci.edu/ml/datasets/SPECTF+Heart,https://archive.ics.uci.edu/ml/citation_policy.html,2001-10-01,Krzysztof J. Cios;Lukasz A.,cardi;diagnos;heart;medic;patient;spect,44,0,0.0,95,254
+446,prnn_crabs,1,,,,,,blood;diabet;disease;health;kidney;patient;pregnan,5,1,0.0,100,100
+451,irish,1,,http://lib.stat.cmu.edu/datasets/irish.ed,http://lib.stat.cmu.edu/datasets/,1967,Vincent Greaney;Thomas Kelleghan (St. Patrick's College;Dublin),,2,3,0.0128,222,278
+466,schizo,1,,,,14/10/1997,Rubin and Wu,schizo,11,2,0.18868778280542986,163,177
+470,profb,1,,http://lib.stat.cmu.edu/datasets/profb,,1989-1991,Hal Stern;Robin Lock,,5,2,0.0,224,448
+481,biomed,1,,,,23/02/1982,,biomed;blood;disease;hospital;patient,7,1,0.008971291866028708,75,134
+715,fri_c3_1000_25,2,,,,,,,25,0,0.0,443,557
+720,abalone,2,,,,,,,7,1,0.0,2081,2096
+721,pwLinear,2,,,,,,,10,0,0.0,97,103
+723,fri_c4_1000_25,2,,,,,,,25,0,0.0,453,547
+725,bank8FM,2,,,,,,,8,0,0.0,3307,4885
+728,analcatdata_supreme,2,,,,,,,7,0,0.0,971,3081
+730,fri_c1_250_5,2,,,,,,,5,0,0.0,119,131
+732,fri_c0_250_50,2,,,,,,,50,0,0.0,117,133
+733,machine_cpu,2,,,,,,,6,0,0.0,56,153
+735,cpu_small,3,,,,,,,12,0,0.0,2477,5715
+737,space_ga,2,,,,,,,6,0,0.0,1541,1566
+740,fri_c3_1000_10,2,,,,,,,10,0,0.0,440,560
+743,fri_c1_1000_5,2,,,,,,,5,0,0.0,457,543
+744,fri_c3_250_5,2,,,,,,,5,0,0.0,109,141
+746,fri_c1_250_25,2,,,,,,,25,0,0.0,107,143
+749,fri_c3_500_5,2,,,,,,,5,0,0.0,237,263
+751,fri_c4_1000_10,2,,,,,,,10,0,0.0,440,560
+752,puma32H,2,,,,,,,32,0,0.0,4064,4128
+757,meta,2,,,,,,,17,2,0.0023923444976076554,54,474
+761,cpu_act,3,,,,,,,21,0,0.0,2477,5715
+763,fri_c0_250_10,2,,,,,,,10,0,0.0,125,125
+766,fri_c1_500_50,2,,,,,,,50,0,0.0,238,262
+769,fri_c1_250_50,2,,,,,,,50,0,0.0,113,137
+770,strikes,2,,,,,,,6,0,0.0,310,315
+773,fri_c0_250_25,2,,,,,,,25,0,0.0,124,126
+776,fri_c0_250_5,2,,,,,,,5,0,0.0,125,125
+778,bodyfat,2,,,,,,,14,0,0.0,124,128
+779,fri_c1_500_25,2,,,,,,,25,0,0.0,233,267
+786,cleveland,2,,,,,,,6,7,0.0015232292460015233,139,164
+792,fri_c2_500_5,2,,,,,,,5,0,0.0,202,298
+793,fri_c3_250_10,2,,,,,,,10,0,0.0,115,135
+794,fri_c2_250_25,2,,,,,,,25,0,0.0,111,139
+796,cpu,2,,,,,,,6,1,0.0,53,156
+797,fri_c4_1000_50,2,,,,,,,50,0,0.0,440,560
+798,cholesterol,2,,,,,,cholesterol,6,7,0.0015232292460015233,137,166
+799,fri_c0_1000_5,2,,,,,,,5,0,0.0,497,503
+805,fri_c4_500_50,2,,,,,,,50,0,0.0,236,264
+806,fri_c3_1000_50,2,,,,,,,50,0,0.0,445,555
+807,kin8nm,2,,,,,,,8,0,0.0,4024,4168
+810,pbc,3,,,,,,,8,8,0.14488636363636365,188,230
+813,fri_c3_1000_5,2,,,,,,,5,0,0.0,437,563
+816,puma8NH,2,,,,,,,8,0,0.0,4078,4114
+818,diggle_table_a2,2,,,,,,,7,1,0.0,145,165
+824,fri_c1_500_10,2,,,,,,,10,0,0.0,226,274
+825,boston_corrected,2,,,,,,,16,3,0.0,223,283
+826,sensory,2,,,,,,,0,11,0.0,239,337
+830,fri_c2_250_10,2,,,,,,,10,0,0.0,91,159
+831,autoMpg,2,,,,,,,4,3,0.0021536252692031586,189,209
+832,fri_c3_250_25,2,,,,,,,25,0,0.0,111,139
+833,bank32nh,2,,,,,,,32,0,0.0,2543,5649
+837,fri_c1_1000_50,2,,,,,,,50,0,0.0,453,547
+838,fri_c4_500_25,2,,,,,,,25,0,0.0,216,284
+840,autoHorse,2,,,,,,,17,8,0.011121951219512195,83,122
+844,breastTumor,2,,,,,,breast;tumor,1,8,0.0034965034965034965,120,166
+845,fri_c0_1000_10,2,,,,,,,10,0,0.0,491,509
+849,fri_c0_1000_25,2,,,,,,,25,0,0.0,497,503
+853,boston,2,,,,,,,12,1,0.0,209,297
+855,fri_c4_500_10,2,,,,,,,10,0,0.0,224,276
+858,hungarian,2,,,,,,,5,5,0.011904761904761904,106,188
+863,fri_c4_250_10,2,,,,,,,10,0,0.0,117,133
+866,fri_c2_1000_50,2,,,,,,,50,0,0.0,418,582
+869,fri_c2_500_10,2,,,,,,,10,0,0.0,214,286
+870,fri_c1_500_5,2,,,,,,,5,0,0.0,233,267
+873,fri_c3_250_50,2,,,,,,,50,0,0.0,108,142
+877,fri_c2_250_50,2,,,,,,,50,0,0.0,113,137
+879,fri_c2_500_25,2,,,,,,,25,0,0.0,196,304
+880,mu284,2,,,,,,,10,0,0.0,142,142
+884,fri_c0_500_5,2,,,,,,,5,0,0.0,249,251
+888,fri_c0_500_50,2,,,,,,,50,0,0.0,244,256
+896,fri_c3_500_25,2,,,,,,,25,0,0.0,220,280
+897,colleges_aaup,2,,,,,,,13,2,0.014699971289118575,348,813
+903,fri_c2_1000_25,2,,,,,,,25,0,0.0,437,563
+904,fri_c0_1000_50,2,,,,,,,50,0,0.0,490,510
+908,chscase_census3,2,,,,,,,7,0,0.0,192,208
+910,fri_c1_1000_10,2,,,,,,,10,0,0.0,436,564
+911,fri_c2_250_5,2,,,,,,,5,0,0.0,110,140
+912,fri_c2_1000_5,2,,,,,,,5,0,0.0,416,584
+913,fri_c2_1000_10,2,,,,,,,10,0,0.0,420,580
+915,plasma_retinol,2,,,,,,,10,3,0.0,133,182
+917,fri_c1_1000_25,2,,,,,,,25,0,0.0,454,546
+918,fri_c4_250_50,2,,,,,,,50,0,0.0,115,135
+920,fri_c2_500_50,2,,,,,,,50,0,0.0,205,295
+926,fri_c0_500_25,2,,,,,,,25,0,0.0,245,255
+930,colleges_usnews,2,,,,,,,21,1,0.06189777963971512,614,688
+933,fri_c4_250_25,2,,,,,,,25,0,0.0,114,136
+934,socmob,2,,,,,,,1,4,0.0,256,900
+935,fri_c1_250_10,2,,,,,,,10,0,0.0,110,140
+936,fri_c3_500_10,2,,,,,,,10,0,0.0,228,272
+937,fri_c3_500_50,2,,,,,,,50,0,0.0,218,282
+939,chscase_whale,2,,,,,,,8,0,0.010964912280701754,111,117
+943,fri_c0_500_10,2,,,,,,,10,0,0.0,241,259
+957,braziltourism,2,,,,,,,4,4,0.02912621359223301,94,318
+958,segment,2,,,,,,,19,0,0.0,330,1980
+961,analcatdata_broadwaymult,2,,,,,,,3,4,0.013533834586466165,118,167
+962,mfeat-morphological,2,,,,,,,6,0,0.0,200,1800
+966,analcatdata_halloffame,2,,,,,,,15,1,0.0009328358208955224,125,1215
+967,cars,2,,,,,,,6,2,0.004310344827586207,152,254
+975,autos,2,,,,,,,15,10,0.01151219512195122,67,138
+979,waveform-5000,2,,,,,,,40,0,0.0,1692,3308
+983,cmc,2,,,,,,,2,6,0.0,629,844
+986,analcatdata_marketing,2,,,,,,,0,32,0.006868131868131868,115,249
+987,collins,2,,,,,,,20,2,0.0,80,420
+989,anneal,3,,,,,,,6,5,0.0334075723830735,214,684
+990,eucalyptus,2,,,,,,,14,5,0.032036613272311214,214,522
+991,car,2,,,,,,,0,6,0.0,518,1210
+993,kdd_ipums_la_97-small,1,,,,,,,33,18,0.019719584656771955,2594,4425
+994,vehicle,2,,,,,,,18,0,0.0,218,628
+995,mfeat-zernike,2,,,,,,,47,0,0.0,200,1800
+996,prnn_fglass,2,,,,,,,9,0,0.0,76,138
+999,audiology,2,,,,,,,0,67,0.001320829480914014,57,169
+1000,hypothyroid,2,,,,,,thyroid,6,20,0.023370584876417327,291,3481
+1002,ipums_la_98-small,2,,,,,,,16,33,0.021013455482393358,791,6694
+1003,primary-tumor,2,,,,,,tumor,0,16,0.012905604719764012,84,255
+1005,glass,2,,,,,,,9,0,0.0,76,138
+1010,dermatology,2,,,,,,,1,33,0.0006428801028608164,112,254
+1011,ecoli,2,,,,,,,7,0,0.0,143,193
+1016,vowel,3,,,,,,,10,2,0.0,90,900
+1018,ipums_la_99-small,2,,,,,,,15,36,0.02349881608002767,568,8276
+1021,page-blocks,2,,,,,,,10,0,0.0,560,4913
+1023,soybean,2,,,,,,,0,35,0.09776197448232588,92,591
+1024,cjs,2,,,,,,,6,2,0.03187589413447783,680,2116
+1025,analcatdata_germangss,2,,,,,,,0,5,0.0,90,310
+1037,ada_prior,1,,,,,,,6,8,0.001377841798709839,1132,3430
+1048,jEdit_4.2_4.3,1,,,,,,,8,0,0.0,165,204
+1049,pc4,1,,http://openscience.us/repo/defect/mccabehalsted/pc4.html,"Sayyad Shirabad, J. and Menzies, T.J. (2005) The PROMISE Repository of Software Engineering Databases. School of Information Technology and Engineering, University of Ottawa, Canada",2004,Mike Chapman,,37,0,0.0,178,1280
+1050,pc3,1,,http://openscience.us/repo/defect/mccabehalsted/pc3.html,"Sayyad Shirabad, J. and Menzies, T.J. (2005) The PROMISE Repository of Software Engineering Databases. School of Information Technology and Engineering, University of Ottawa, Canada.",2004,Mike Chapman,,37,0,0.0,160,1403
+1063,kc2,1,,http://openscience.us/repo/defect/mccabehalsted/kc2.html,"Sayyad Shirabad, J. and Menzies, T.J. (2005) The PROMISE Repository of Software Engineering Databases. School of Information Technology and Engineering, University of Ottawa, Canada.",2004,Mike Chapman,,21,0,0.0,107,415
+1065,kc3,1,,http://openscience.us/repo/defect/mccabehalsted/kc3.html,"Sayyad Shirabad, J. and Menzies, T.J. (2005) The PROMISE Repository of Software Engineering Databases. School of Information Technology and Engineering, University of Ottawa, Canada.",2004,Mike Chapman,,39,0,0.0,43,415
+1067,kc1,1,,http://openscience.us/repo/defect/mccabehalsted/kc2.html,"Sayyad Shirabad, J. and Menzies, T.J. (2005) The PROMISE Repository of Software Engineering Databases. School of Information Technology and Engineering, University of Ottawa, Canada.",2004,Mike Chapman,,21,0,0.0,326,1783
+1068,pc1,1,,http://openscience.us/repo/defect/mccabehalsted/pc1.html,"Sayyad Shirabad, J. and Menzies, T.J. (2005) The PROMISE Repository of Software Engineering Databases. School of Information Technology and Engineering, University of Ottawa, Canada.",2004,Mike Chapman,,21,0,0.0,77,1032
+1071,mw1,1,,http://openscience.us/repo/defect/mccabehalsted/pc3.html,"Sayyad Shirabad, J. and Menzies, T.J. (2005) The PROMISE Repository of Software Engineering Databases. School of Information Technology and Engineering, University of Ottawa, Canada.",2004,Mike Chapman,,37,0,0.0,31,372
+1073,jEdit_4.0_4.2,1,,,,,,,8,0,0.0,134,140
+1121,badges2,1,,,,,,,7,3,0.0,84,210
+1167,pc1_req,1,,,,,,,7,1,0.0,107,213
+1412,lungcancer_GSE31210,1,,,"Okayama H, Kohno T, Ishii Y, Shimada Y et al. Identification of genes upregulated in ALK-positive and EGFR/KRAS/ALK-negative lung adenocarcinomas. Cancer Res 2012 Jan 1;72(1):100-11.",,Okayama et al.,cancer;carcinom;gse31210;lung;survival,21,2,0.0,35,191
+1442,MegaWatt1,1,,,,,Hans Bauer Jesus;Deter Bergman,,37,0,0.0,27,226
+1443,PizzaCutter1,1,,,,,Hans Bauer Jesus;Deter Bergman,,37,0,0.0,52,609
+1444,PizzaCutter3,1,,,,,Hans Bauer Jesus;Deter Bergman,,37,0,0.0,127,916
+1446,CostaMadre1,2,,,,,Hans Bauer Jesus;Deter Bergman,,37,0,0.0,38,258
+1447,CastMetal1,1,,,,,Hans Bauer Jesus;Deter Bergman,,37,0,0.0,42,285
+1449,MeanWhile1,1,,,,,Hans Bauer Jesus;Deter Bergman,,37,0,0.0,27,226
+1451,PieChart1,1,,,,,Hans Bauer Jesus;Deter Bergman,,37,0,0.0,61,644
+1453,PieChart3,1,,,,,Hans Bauer Jesus;Deter Bergman,,37,0,0.0,134,943
+1467,climate-model-simulation-crashes,1,,,,,,liver,20,0,0.0,46,494
+1480,ilpd,1,,,,,,diagnos;disease;liver;patient,9,1,0.0,167,416
+1489,phoneme,1,,https://sci2s.ugr.es/keel/dataset.php?cod=105#sub2,,,,liver,5,0,0.0,1586,3818
+1494,qsar-biodeg,1,,,,,,,41,0,0.0,356,699
+1495,qualitative-bankruptcy,1,,,,,,,0,6,0.0,107,143
+1496,ringnorm,1,,,,,,,20,0,0.0,3664,3736
+1498,sa-heart,1,,,,,,blood;cholesterol;disease;heart;medic;obes,8,1,0.0,160,302
+1504,steel-plates-fault,1,,,,,,,33,0,0.0,673,1268
+1506,thoracic-surgery,1,,,,,,cancer;clinic;diabet;diagnos;disease;lung;medic;patient;surg;survival;tumour,3,13,0.0,70,400
+1507,twonorm,1,,,,,,,20,0,0.0,3697,3703
+1510,wdbc,1,,,,,,breast;cancer;diagnos;tumor,30,0,0.0,212,357
+1511,wholesale-customers,1,,,,,,,7,1,0.0,142,298
+1524,vertebra-column,2,,http://www.openml.org/d/1523,,,,biomed;diagnos;hospital;medic;pathol;patient,6,0,0.0,100,210
+1547,autoUniv-au1-1000,1,,,,,,,20,0,0.0,259,741
+1558,bank-marketing,2,,,,,,,7,9,0.0,521,4000
+1600,SPECTF,2,,https://archive.ics.uci.edu/ml/datasets/SPECTF+Heart,,,Krzysztof J. Cios;Lukasz A.,cardi;diagnos;heart;medic;patient;spect,44,0,0.0,55,212
+4329,thoracic_surgery,1,,http://archive.ics.uci.edu/ml/datasets/Thoracic+Surgery+Data,,,UCI Machine Learning Repository,cancer;disease;lung;medic;patient;surg,3,13,0.0,70,400
+6332,cylinder-bands,2,,,,,,,18,19,0.05,228,312
+23381,dresses-sales,2,,,,,,heart,1,9,0.0666,210,290
+23499,breast-cancer-dropped-missing-attributes-values,1,,,,,Smite Chow,breast;cancer;medic,0,9,0.0,81,196
+40648,GAMETES_Epistasis_3-Way_20atts_0.2H_EDM-1_1,1,,,,,,,0,20,0.0,800,800
+40680,mofn-3-7-10,1,,,,,,,0,10,0.0,292,1032
+40690,threeOf9,1,,,,,,,0,9,0.0,238,274
+40693,xd6,1,,,,,,,0,9,0.0,322,651
+40701,churn,1,,,,,,,16,4,0.0,707,4293
+40702,solar-flare,5,,,,,,,0,10,0.0,182,884
+40705,tokyo1,1,,,,,,,42,2,0.0,346,613
+40710,cleve,1,,,,,,,5,8,0.0,138,165
+40945,Titanic,1,,,,,,survival,6,2,0.05901451489686784,500,809
+40981,Australian,4,,https://archive.ics.uci.edu/ml/datasets/Statlog+(Australian+Credit+Approval),,,,,6,8,0.0,307,383
+40983,wilt,2,,,,,,disease,5,0,0.0,261,4578
+40999,jungle_chess_2pcs_endgame_elephant_elephant,1,,,,,J. N. van Rijn;J. K. Vis,,20,26,0.0,1035,1316
+41005,jungle_chess_2pcs_endgame_rat_rat,1,,,,,J. N. van Rijn;J. K. Vis,,20,26,0.0,1605,2055
+41007,jungle_chess_2pcs_endgame_lion_lion,1,,,,,J. N. van Rijn;J. K. Vis,,20,26,0.0,949,1403
+41146,sylvine,1,,https://automl.chalearn.org/data,,,http://automl.chalearn.org,diagnos;medic,20,0,0.0,2562,2562
+41156,ada,1,,,,,http://automl.chalearn.org,,48,0,0.0,1029,3118
+41430,DiabeticMellitus,1,,,,2017/2018,Musa et al,diabet;hospital;medic,97,0,7.337564662288586e-05,99,182
+41538,conference_attendance,1,,,,,Szymon Maksymiuk,,0,6,0.0,31,215
+41945,ilpd-numeric,2,,,,,,liver,10,0,0.0,167,416
+41946,Sick_numeric,2,,,,,Richard Ooms,,27,0,0.0,231,3541
+42172,regime_alimentaire,1,,,,,Ferrettini Gabriel,,3,16,0.004429390307451798,41,161
+42192,compas-two-years,3,,,,,,,7,6,0.0,2483,2795
+42638,titanic,9,,,,,,,3,3,0.0003741114852225963,342,549
+43255,1StudentPerfromance,1,,,,,Public,,3,4,0.0,482,518
+43595,Loan-Predication,1,,,,11-03-2018,,,6,0,0.04125950054288816,192,422
+43892,national-longitudinal-survey-binary,1,,,,,,,9,7,0.0,1853,3055
+43893,ibm-employee-attrition,1,,,,,,,26,0,0.0,237,1233
+43895,ibm-employee-performance,1,,,,,,,25,0,0.0,226,1244
+43946,eye_movements,2,,,"Salojarvi, Jarkko, et al. ""Inferring relevance from eye movements: Feature extraction."" Workshop at NIPS 2005, in Whistler, BC, Canada, on December 10, 2005.. 2005.",2005-03-03,Jarkko Salojarvi;Kai Puolamaki;Jaana Simola;Lauri Kovanen;Ilpo Kojo;Samuel Kaski,,20,3,0.0,3804,3804
+43947,KDDCup09_upselling,2,,,,,,,34,11,0.0,2516,2516
+43949,rl,2,,,,,http://automl.chalearn.org,,5,7,0.0,2485,2485
+43958,kdd_ipums_la_97-small,2,,,,,,,15,5,0.0,2594,2594
+43973,phoneme,2,,,,,,liver,5,0,0.0,1586,1586
+43976,eye_movements,3,,,"Salojarvi, Jarkko, et al. ""Inferring relevance from eye movements: Feature extraction."" Workshop at NIPS 2005, in Whistler, BC, Canada, on December 10, 2005.. 2005.",2005-03-03,Jarkko Salojarvi;Kai Puolamaki;Jaana Simola;Lauri Kovanen;Ilpo Kojo;Samuel Kaski,,17,3,0.0,3804,3804
+43980,wine,7,,,"Paulo Cortez, University of Minho, Guimaraes, Portugal, http://www3.dsi.uminho.pt/pcortez
+A. Cerdeira, F. Almeida, T. Matos and J. Reis, Viticulture Commission of the Vinho Verde Region(CVRVV), Porto, Portugal
+@2009",,See source,,10,0,0.0,1277,1277
+44095,spambase_reproduced,1,,https://archive.ics.uci.edu/ml/datasets/spambase,https://archive.ics.uci.edu/ml/citation_policy.html,1999-07-01,Mark Hopkins;Erik Reeber;George Forman;Jaap Suermondt;Hewlett-Packard Labs,,57,0,0.0,1813,2788
+44097,credit-g_copy,1,,https://archive.ics.uci.edu/ml/datasets/statlog+(german+credit+data),https://archive.ics.uci.edu/ml/citation_policy.html,1994-11-17,Dr. Hans Hofmann,,7,13,0.0,300,700
+44098,credit-g_reproduced_1,1,,https://archive.ics.uci.edu/ml/datasets/statlog+(german+credit+data),https://archive.ics.uci.edu/ml/citation_policy.html,1994-11-17,Dr. Hans Hofmann,,7,13,0.0,300,700
+44149,Heart_disease_prediction_20,1,,,UCI Machine Learning Repository,1-7-1988,Cleveland Clinical Foundation,disease;heart;patient,13,0,0.0,137,159
+44155,credit-approval_reproduced,1,,https://archive.ics.uci.edu/ml/datasets/credit+approval,http://archive.ics.uci.edu/ml/citation_policy.html,1987,,,6,9,0.006473429951690821,307,383
+44186,KDDCup09_upselling,6,,,,,,,34,15,0.0,2564,2564
+44227,South_Asian_Churn_dataset,1,,https://www.kaggle.com/datasets/mahreen/sato2015,unknown author,05-10-2022,MAHREENAHMED,,9,0,0.0,1000,1000
+44232,UCI_churn,1,,https://cran.r-project.org/web/packages/modeldata/modeldata.pdf,unknown author,05-10-2022,UNK,,16,0,0.0,483,2850
+44345,credit,3,,https://www.openml.org/d/44089,,2022-11-17,Eddie Bergman,,10,0,0.0,1000,1000
+44347,credit_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44089,,2022-11-17,Eddie Bergman,,10,0,0.0,1000,1000
+44349,credit_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44089,,2022-11-17,Eddie Bergman,,10,0,0.0,1000,1000
+44350,credit_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44089,,2022-11-17,Eddie Bergman,,10,0,0.0,1000,1000
+44351,credit_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44089,,2022-11-17,Eddie Bergman,,10,0,0.0,1000,1000
+44352,credit_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44089,,2022-11-17,Eddie Bergman,,10,0,0.0,1000,1000
+44362,california_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44090,,2022-11-17,Eddie Bergman,,8,0,0.0,1000,1000
+44363,california_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44090,,2022-11-17,Eddie Bergman,,8,0,0.0,1000,1000
+44364,california_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44090,,2022-11-17,Eddie Bergman,,8,0,0.0,1000,1000
+44365,california_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44090,,2022-11-17,Eddie Bergman,,8,0,0.0,1000,1000
+44366,california_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44090,,2022-11-17,Eddie Bergman,,8,0,0.0,1000,1000
+44367,wine_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44091,,2022-11-17,Eddie Bergman,,10,0,0.0,1000,1000
+44368,wine_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44091,,2022-11-17,Eddie Bergman,,10,0,0.0,1000,1000
+44369,wine_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44091,,2022-11-17,Eddie Bergman,,10,0,0.0,1000,1000
+44370,wine_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44091,,2022-11-17,Eddie Bergman,,10,0,0.0,1000,1000
+44371,wine_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44091,,2022-11-17,Eddie Bergman,,10,0,0.0,1000,1000
+44377,covertype_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44121,,2022-11-17,Eddie Bergman,,10,0,0.0,1000,1000
+44378,covertype_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44121,,2022-11-17,Eddie Bergman,,10,0,0.0,1000,1000
+44379,covertype_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44121,,2022-11-17,Eddie Bergman,,10,0,0.0,1000,1000
+44380,covertype_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44121,,2022-11-17,Eddie Bergman,,10,0,0.0,1000,1000
+44381,covertype_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44121,,2022-11-17,Eddie Bergman,,10,0,0.0,1000,1000
+44382,pol_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44122,,2022-11-17,Eddie Bergman,,26,0,0.0,1000,1000
+44383,pol_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44122,,2022-11-17,Eddie Bergman,,26,0,0.0,1000,1000
+44384,pol_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44122,,2022-11-17,Eddie Bergman,,26,0,0.0,1000,1000
+44385,pol_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44122,,2022-11-17,Eddie Bergman,,26,0,0.0,1000,1000
+44386,pol_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44122,,2022-11-17,Eddie Bergman,,26,0,0.0,1000,1000
+44387,house_16H_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44123,,2022-11-17,Eddie Bergman,,16,0,0.0,1000,1000
+44388,house_16H_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44123,,2022-11-17,Eddie Bergman,,16,0,0.0,1000,1000
+44389,house_16H_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44123,,2022-11-17,Eddie Bergman,,16,0,0.0,1000,1000
+44390,house_16H_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44123,,2022-11-17,Eddie Bergman,,16,0,0.0,1000,1000
+44391,house_16H_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44123,,2022-11-17,Eddie Bergman,,16,0,0.0,1000,1000
+44392,kdd_ipums_la_97-small_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44124,,2022-11-17,Eddie Bergman,,20,0,0.0,1000,1000
+44393,kdd_ipums_la_97-small_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44124,,2022-11-17,Eddie Bergman,,20,0,0.0,1000,1000
+44394,kdd_ipums_la_97-small_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44124,,2022-11-17,Eddie Bergman,,20,0,0.0,1000,1000
+44395,kdd_ipums_la_97-small_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44124,,2022-11-17,Eddie Bergman,,20,0,0.0,1000,1000
+44396,kdd_ipums_la_97-small_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44124,,2022-11-17,Eddie Bergman,,20,0,0.0,1000,1000
+44397,MagicTelescope_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44125,,2022-11-17,Eddie Bergman,,10,0,0.0,1000,1000
+44398,MagicTelescope_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44125,,2022-11-17,Eddie Bergman,,10,0,0.0,1000,1000
+44399,MagicTelescope_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44125,,2022-11-17,Eddie Bergman,,10,0,0.0,1000,1000
+44400,MagicTelescope_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44125,,2022-11-17,Eddie Bergman,,10,0,0.0,1000,1000
+44401,MagicTelescope_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44125,,2022-11-17,Eddie Bergman,,10,0,0.0,1000,1000
+44402,bank-marketing_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44126,,2022-11-17,Eddie Bergman,,7,0,0.0,1000,1000
+44403,bank-marketing_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44126,,2022-11-17,Eddie Bergman,,7,0,0.0,1000,1000
+44404,bank-marketing_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44126,,2022-11-17,Eddie Bergman,,7,0,0.0,1000,1000
+44405,bank-marketing_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44126,,2022-11-17,Eddie Bergman,,7,0,0.0,1000,1000
+44406,bank-marketing_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44126,,2022-11-17,Eddie Bergman,,7,0,0.0,1000,1000
+44407,phoneme_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44127,,2022-11-17,Eddie Bergman,,5,0,0.0,1000,1000
+44408,phoneme_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44127,,2022-11-17,Eddie Bergman,,5,0,0.0,1000,1000
+44409,phoneme_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44127,,2022-11-17,Eddie Bergman,,5,0,0.0,1000,1000
+44410,phoneme_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44127,,2022-11-17,Eddie Bergman,,5,0,0.0,1000,1000
+44411,phoneme_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44127,,2022-11-17,Eddie Bergman,,5,0,0.0,1000,1000
+44412,MiniBooNE_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44128,,2022-11-17,Eddie Bergman,,50,0,0.0,1000,1000
+44413,MiniBooNE_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44128,,2022-11-17,Eddie Bergman,,50,0,0.0,1000,1000
+44414,MiniBooNE_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44128,,2022-11-17,Eddie Bergman,,50,0,0.0,1000,1000
+44415,MiniBooNE_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44128,,2022-11-17,Eddie Bergman,,50,0,0.0,1000,1000
+44416,MiniBooNE_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44128,,2022-11-17,Eddie Bergman,,50,0,0.0,1000,1000
+44417,Higgs_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44129,,2022-11-17,Eddie Bergman,,24,0,0.0,1000,1000
+44418,Higgs_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44129,,2022-11-17,Eddie Bergman,,24,0,0.0,1000,1000
+44419,Higgs_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44129,,2022-11-17,Eddie Bergman,,24,0,0.0,1000,1000
+44420,Higgs_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44129,,2022-11-17,Eddie Bergman,,24,0,0.0,1000,1000
+44421,Higgs_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44129,,2022-11-17,Eddie Bergman,,24,0,0.0,1000,1000
+44423,eye_movements_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44130,,2022-11-17,Eddie Bergman,,20,0,0.0,1000,1000
+44424,eye_movements_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44130,,2022-11-17,Eddie Bergman,,20,0,0.0,1000,1000
+44425,eye_movements_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44130,,2022-11-17,Eddie Bergman,,20,0,0.0,1000,1000
+44426,eye_movements_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44130,,2022-11-17,Eddie Bergman,,20,0,0.0,1000,1000
+44427,eye_movements_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44130,,2022-11-17,Eddie Bergman,,20,0,0.0,1000,1000
+44428,jannis_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44131,,2022-11-17,Eddie Bergman,,54,0,0.0,1000,1000
+44429,jannis_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44131,,2022-11-17,Eddie Bergman,,54,0,0.0,1000,1000
+44430,jannis_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44131,,2022-11-17,Eddie Bergman,,54,0,0.0,1000,1000
+44431,jannis_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44131,,2022-11-17,Eddie Bergman,,54,0,0.0,1000,1000
+44432,jannis_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44131,,2022-11-17,Eddie Bergman,,54,0,0.0,1000,1000
+44438,eye_movements_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,2,,https://www.openml.org/d/44157,,2022-11-17,Eddie Bergman,,20,3,0.0,1000,1000
+44439,eye_movements_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,2,,https://www.openml.org/d/44157,,2022-11-17,Eddie Bergman,,20,3,0.0,1000,1000
+44440,eye_movements_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,2,,https://www.openml.org/d/44157,,2022-11-17,Eddie Bergman,,20,3,0.0,1000,1000
+44441,eye_movements_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,2,,https://www.openml.org/d/44157,,2022-11-17,Eddie Bergman,,20,3,0.0,1000,1000
+44442,eye_movements_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,2,,https://www.openml.org/d/44157,,2022-11-17,Eddie Bergman,,20,3,0.0,1000,1000
+44443,covertype_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,2,,https://www.openml.org/d/44159,,2022-11-17,Eddie Bergman,,10,44,0.0,1000,1000
+44444,covertype_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,2,,https://www.openml.org/d/44159,,2022-11-17,Eddie Bergman,,10,44,0.0,1000,1000
+44445,covertype_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,2,,https://www.openml.org/d/44159,,2022-11-17,Eddie Bergman,,10,44,0.0,1000,1000
+44446,covertype_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,2,,https://www.openml.org/d/44159,,2022-11-17,Eddie Bergman,,10,44,0.0,1000,1000
+44447,covertype_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,2,,https://www.openml.org/d/44159,,2022-11-17,Eddie Bergman,,10,44,0.0,1000,1000
+44448,rl_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44160,,2022-11-17,Eddie Bergman,,5,7,0.0,1000,1000
+44449,rl_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44160,,2022-11-17,Eddie Bergman,,5,7,0.0,1000,1000
+44450,rl_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44160,,2022-11-17,Eddie Bergman,,5,7,0.0,1000,1000
+44451,rl_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44160,,2022-11-17,Eddie Bergman,,5,7,0.0,1000,1000
+44452,rl_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44160,,2022-11-17,Eddie Bergman,,5,7,0.0,1000,1000
+44453,road-safety_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44161,,2022-11-17,Eddie Bergman,,29,3,0.0,1000,1000
+44454,road-safety_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44161,,2022-11-17,Eddie Bergman,,29,3,0.0,1000,1000
+44455,road-safety_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44161,,2022-11-17,Eddie Bergman,,29,3,0.0,1000,1000
+44456,road-safety_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44161,,2022-11-17,Eddie Bergman,,29,3,0.0,1000,1000
+44457,road-safety_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44161,,2022-11-17,Eddie Bergman,,29,3,0.0,1000,1000
+44458,compass_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44162,,2022-11-17,Eddie Bergman,,8,9,0.0,1000,1000
+44459,compass_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44162,,2022-11-17,Eddie Bergman,,8,9,0.0,1000,1000
+44460,compass_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44162,,2022-11-17,Eddie Bergman,,8,9,0.0,1000,1000
+44461,compass_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44162,,2022-11-17,Eddie Bergman,,8,9,0.0,1000,1000
+44462,compass_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44162,,2022-11-17,Eddie Bergman,,8,9,0.0,1000,1000
+44463,KDDCup09_upselling_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44186,,2022-11-17,Eddie Bergman,,34,15,0.0,1000,1000
+44464,KDDCup09_upselling_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44186,,2022-11-17,Eddie Bergman,,34,15,0.0,1000,1000
+44465,KDDCup09_upselling_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44186,,2022-11-17,Eddie Bergman,,34,15,0.0,1000,1000
+44466,KDDCup09_upselling_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44186,,2022-11-17,Eddie Bergman,,34,15,0.0,1000,1000
+44467,KDDCup09_upselling_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/44186,,2022-11-17,Eddie Bergman,,34,15,0.0,1000,1000
+44483,Australian_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/40981,,2022-11-17,Eddie Bergman,,6,8,0.0,307,383
+44484,Australian_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/40981,,2022-11-17,Eddie Bergman,,6,8,0.0,307,383
+44485,Australian_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/40981,,2022-11-17,Eddie Bergman,,6,8,0.0,307,383
+44486,Australian_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/40981,,2022-11-17,Eddie Bergman,,6,8,0.0,307,383
+44487,Australian_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/40981,,2022-11-17,Eddie Bergman,,6,8,0.0,307,383
+44488,wilt_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/40983,,2022-11-17,Eddie Bergman,,5,0,0.0,108,1892
+44489,wilt_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/40983,,2022-11-17,Eddie Bergman,,5,0,0.0,108,1892
+44490,wilt_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/40983,,2022-11-17,Eddie Bergman,,5,0,0.0,108,1892
+44491,wilt_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/40983,,2022-11-17,Eddie Bergman,,5,0,0.0,108,1892
+44492,wilt_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/40983,,2022-11-17,Eddie Bergman,,5,0,0.0,108,1892
+44493,numerai28.6_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/23517,,2022-11-17,Eddie Bergman,,21,0,0.0,990,1010
+44494,numerai28.6_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/23517,,2022-11-17,Eddie Bergman,,21,0,0.0,990,1010
+44495,numerai28.6_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/23517,,2022-11-17,Eddie Bergman,,21,0,0.0,990,1010
+44497,numerai28.6_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/23517,,2022-11-17,Eddie Bergman,,21,0,0.0,990,1010
+44498,credit-g_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/31,,2022-11-17,Eddie Bergman,,7,13,0.0,300,700
+44499,credit-g_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/31,,2022-11-17,Eddie Bergman,,7,13,0.0,300,700
+44500,credit-g_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/31,,2022-11-17,Eddie Bergman,,7,13,0.0,300,700
+44501,credit-g_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/31,,2022-11-17,Eddie Bergman,,7,13,0.0,300,700
+44502,credit-g_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/31,,2022-11-17,Eddie Bergman,,7,13,0.0,300,700
+44538,albert_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/41147,,2022-11-17,Eddie Bergman,,18,52,0.02072142857142857,1000,1000
+44539,albert_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/41147,,2022-11-17,Eddie Bergman,,18,52,0.01977857142857143,1000,1000
+44540,albert_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/41147,,2022-11-17,Eddie Bergman,,18,52,0.020314285714285715,1000,1000
+44541,albert_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/41147,,2022-11-17,Eddie Bergman,,18,52,0.019357142857142857,1000,1000
+44542,albert_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/41147,,2022-11-17,Eddie Bergman,,18,52,0.019892857142857143,1000,1000
+44568,ada_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/41156,,2022-11-17,Eddie Bergman,,48,0,0.0,496,1504
+44569,ada_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/41156,,2022-11-17,Eddie Bergman,,48,0,0.0,496,1504
+44570,ada_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/41156,,2022-11-17,Eddie Bergman,,48,0,0.0,496,1504
+44571,ada_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/41156,,2022-11-17,Eddie Bergman,,48,0,0.0,496,1504
+44572,ada_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/41156,,2022-11-17,Eddie Bergman,,48,0,0.0,496,1504
+44598,qsar-biodeg_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/1494,,2022-11-17,Eddie Bergman,,41,0,0.0,356,699
+44599,qsar-biodeg_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/1494,,2022-11-17,Eddie Bergman,,41,0,0.0,356,699
+44600,qsar-biodeg_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/1494,,2022-11-17,Eddie Bergman,,41,0,0.0,356,699
+44601,qsar-biodeg_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/1494,,2022-11-17,Eddie Bergman,,41,0,0.0,356,699
+44602,qsar-biodeg_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/1494,,2022-11-17,Eddie Bergman,,41,0,0.0,356,699
+44608,pc4_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/1049,,2022-11-17,Eddie Bergman,,37,0,0.0,178,1280
+44609,pc4_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/1049,,2022-11-17,Eddie Bergman,,37,0,0.0,178,1280
+44610,pc4_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/1049,,2022-11-17,Eddie Bergman,,37,0,0.0,178,1280
+44611,pc4_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/1049,,2022-11-17,Eddie Bergman,,37,0,0.0,178,1280
+44612,pc4_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/1049,,2022-11-17,Eddie Bergman,,37,0,0.0,178,1280
+44628,kc1_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/1067,,2022-11-17,Eddie Bergman,,21,0,0.0,309,1691
+44629,kc1_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/1067,,2022-11-17,Eddie Bergman,,21,0,0.0,309,1691
+44630,kc1_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/1067,,2022-11-17,Eddie Bergman,,21,0,0.0,309,1691
+44631,kc1_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/1067,,2022-11-17,Eddie Bergman,,21,0,0.0,309,1691
+44632,kc1_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/1067,,2022-11-17,Eddie Bergman,,21,0,0.0,309,1691
+44643,kr-vs-kp_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/3,,2022-11-17,Eddie Bergman,,0,36,0.0,956,1044
+44644,kr-vs-kp_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/3,,2022-11-17,Eddie Bergman,,0,36,0.0,956,1044
+44645,kr-vs-kp_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/3,,2022-11-17,Eddie Bergman,,0,36,0.0,956,1044
+44646,kr-vs-kp_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/3,,2022-11-17,Eddie Bergman,,0,36,0.0,956,1044
+44647,kr-vs-kp_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/3,,2022-11-17,Eddie Bergman,,0,36,0.0,956,1044
+44658,churn_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/40701,,2022-11-17,Eddie Bergman,,16,4,0.0,283,1717
+44659,churn_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/40701,,2022-11-17,Eddie Bergman,,16,4,0.0,283,1717
+44660,churn_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/40701,,2022-11-17,Eddie Bergman,,16,4,0.0,283,1717
+44661,churn_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/40701,,2022-11-17,Eddie Bergman,,16,4,0.0,283,1717
+44662,churn_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/40701,,2022-11-17,Eddie Bergman,,16,4,0.0,283,1717
+44673,PhishingWebsites_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/4534,,2022-11-17,Eddie Bergman,,0,29,0.0,886,1114
+44674,PhishingWebsites_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/4534,,2022-11-17,Eddie Bergman,,0,29,0.0,886,1114
+44675,PhishingWebsites_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/4534,,2022-11-17,Eddie Bergman,,0,29,0.0,886,1114
+44676,PhishingWebsites_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/4534,,2022-11-17,Eddie Bergman,,0,29,0.0,886,1114
+44677,PhishingWebsites_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/4534,,2022-11-17,Eddie Bergman,,0,29,0.0,886,1114
+44678,sylvine_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/41146,,2022-11-17,Eddie Bergman,,20,0,0.0,1000,1000
+44679,sylvine_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/41146,,2022-11-17,Eddie Bergman,,20,0,0.0,1000,1000
+44680,sylvine_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/41146,,2022-11-17,Eddie Bergman,,20,0,0.0,1000,1000
+44681,sylvine_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/41146,,2022-11-17,Eddie Bergman,,20,0,0.0,1000,1000
+44682,sylvine_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/41146,,2022-11-17,Eddie Bergman,,20,0,0.0,1000,1000
+44708,Amazon_employee_access_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/4135,,2022-11-17,Eddie Bergman,,0,8,0.0,116,1884
+44709,Amazon_employee_access_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/4135,,2022-11-17,Eddie Bergman,,0,8,0.0,116,1884
+44710,Amazon_employee_access_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/4135,,2022-11-17,Eddie Bergman,,0,8,0.0,116,1884
+44711,Amazon_employee_access_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/4135,,2022-11-17,Eddie Bergman,,0,8,0.0,116,1884
+44712,Amazon_employee_access_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/4135,,2022-11-17,Eddie Bergman,,0,8,0.0,116,1884
+44723,adult_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/1590,,2022-11-17,Eddie Bergman,,6,8,0.008642857142857143,479,1521
+44724,adult_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/1590,,2022-11-17,Eddie Bergman,,6,8,0.008857142857142857,479,1521
+44725,adult_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/1590,,2022-11-17,Eddie Bergman,,6,8,0.009964285714285714,479,1521
+44726,adult_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/1590,,2022-11-17,Eddie Bergman,,6,8,0.00907142857142857,479,1521
+44727,adult_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/1590,,2022-11-17,Eddie Bergman,,6,8,0.009035714285714286,479,1521
+44758,kick_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/41162,,2022-11-17,Eddie Bergman,,14,15,0.0031379310344827587,246,1754
+44759,kick_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/41162,,2022-11-17,Eddie Bergman,,14,15,0.0034482758620689655,246,1754
+44760,kick_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/41162,,2022-11-17,Eddie Bergman,,14,15,0.0032413793103448275,246,1754
+44761,kick_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/41162,,2022-11-17,Eddie Bergman,,14,15,0.0034482758620689655,246,1754
+44762,kick_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/41162,,2022-11-17,Eddie Bergman,,14,15,0.003,246,1754
+44773,sf-police-incidents_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/42732,,2022-11-17,Eddie Bergman,,3,5,0.0,243,1757
+44774,sf-police-incidents_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/42732,,2022-11-17,Eddie Bergman,,3,5,0.0,243,1757
+44775,sf-police-incidents_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/42732,,2022-11-17,Eddie Bergman,,3,5,0.0,243,1757
+44776,sf-police-incidents_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/42732,,2022-11-17,Eddie Bergman,,3,5,0.0,243,1757
+44777,sf-police-incidents_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,1,,https://www.openml.org/d/42732,,2022-11-17,Eddie Bergman,,3,5,0.0,243,1757
+45023,heloc,1,,,,,See source,,22,0,0.0,5000,5000
+45039,compas-two-years,5,,,,,,,3,8,0.0,2483,2483
+45059,sick,2,,,"Yoontae Hwang, Youngbin Lee, Yongjae Lee,Semi-Supervised Learning for Tabular Datasets with Continuous and Categorical Variables, Archive, 2023",01-27-2023,"Yoontae Hwang, Youngbin Lee, Yongjae Lee",disease;thyroid,5,15,0.0,215,2888
+45063,credit-approval,2,,,"Yoontae Hwang, Youngbin Lee, Yongjae Lee,Semi-Supervised Learning for Tabular Datasets with Continuous and Categorical Variables, Archive, 2023",01-27-2023,"Yoontae Hwang, Youngbin Lee, Yongjae Lee",,6,9,0.0,296,357
+45077,qsar,1,,,"Yoontae Hwang, Youngbin Lee, Yongjae Lee,Semi-Supervised Learning for Tabular Datasets with Continuous and Categorical Variables, Archive, 2023",01-27-2023,Yoontae Hwang;Youngbin Lee;Yongjae Lee,,30,10,0.0,356,699
+45545,Tour-and-Travels-Customer-Churn-Prediction,1,,,https://www.kaggle.com/datasets/tejashvi14/tour-travels-customer-churn-prediction,,,,2,4,0.010482180293501049,224,730
+45553,FICO-HELOC-cleaned,1,,,,,,,21,2,0.0,4735,5136
+45562,seismic-bumps,3,,,"Sikora M., Wrobel L.: Application of rule induction algorithms for analysis of data collected by seismic hazard monitoring systems in coal mines. Archives of Mining Sciences, 55(1), 2010, 91-114.",,,spect,14,4,0.0,170,2414
+45604,dummy,1,,,,07-08-2023,Thanaphon,,6,0,0.0,273,727
+45686,cylinder-bands,3,,,,,,,17,21,0.04868421052631579,228,312
+45711,doa_bwin,3,,http://www.thetransparencyproject.org/datasets/AnalyticDataSet_HighRisk.txt,"Division on Addiction, How Do Gamblers Start Gambling: Identifying Behavioural Markers for High-risk Internet Gambling. Medford, MA: Division on Addiction, The Transparency Project [database distributor], December 5, 2023.","December 5, 2023","Division on Addiction, Cambridge Health Alliance",,11,1,0.0,176,354
+45712,doa_bwin_balanced,1,,http://www.thetransparencyproject.org/datasets/AnalyticDataSet_HighRisk.txt,"Division on Addiction, How Do Gamblers Start Gambling: Identifying Behavioural Markers for High-risk Internet Gambling. Medford, MA: Division on Addiction, The Transparency Project [database distributor], December 5, 2023.","December 5, 2023",Division on Addiction;Cambridge Health Alliance,,11,1,0.0,354,354
+45717,bwin_amlb,1,,http://www.thetransparencyproject.org/datasets/AnalyticDataSet_HighRisk.txt,"Division on Addiction, How Do Gamblers Start Gambling: Identifying Behavioural Markers for High-risk Internet Gambling. Medford, MA: Division on Addiction, The Transparency Project [database distributor], December 5, 2023.","December 5, 2023","Division on Addiction, Cambridge Health Alliance",,11,1,0.0,176,354
+46116,German-Credit-Risk-with-Target,1,,https://www.kaggle.com/datasets/kabure/german-credit-data-with-risk,https://doi.org/10.24432/C5NC77,,I. H. Witten;E. Frank;M. A. Hall;and ITPro,,4,3,0.02614285714285714,300,700
+46279,algerian_forest_fires,1,,https://archive.ics.uci.edu/dataset/547/algerian+forest+fires+dataset,"Abid, Faroudja. (2019). Algerian Forest Fires. UCI Machine Learning Repository. https://doi.org/10.24432/C5KW4N.",10/21/2019,Faroudja Abid,,13,0,0.0,106,137
+46280,blastchar,1,,https://www.kaggle.com/datasets/blastchar/telco-customer-churn,"""Telco Customer Churn."" Accessed July 23, 2024. https://www.kaggle.com/datasets/blastchar/telco-customer-churn.",2018,Blast Char,,3,16,8.220181292361957e-05,1869,5174
+46281,insurance_company,1,,https://archive.ics.uci.edu/dataset/125/insurance+company+benchmark+coil+2000,"""Putten,Peter. (2000). Insurance Company Benchmark (COIL 2000). UCI Machine Learning Repository. https://doi.org/10.24432/C5630S.",2018,Peter Putten,,23,62,0.0,586,9236
+46298,electrical_grid_stability_simulated_classification,1,,https://archive.ics.uci.edu/dataset/471/electrical+grid+stability+simulated+data,"Arzamasov,Vadim. (2018). Electrical Grid Stability Simulated Data . UCI Machine Learning Repository. https://doi.org/10.24432/C5PG66.",9/17/2014,Vadim Arzamasov,,12,0,0.0,3620,6380
+46358,Fraud-Detection-Updated),1,,,Original dataset citation or relevant paper,2024-11-13,Your Name,,21,0,0.010449608139694762,417,3739
+46359,Fraud-Detection-Updated,1,,,Original dataset citation or relevant paper,2024-11-13,Your Name,,21,0,0.010449608139694762,417,3739
+46365,Credit_Approval_Classification,1,,,Credit Approval Dataset,2024-11-19,Original Creator,,7,0,0.0,300,700
+46416,Creditability-German-Credit-Data,1,,,https://www.kaggle.com/datasets/mpwolke/cusersmarildownloadsgermancsv/data,,M. Prata,,20,0,0.0,300,700
+46421,German-Credit-Data-Creditability,1,,,https://www.kaggle.com/datasets/mpwolke/cusersmarildownloadsgermancsv/data,,M. Prata,,71,0,0.0,300,700
+46422,Credit-Risk-Classification-Dataset,1,,,https://www.kaggle.com/datasets/praveengovi/credit-risk-classification-dataset,,Praveen,,41,0,0.0032303523035230354,225,900
+46431,HMEQ_Data,3,,,https://www.kaggle.com/datasets/ajay1735/hmeq-data,,A. Vallala,,20,0,0.03976510067114094,1189,4771
+46482,German-Credit-Data-Creditability-2,1,,,https://www.kaggle.com/datasets/mpwolke/cusersmarildownloadsgermancsv/data,,M. Prata,,20,0,0.0,300,700
+46483,HMEQ_Data_New,1,,,https://www.kaggle.com/datasets/ajay1735/hmeq-data,,A. Vallala,,10,0,0.07953020134228188,1189,4771
+46502,Credit_Approval_Classification,3,,,.,2024-11-19,Anna Wiewer,,46,0,0.0,300,700
+46517,HMEQ_Data_Preprocessed,1,,,https://www.kaggle.com/datasets/ajay1735/hmeq-data,,A. Vallala,,20,0,0.03976510067114094,1189,4771
+46532,dataset_credit-g,1,,,Metaverse Financial Transactions Dataset,2024-12-13,AutoML Benchmark,,20,0,0.0,300,700
+46535,dataset_credit-approval,1,,,Metaverse Financial Transactions Dataset,2024-12-13,AutoML Benchmark,,15,0,0.0024154589371980675,307,383
+46562,German-Credit-Data-Creditability-Preprocessed-Dataset,1,,,https://www.kaggle.com/datasets/mpwolke/cusersmarildownloadsgermancsv/data,,M. Prata,,33,0,0.0,300,700
+46590,heart-statlog-uci,1,,https://archive.ics.uci.edu/dataset/145/statlog+heart,"Asuncion, A., & Newman, D. (2007, November). UCI machine learning repository",01-02-2025,"Asuncion, A., & Newman, D.",blood;cardi;disease;heart,13,0,0.0,120,150
+46602,Predicting_Risk_Factors_of_Chronic_Kidney_Disease,1,,https://archive.ics.uci.edu/dataset/857/risk+factor+prediction+of+chronic+kidney+disease,"Islam, M. A., Akter, S., Hossen, M. S., Keya, S. A., Tisha, S. A., & Hossain, S. (2020, December). Risk factor prediction of chronic kidney disease based on machine learning algorithms. In 2020 3rd international conference on intelligent sustainable systems (ICISS) (pp. 952-957). IEEE.",01-03-2025,"M. Islam, S. Akter, M. Hossen, Sadia Ahmed Keya, Sadia Afrin Tisha, Shahed Hossain",disease;kidney;medic;patient,13,0,0.0,72,128
+46667,imdb_genre_prediction,1,,https://www.kaggle.com/PromptCloudHQ/imdb-data,"Shi, X., Mueller, J., Erickson, N., Li, M., & Smola, A. J. (2021). Benchmarking multimodal automl for tabular data with text fields. arXiv preprint arXiv:2111.02705.",19-02-2025,"Xingjian Shi, Jonas Mueller, Nick Erickson, Mu Li, Alexander J. Smola",,7,0,0.02875,390,410
+46846,glioma_grading_clinical_and_mutation_features,2,,https://archive.ics.uci.edu/dataset/759/glioma+grading+clinical+and+mutation+features+dataset,"Tasci, E., Zhuge, Y., Kaur, H., Camphausen, K., & Krauze, A. V. (2022). Hierarchical voting-based feature selection and ensemble learning model scheme for glioma grading with clinical and molecular characteristics. International Journal of Molecular Sciences, 23(22), 14155.",01-03-2025,"Tasci, E., Zhuge, Y., Kaur, H., Camphausen, K., & Krauze, A. V.",cancer;clinic;diagnos;patient;tumor,22,0,0.0,352,487
+46860,Support2,2,,https://www.kaggle.com/datasets/joebeachcapital/support2,"Knaus, W. A., Harrell, F. E., Lynn, J., Goldman, L., Phillips, R. S., Connors, A. F., ... & Wagner, D. P. (1995). The SUPPORT prognostic model: Objective estimates of survival for seriously ill hospitalized adults. Annals of internal medicine, 122(3), 191-203.",01-03-2025,"Knaus, W. A., Harrell, F. E., Lynn, J., Goldman, L., Phillips, R. S., Connors, A. F., ... & Wagner, D. P.",blood;cancer;clinic;disease;heart;hospital;liver;lung;medic;patient;survival,31,0,0.048137322633788594,2904,6201
+46868,Phishing_Legitimate_full,2,,https://www.kaggle.com/datasets/shashwatwork/phishing-dataset-for-machine-learning,"Tan, Choon Lin (2018), 'Phishing Dataset for Machine Learning: Feature Evaluation', Mendeley Data, V1, doi: 10.17632/h3cgnj8hft.1",09-03-2025,Shashwat Tiwari,,48,0,0.0,5000,5000
+46876,depression_2020,2,,https://www.kaggle.com/datasets/diegobabativa/depression,https://www.kaggle.com/datasets/diegobabativa/depression,12-03-2025,Diego Babativa,,20,0,0.0006997900629811056,238,1191
+46911,Bank_Customer_Churn,1,,https://www.kaggle.com/datasets/gauravtopre/bank-customer-churn-dataset,"Topre, Gaurav. 'Bank Customer Churn Dataset.' Kaggle, 2022, https://www.kaggle.com/datasets/gauravtopre/bank-customer-churn-dataset.",2020,See original data source.,,6,4,0.0,2037,7963
+46915,churn,4,,See Description,"Marcoulides, George A. 'Discovering Knowledge in Data: an Introduction to Data Mining.' (2005): 1465-1465. https://www.tandfonline.com/doi/abs/10.1198/jasa.2005.s61",2005,See original data source.,,15,4,0.0,707,4293
+46916,coil2000_insurance_policies,1,,https://doi.org/10.24432/C5630S,"Van Der Putten, Peter, and Maarten van Someren. CoIL challenge 2000: The insurance company case. Technical Report 200009, Leiden Institute of Advanced Computer Science, Universiteit van Leiden. Available from:< http://www. liacs. nl/putten/library/cc2000, 2000.",2000,See original data source.,,80,3,0.0,586,9236
+46925,Employee,2,,https://www.kaggle.com/datasets/tawfikelmetwally/employee-dataset,"Elmetwally, Tawfik. 'Employee Dataset.' Kaggle, 2023, https://www.kaggle.com/datasets/tawfikelmetwally/employee-dataset.",2023,See original data source.,,3,5,0.0,1600,3053
+46927,Fitness_Club,1,,https://www.kaggle.com/datasets/ddosad/datacamps-data-science-associate-certification,"Kaggle User Ddosad. 'Fitness Club Dataset for ML Classification.' Kaggle, 2023, https://www.kaggle.com/datasets/ddosad/datacamps-data-science-associate-certification.",2023,See original data source.,,3,3,0.0022222222222222222,454,1046
+46930,hazelnut-spread-contaminant-detection,1,,https://www.openml.org/search?type=data&status=active&id=45538,"Ricci, Marco, et al. 'Machine-learning-based microwave sensing: A case study for the food industry.' IEEE Journal on Emerging and Selected Topics in Circuits and Systems 11.3 (2021): 503-514. https://doi.org/10.1109/JETCAS.2021.3097699; Urbinati, Luca, et al. 'A machine-learning based microwave sensing approach to food contaminant detection.' 2020 IEEE International Symposium on Circuits and Systems (ISCAS). IEEE, 2020. https://doi.org/10.1109/ISCAS45731.2020.9181293",2020,See original data source.,,30,0,0.0,1200,1200
+46938,Is-this-a-good-customer,2,,https://www.kaggle.com/datasets/podsyp/is-this-a-good-customer,"Kaggle User Podsyp. 'Is This a Good Customer?' Kaggle, 2020, https://www.kaggle.com/datasets/podsyp/is-this-a-good-customer.",2020,See original data source.,,5,8,0.0,196,1527
+46940,Marketing_Campaign,1,,https://www.kaggle.com/datasets/rodsaldanha/arketing-campaign,"Saldanha, Rodolfo. 'Marketing Campaign.' Kaggle, 2020, https://www.kaggle.com/datasets/rodsaldanha/arketing-campaign.",2020,See original data source.,,16,8,0.0004464285714285714,334,1906
+46950,polish_companies_bankruptcy,1,,https://doi.org/10.24432/C5F600,"Zieba, Maciej, Sebastian K. Tomczak, and Jakub M. Tomczak. 'Ensemble boosted trees with synthetic features generation in application to bankruptcy prediction.' Expert systems with applications 58 (2016): 93-101. https://doi.org/10.1016/j.eswa.2016.04.001",2010,See original data source.,,63,0,0.005688502135202643,410,5500
+46951,Pumpkin_Seeds,1,,https://www.muratkoklu.com/datasets/,"KOKLU, M., SARIGIL, S. and OZBEK, O. (2021). 'The use of machine learning methods in classification of pumpkin seeds (Cucurbita pepo L.).' Genetic Resources and Crop Evolution, 68(7), 2713-2726. https://doi.org/10.1007/s10722-021-01226-0",2021,See original data source.,,12,0,0.0,1200,1300
+46952,qsar-biodeg,2,,https://doi.org/10.24432/C5H60M,"Mansouri, Kamel, et al. 'Quantitative structureactivity relationship models for ready biodegradability of chemicals.' Journal of chemical information and modeling 53.4 (2013): 867-878. https://doi.org/10.1021/ci4000213",2013,See original data source.,,32,5,0.0,355,699
+46956,seismic-bumps,4,,https://doi.org/10.24432/C5W902,"Sikora, Marek, and ukasz Wrobel. 'Application of rule induction algorithms for analysis of data collected by seismic hazard monitoring systems in coal mines.' Archives of Mining Sciences 55.1 (2010): 91-114. http://yadda.icm.edu.pl/baztech/element/bwmeta1.element.baztech-article-BPZ5-0008-0008",2013,See original data source.,,11,3,0.0,170,2414
+46969,NATICUSdroid,3,,https://doi.org/10.24432/C5FS64,"Mathur, Akshay, et al. 'NATICUSdroid: A malware detection framework for Android using native and custom permissions.' Journal of Information Security and Applications 58 (2021): 102696. https://doi.org/10.1016/j.jisa.2020.102696",2021,See original data source.,,0,85,0.0,2624,4867
+47044,Accidents_Prediction_Dataset,1,,,Mining Safety Analysis 2025,2025-10-04,Your Name,,2,4,0.0,63,437
+47050,Accidents_Prediction_Dataset_Pipeline,1,,,Mining Safety Analysis 2025,2025-10-04,Your Name,,2,4,0.0,63,437
+47052,Accidents_Prediction_Balanced_v3,1,,,Mining Safety Analysis 2025,2025-10-04,Your Name,,2,4,0.0,63,437
+47150,CanadaFiresD,1,,,"@article{Hocking2026soak,
+  title={{SOAK: Same/Other/All K-fold cross-validation for estimating similarity of patterns in data subsets}},
+  author={Cameron Scott Bodine and Gabrielle Thibault and Paul Nelson Arellano and Alexander F Shenkin and Olivia Lindly and Toby Dylan Hocking},
+  journal={Statistical Analysis and Data Mining},
+  volume={19},
+  number={1},
+  links={[DOI](http://dx.doi.org/10.1002/sam.70055), [Preprint](https://arxiv.org/abs/2410.08643), [Software](https://github.com/tdhock/mlr3resampling), [Reproducible](https://github.com/tdhock/cv-same-other-paper)},
+  year={2026}
+}",,,,46,0,0.0,588,903
+47151,aztrees3,1,,,"@article{Hocking2026soak,
+  title={{SOAK: Same/Other/All K-fold cross-validation for estimating similarity of patterns in data subsets}},
+  author={Cameron Scott Bodine and Gabrielle Thibault and Paul Nelson Arellano and Alexander F Shenkin and Olivia Lindly and Toby Dylan Hocking},
+  journal={Statistical Analysis and Data Mining},
+  volume={19},
+  number={1},
+  links={[DOI](http://dx.doi.org/10.1002/sam.70055), [Preprint](https://arxiv.org/abs/2410.08643), [Software](https://github.com/tdhock/mlr3resampling), [Reproducible](https://github.com/tdhock/cv-same-other-paper)},
+  year={2026}
+}",,,,21,0,0.0,674,5282
+47152,aztrees4,1,,,"@article{Hocking2026soak,
+  title={{SOAK: Same/Other/All K-fold cross-validation for estimating similarity of patterns in data subsets}},
+  author={Cameron Scott Bodine and Gabrielle Thibault and Paul Nelson Arellano and Alexander F Shenkin and Olivia Lindly and Toby Dylan Hocking},
+  journal={Statistical Analysis and Data Mining},
+  volume={19},
+  number={1},
+  links={[DOI](http://dx.doi.org/10.1002/sam.70055), [Preprint](https://arxiv.org/abs/2410.08643), [Software](https://github.com/tdhock/mlr3resampling), [Reproducible](https://github.com/tdhock/cv-same-other-paper)},
+  year={2026}
+}",,,,21,0,0.0,674,5282
+47153,spam,1,,,"@article{Hocking2026soak,
+  title={{SOAK: Same/Other/All K-fold cross-validation for estimating similarity of patterns in data subsets}},
+  author={Cameron Scott Bodine and Gabrielle Thibault and Paul Nelson Arellano and Alexander F Shenkin and Olivia Lindly and Toby Dylan Hocking},
+  journal={Statistical Analysis and Data Mining},
+  volume={19},
+  number={1},
+  links={[DOI](http://dx.doi.org/10.1002/sam.70055), [Preprint](https://arxiv.org/abs/2410.08643), [Software](https://github.com/tdhock/mlr3resampling), [Reproducible](https://github.com/tdhock/cv-same-other-paper)},
+  year={2026}
+}",,,,57,0,0.0,1813,2788

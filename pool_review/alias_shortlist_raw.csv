@@ -1,0 +1,36 @@
+new_family,other_family,new_ids,other_ids,new_name,other_name,evidence
+Accidents_Prediction_Balanced_v3,Accidents_Prediction_Dataset,[47052],[47044],Accidents_Prediction_Balanced_v3,Accidents_Prediction_Dataset,"['name contains the other; same n and p, name similarity 0.64']"
+Accidents_Prediction_Balanced_v3,Accidents_Prediction_Dataset_Pipeline,[47052],[47050],Accidents_Prediction_Balanced_v3,Accidents_Prediction_Dataset_Pipeline,"['same n and p, name similarity 0.67']"
+Accidents_Prediction_Dataset,Accidents_Prediction_Dataset_Pipeline,[47044],[47050],Accidents_Prediction_Dataset,Accidents_Prediction_Dataset_Pipeline,"['name contains the other; same n and p, name similarity 0.69']"
+Bank_Customer_Churn,UCI_churn,[46911],[44232],Bank_Customer_Churn,UCI_churn,['name contains the other']
+Bank_Customer_Churn,churn,[46911],"[40701, 44658, 44659, 44660, 44661, 44662, 46915]",Bank_Customer_Churn,churn,['name contains the other']
+Credit-Risk-Classification-Dataset,German-Credit-Risk-with-Target,[46422],[46116],Credit-Risk-Classification-Dataset,German-Credit-Risk-with-Target,['name contains the other']
+Credit-Risk-Classification-Dataset,credit,[46422],"[44345, 44347, 44349, 44350, 44351, 44352]",Credit-Risk-Classification-Dataset,credit,['name contains the other']
+Credit_Approval_Classification,credit,"[46365, 46502]","[44345, 44347, 44349, 44350, 44351, 44352]",Credit_Approval_Classification,credit,['name contains the other']
+Credit_Approval_Classification,credit-approval,"[46365, 46502]","[29, 44155]",Credit_Approval_Classification,credit-approval,"['name contains the other', 'same normalized name']"
+Credit_Approval_Classification,dataset_credit-approval,"[46365, 46502]","[45063, 46535]",Credit_Approval_Classification,credit-approval,['same normalized name']
+Creditability-German-Credit-Data,credit,[46416],"[44345, 44347, 44349, 44350, 44351, 44352]",Creditability-German-Credit-Data,credit,['name contains the other']
+Employee,amazon-employee-access,[46925],"[44708, 44709, 44710, 44711, 44712]",Employee,Amazon_employee_access_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,['name contains the other']
+Employee,ibm-employee-attrition,[46925],[43893],Employee,ibm-employee-attrition,['name contains the other']
+Employee,ibm-employee-performance,[46925],[43895],Employee,ibm-employee-performance,['name contains the other']
+FICO-HELOC-cleaned,heloc,[45553],[45023],FICO-HELOC-cleaned,heloc,['name contains the other']
+German-Credit-Data-Creditability,German-Credit-Data-Creditability-2,[46421],[46482],German-Credit-Data-Creditability,German-Credit-Data-Creditability-2,['name contains the other']
+German-Credit-Data-Creditability,German-Credit-Data-Creditability-Preprocessed-Dataset,[46421],[46562],German-Credit-Data-Creditability,German-Credit-Data-Creditability-Preprocessed-Dataset,['name contains the other']
+German-Credit-Data-Creditability,credit,[46421],"[44345, 44347, 44349, 44350, 44351, 44352]",German-Credit-Data-Creditability,credit,['name contains the other']
+German-Credit-Data-Creditability-2,credit,[46482],"[44345, 44347, 44349, 44350, 44351, 44352]",German-Credit-Data-Creditability-2,credit,['name contains the other']
+German-Credit-Data-Creditability-Preprocessed-Dataset,credit,[46562],"[44345, 44347, 44349, 44350, 44351, 44352]",German-Credit-Data-Creditability-Preprocessed-Dataset,credit,['name contains the other']
+German-Credit-Risk-with-Target,credit,[46116],"[44345, 44347, 44349, 44350, 44351, 44352]",German-Credit-Risk-with-Target,credit,['name contains the other']
+Tour-and-Travels-Customer-Churn-Prediction,UCI_churn,[45545],[44232],Tour-and-Travels-Customer-Churn-Prediction,UCI_churn,['name contains the other']
+Tour-and-Travels-Customer-Churn-Prediction,churn,[45545],"[40701, 44658, 44659, 44660, 44661, 44662, 46915]",Tour-and-Travels-Customer-Churn-Prediction,churn,['name contains the other']
+aztrees3,aztrees4,[47151],[47152],aztrees3,aztrees4,"['same n and p, name similarity 0.88']"
+bwin_amlb,doa_bwin,[45717],[45711],bwin_amlb,doa_bwin,['same original_data_url']
+bwin_amlb,doa_bwin_balanced,[45717],[45712],bwin_amlb,doa_bwin_balanced,['same original_data_url']
+churn,South_Asian_Churn_dataset,"[44658, 44659, 44660, 44661, 44662, 46915]",[44227],churn_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,South_Asian_Churn_dataset,['name contains the other']
+churn,UCI_churn,"[44658, 44659, 44660, 44661, 44662, 46915]",[44232],churn_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,UCI_churn,['same normalized name']
+dataset_credit-approval,credit,"[45063, 46535]","[44345, 44347, 44349, 44350, 44351, 44352]",credit-approval,credit,['name contains the other']
+dataset_credit-approval,credit-approval,"[45063, 46535]","[29, 44155]",credit-approval,credit-approval,"['name contains the other', 'name contains the other; same n and p, name similarity 0.74', 'same normalized name', 'same normalized name; same n and p, name similarity 1.00']"
+dataset_credit-g,credit,[46532],"[44345, 44347, 44349, 44350, 44351, 44352]",dataset_credit-g,credit,['name contains the other']
+dataset_credit-g,credit-g,[46532],"[31, 44097, 44098, 44498, 44499, 44500, 44501, 44502]",dataset_credit-g,credit-g,"['name contains the other', 'name contains the other; same n and p, name similarity 0.78', 'same normalized name; same n and p, name similarity 1.00']"
+doa_bwin,doa_bwin_balanced,[45711],[45712],doa_bwin,doa_bwin_balanced,['name contains the other; same original_data_url']
+heart-statlog-uci,heart-statlog,[46590],[53],heart-statlog-uci,heart-statlog,"['same normalized name; same n and p, name similarity 1.00']"
+spam,spambase,[47153],[44],spam,spambase,"['same n and p, name similarity 0.67']"

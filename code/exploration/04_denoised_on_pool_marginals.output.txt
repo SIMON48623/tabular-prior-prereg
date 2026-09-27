@@ -1,0 +1,24 @@
+target 187 undefined z1.645: 1  n_sig==1: 4  n_sig min 0
+z0 rho logp 0.838  logn -0.051  auc_lr 0.116  minority -0.205  | range 0.31-3.70  corr with raw 1.000
+z1.0 rho logp 0.649  logn 0.061  auc_lr 0.242  minority -0.126  | range 0.00-3.53  corr with raw 0.909
+z1.645 rho logp nan  logn nan  auc_lr nan  minority nan  | range 0.00-3.50  corr with raw nan
+z1.96 rho logp nan  logn nan  auc_lr nan  minority nan  | range 0.00-3.49  corr with raw nan
+tertile cut (linear quantile) [nan nan]
+       n  fam
+Tdn          
+T3   187   72
+Tdn   T3
+Traw    
+T1    62
+T2    62
+T3    63
+SD nan resid SD | logp,logn nan R2 nan
+                         name  p_used     n     N_eff    z1.645  n_sig
+34           monks-problems-1     6.0   556  1.358104  1.000000      1
+215          Loan-Predication     6.0   614  1.595816  1.000000      1
+187          thoracic-surgery    16.0   470  9.400007  1.000000      1
+194          thoracic_surgery    16.0   470  9.400007  1.000000      1
+61                    puma32H    32.0  8192  2.981590  1.050585      4
+101             fri_c4_500_10    10.0   500  3.579812  1.113934      2
+103             fri_c4_250_10    10.0   250  3.873068  1.186607      3
+137  analcatdata_broadwaymult     7.0   285  5.071306  1.335854      2

@@ -1,0 +1,146 @@
+{
+  "python_version": "3.12.10",
+  "scikit_learn_version": "1.9.1",
+  "openml_version": "0.15.1",
+  "pandas_version": "3.0.5",
+  "numpy_version": "2.5.3",
+  "scipy_version": "1.18.1",
+  "matplotlib_version": "3.11.2",
+  "random_seed": 42,
+  "parallel_workers": 3,
+  "openml_suite_ids": {
+    "CC18": 99,
+    "AMLB_classification_all": 271
+  },
+  "candidate_rules": {
+    "target_count": 500,
+    "priority": [
+      "CC18",
+      "AMLB",
+      "openml-scan",
+      "UCI_optional"
+    ],
+    "same_name_dedupe_key": [
+      "name",
+      "n",
+      "p"
+    ],
+    "same_name_dedupe_keep": "minimum_version_then_minimum_openml_id"
+  },
+  "screening_rules": {
+    "task_type": "binary_classification",
+    "n_min": 200,
+    "n_max": 10000,
+    "p_raw_min": 5,
+    "p_raw_max": 100,
+    "p_used_min": 5,
+    "p_used_max": 100,
+    "minority_rate_min": 0.05,
+    "minority_rate_max": 0.5,
+    "max_column_missing_rate": 0.3,
+    "id_name_regex": "(?:^id$|^id[_-]|[_-]id$|[_-]id[_-]|id$|index|key)",
+    "non_numeric_id_unique_rate_min": 0.95,
+    "time_series_name_regex": "(?:rmftsa|pm10|pbcseq|delta[_-](?:ailerons|elevators)|chatfield|el[_-]?nino|(?:^|[_-])stock(?:$|[_-])|(?:^|[_-])wind(?:$|[_-])|(?:^|[_-])pollen(?:$|[_-])|(?:^|[_-])no2(?:$|[_-])|water[_-]?treatment|japanese[_-]?vowels|synthetic[_-]?control|forex|time[_-]?series|forecast|electricity(?:_|$)|airlines(?:_|$)|ozone[_-]?level[_-]?8hr)",
+    "image_text_name_regex": "(?:optdigits|mfeat|authorship|splice|mnist|image|document|text)",
+    "image_text_high_dimensional_p_min": 50,
+    "sparse_format_excluded": true,
+    "no_signal_if_auc_lr_le": 0.52
+  },
+  "family_rules": {
+    "fri_regex": "^fri_c\\d+_\\d+_\\d+$",
+    "monks_regex": "^monks-problems-\\d+$",
+    "seed_grid_regex": "^(.+?)_seed_\\d+_nrows_\\d+_nclasses_\\d+_ncols_\\d+_stratify_(?:true|false)$",
+    "number_grid_regex": "^(.+?)_\\d+_\\d+$",
+    "number_grid_min_pool_occurrences": 3,
+    "manual_alias_groups": {
+      "heart-h": [
+        "heart-h",
+        "hungarian"
+      ],
+      "heart-c": [
+        "cleve",
+        "cleveland",
+        "heart-c"
+      ],
+      "prnn_fglass": [
+        "glass",
+        "prnn-fglass"
+      ],
+      "spambase": [
+        "spam",
+        "spambase"
+      ],
+      "thyroid": [
+        "hypothyroid",
+        "sick"
+      ],
+      "credit-approval": [
+        "australian",
+        "credit-approval"
+      ],
+      "breast-cancer": [
+        "breast-cancer",
+        "breasttumor"
+      ],
+      "boston": [
+        "boston",
+        "boston-corrected"
+      ],
+      "machine_cpu": [
+        "cpu",
+        "machine-cpu"
+      ],
+      "cpu_act": [
+        "cpu-act",
+        "cpu-small"
+      ],
+      "bank-simulation": [
+        "bank32nh",
+        "bank8fm"
+      ],
+      "puma-simulation": [
+        "puma32h",
+        "puma8nh"
+      ],
+      "mfeat": [
+        "mfeat-fourier",
+        "mfeat-karhunen",
+        "mfeat-morphological",
+        "mfeat-zernike"
+      ],
+      "kdd_ipums_la": [
+        "ipums-la-98-small",
+        "ipums-la-99-small",
+        "kdd-ipums-la-97-small"
+      ],
+      "ilpd": [
+        "ilpd"
+      ],
+      "thoracic-surgery": [
+        "thoracic-surgery"
+      ]
+    },
+    "family_size_scope": "included_datasets_only"
+  },
+  "outer_cv": {
+    "class": "StratifiedKFold",
+    "n_splits": 5,
+    "shuffle": true,
+    "random_state": 42
+  },
+  "stratifier_rules": {
+    "target_region_auc_lr": [
+      0.6,
+      0.85
+    ],
+    "primary_eligibility": "abs(Spearman rho with auc_lr) <= 0.25 and all finite values in [0,2]",
+    "primary_selection_order": [
+      "N_eff",
+      "N_eff_norm",
+      "gap",
+      "SCR"
+    ],
+    "clipped": false
+  },
+  "forbidden_model_comparison_run": false
+}

@@ -1,0 +1,24 @@
+linear    rho=0.0 k= 1 n= 300  N_eff marginal  10.0   conditional  12.6
+linear    rho=0.0 k= 1 n=3000  N_eff marginal   3.9   conditional   4.4
+linear    rho=0.0 k= 4 n= 300  N_eff marginal  15.5   conditional  18.7
+linear    rho=0.0 k= 4 n=3000  N_eff marginal   7.9   conditional   8.3
+linear    rho=0.0 k=16 n= 300  N_eff marginal  20.3   conditional  21.5
+linear    rho=0.0 k=16 n=3000  N_eff marginal  19.1   conditional  19.6
+linear    rho=0.3 k= 1 n= 300  N_eff marginal  25.6   conditional  17.3
+linear    rho=0.3 k= 1 n=3000  N_eff marginal  27.0   conditional   5.2
+linear    rho=0.3 k= 4 n= 300  N_eff marginal  30.1   conditional  21.0
+linear    rho=0.3 k= 4 n=3000  N_eff marginal  30.3   conditional  10.8
+linear    rho=0.3 k=16 n= 300  N_eff marginal  30.9   conditional  25.3
+linear    rho=0.3 k=16 n=3000  N_eff marginal  31.8   conditional  22.1
+threshold rho=0.0 k= 1 n= 300  N_eff marginal  10.6   conditional  13.6
+threshold rho=0.0 k= 1 n=3000  N_eff marginal   3.4   conditional   3.9
+threshold rho=0.0 k= 4 n= 300  N_eff marginal  15.4   conditional  20.3
+threshold rho=0.0 k= 4 n=3000  N_eff marginal   8.8   conditional   9.8
+threshold rho=0.0 k=16 n= 300  N_eff marginal  22.4   conditional  24.4
+threshold rho=0.0 k=16 n=3000  N_eff marginal  19.5   conditional  20.5
+threshold rho=0.3 k= 1 n= 300  N_eff marginal  29.2   conditional  19.0
+threshold rho=0.3 k= 1 n=3000  N_eff marginal  26.7   conditional   4.9
+threshold rho=0.3 k= 4 n= 300  N_eff marginal  28.4   conditional  21.9
+threshold rho=0.3 k= 4 n=3000  N_eff marginal  30.1   conditional  11.1
+threshold rho=0.3 k=16 n= 300  N_eff marginal  30.1   conditional  27.0
+threshold rho=0.3 k=16 n=3000  N_eff marginal  31.7   conditional  21.3

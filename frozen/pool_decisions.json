@@ -1,0 +1,48 @@
+{
+ "_note": "Written by the author before registration, without any model-comparison result. Principle: datasets whose records come from the same underlying set of subjects or objects form one family, whatever their target variable or feature coding.",
+ "alias_merges": {
+  "45063": "credit-approval",
+  "46535": "credit-approval",
+  "46532": "credit-g",
+  "46416": "credit-g",
+  "46421": "credit-g",
+  "46482": "credit-g",
+  "46562": "credit-g",
+  "46116": "credit-g",
+  "46365": "credit-g",
+  "46502": "credit-g",
+  "46590": "heart-statlog",
+  "47153": "spambase",
+  "45077": "qsar-biodeg",
+  "45553": "heloc",
+  "45712": "doa_bwin",
+  "45717": "doa_bwin",
+  "47050": "Accidents_Prediction_Dataset",
+  "47052": "Accidents_Prediction_Dataset",
+  "47152": "aztrees3",
+  "46483": "HMEQ_Data",
+  "46517": "HMEQ_Data",
+  "46916": "insurance_company"
+ },
+ "family_corrections": {
+  "UCI_churn": "churn",
+  "breast-cancer-dropped-missing-attributes-values": "breast-cancer",
+  "SPECTF": "SPECT",
+  "autoHorse": "autos",
+  "MeanWhile1": "MegaWatt1",
+  "cholesterol": "heart-c",
+  "ibm-employee-performance": "ibm-employee-attrition"
+ },
+ "exclude": {},
+ "kept_separate_after_review": [
+  "Bank_Customer_Churn",
+  "Tour-and-Travels-Customer-Churn-Prediction",
+  "South_Asian_Churn_dataset",
+  "Employee",
+  "blastchar",
+  "Credit-Risk-Classification-Dataset",
+  "credit (Give Me Some Credit) vs credit-g",
+  "kin8nm vs puma8NH",
+  "ringnorm vs twonorm"
+ ]
+}

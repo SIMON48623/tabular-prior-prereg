@@ -1,0 +1,32 @@
+{
+ "z0.0": {
+  "mean_abs_error": 0.6692749182197915,
+  "p_inflation": 0.6722612560533591,
+  "mean_rank_corr": 0.9361373253716486,
+  "undefined_share": 0.0
+ },
+ "z1.0": {
+  "mean_abs_error": 0.3306923777993813,
+  "p_inflation": 0.33903587836152166,
+  "mean_rank_corr": 0.9575334407648799,
+  "undefined_share": 0.0
+ },
+ "z1.645": {
+  "mean_abs_error": 0.2553210655529655,
+  "p_inflation": 0.12901733439695098,
+  "mean_rank_corr": 0.9341408561734355,
+  "undefined_share": 0.0
+ },
+ "z1.96": {
+  "mean_abs_error": 0.2793678446848682,
+  "p_inflation": 0.07225444157734394,
+  "mean_rank_corr": 0.9078060004946272,
+  "undefined_share": 0.0
+ },
+ "z2.576": {
+  "mean_abs_error": 0.39558194927025087,
+  "p_inflation": 0.02175550212742915,
+  "mean_rank_corr": 0.7879051944718527,
+  "undefined_share": 0.016666666666666666
+ }
+}

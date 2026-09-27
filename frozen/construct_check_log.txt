@@ -1,0 +1,106 @@
+linear 0.0 0.7
+linear 0.0 0.7
+linear 0.0 0.8
+linear 0.0 0.8
+linear 0.3 0.7
+linear 0.3 0.7
+linear 0.3 0.8
+linear 0.3 0.8
+threshold 0.0 0.7
+threshold 0.0 0.7
+threshold 0.0 0.8
+threshold 0.0 0.8
+threshold 0.3 0.7
+threshold 0.3 0.7
+threshold 0.3 0.8
+threshold 0.3 0.8
+{
+ "rho=0.0": {
+  "mean_abs_error_vs_log_k": {
+   "log_neff_raw": 0.6819112620919499,
+   "log_neff_dn": 0.25932233001021465,
+   "log_neff_cond": 0.9313115010998623
+  },
+  "mean_bias": {
+   "log_neff_raw": 0.6242972293729934,
+   "log_neff_dn": -0.1121063258371536,
+   "log_neff_cond": 0.9015574134687777
+  },
+  "spearman_with_log_k_within_p_n_mean": {
+   "log_neff_raw": 0.9334117824465773,
+   "log_neff_dn": 0.9436126178007519,
+   "log_neff_cond": 0.9229203120557066
+  },
+  "inflation_p32_minus_p12_same_k_n": {
+   "log_neff_raw": 0.6794476212325774,
+   "log_neff_dn": 0.13175058121404348,
+   "log_neff_cond": 0.8659321502700932
+  },
+  "k1_mean_estimate_by_n": {
+   "log_neff_raw": {
+    "300": 1.71,
+    "1000": 1.246,
+    "3000": 0.935
+   },
+   "log_neff_dn": {
+    "300": 0.317,
+    "1000": 0.131,
+    "3000": 0.122
+   },
+   "log_neff_cond": {
+    "300": 2.259,
+    "1000": 1.688,
+    "3000": 1.214
+   }
+  },
+  "undefined_share": {
+   "log_neff_raw": 0.0,
+   "log_neff_dn": 0.0,
+   "log_neff_cond": 0.0
+  }
+ },
+ "rho=0.3": {
+  "mean_abs_error_vs_log_k": {
+   "log_neff_raw": 1.497935171615726,
+   "log_neff_dn": 1.3011527675651406,
+   "log_neff_cond": 1.0393448224148374
+  },
+  "mean_bias": {
+   "log_neff_raw": 1.4924322331215014,
+   "log_neff_dn": 1.2816727820919032,
+   "log_neff_cond": 0.9896739977392002
+  },
+  "spearman_with_log_k_within_p_n_mean": {
+   "log_neff_raw": 0.9291479832053805,
+   "log_neff_dn": 0.9207000516827942,
+   "log_neff_cond": 0.9002223934532118
+  },
+  "inflation_p32_minus_p12_same_k_n": {
+   "log_neff_raw": 1.027683364741222,
+   "log_neff_dn": 1.0164464673779003,
+   "log_neff_cond": 0.9725162184847619
+  },
+  "k1_mean_estimate_by_n": {
+   "log_neff_raw": {
+    "300": 2.538,
+    "1000": 2.69,
+    "3000": 2.739
+   },
+   "log_neff_dn": {
+    "300": 1.548,
+    "1000": 2.266,
+    "3000": 2.589
+   },
+   "log_neff_cond": {
+    "300": 2.255,
+    "1000": 1.81,
+    "3000": 1.321
+   }
+  },
+  "undefined_share": {
+   "log_neff_raw": 0.0,
+   "log_neff_dn": 0.0,
+   "log_neff_cond": 0.0
+  }
+ }
+}

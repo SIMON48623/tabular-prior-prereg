@@ -1,0 +1,13278 @@
+{
+ "1005": {
+  "1": {
+   "random": [
+    [
+     "Ca"
+    ],
+    [
+     "Si"
+    ],
+    [
+     "Ca"
+    ],
+    [
+     "Fe"
+    ],
+    [
+     "Mg"
+    ]
+   ],
+   "top": [
+    "K"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "Ba",
+     "Fe",
+     "Si"
+    ],
+    [
+     "Ba",
+     "Mg",
+     "Si"
+    ],
+    [
+     "Al",
+     "Ba",
+     "Si"
+    ],
+    [
+     "Al",
+     "Ba",
+     "Mg"
+    ],
+    [
+     "Mg",
+     "RI",
+     "Si"
+    ]
+   ],
+   "top": [
+    "K",
+    "Ca",
+    "Na"
+   ]
+  }
+ },
+ "1048": {
+  "1": {
+   "random": [
+    [
+     "DIT"
+    ],
+    [
+     "LCOM"
+    ],
+    [
+     "WMC"
+    ],
+    [
+     "NPM"
+    ],
+    [
+     "WMC"
+    ]
+   ],
+   "top": [
+    "CBO"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "NOC",
+     "NPM",
+     "WMC"
+    ],
+    [
+     "NPM",
+     "RFC",
+     "WMC"
+    ],
+    [
+     "NOC",
+     "NPM",
+     "WMC"
+    ],
+    [
+     "NOC",
+     "RFC",
+     "WMC"
+    ],
+    [
+     "DIT",
+     "NOC",
+     "NPM"
+    ]
+   ],
+   "top": [
+    "CBO",
+    "LCOM",
+    "LOC"
+   ]
+  }
+ },
+ "1050": {
+  "1": {
+   "random": [
+    [
+     "NUMBER_OF_LINES"
+    ],
+    [
+     "HALSTEAD_LEVEL"
+    ],
+    [
+     "MULTIPLE_CONDITION_COUNT"
+    ],
+    [
+     "HALSTEAD_LENGTH"
+    ],
+    [
+     "CYCLOMATIC_DENSITY"
+    ]
+   ],
+   "top": [
+    "LOC_BLANK"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "BRANCH_COUNT",
+     "HALSTEAD_LEVEL",
+     "LOC_EXECUTABLE"
+    ],
+    [
+     "CYCLOMATIC_COMPLEXITY",
+     "HALSTEAD_LEVEL",
+     "MODIFIED_CONDITION_COUNT"
+    ],
+    [
+     "CYCLOMATIC_COMPLEXITY",
+     "HALSTEAD_LEVEL",
+     "MAINTENANCE_SEVERITY"
+    ],
+    [
+     "HALSTEAD_LEVEL",
+     "LOC_CODE_AND_COMMENT",
+     "LOC_COMMENTS"
+    ],
+    [
+     "CALL_PAIRS",
+     "LOC_TOTAL",
+     "MULTIPLE_CONDITION_COUNT"
+    ]
+   ],
+   "top": [
+    "LOC_BLANK",
+    "HALSTEAD_CONTENT",
+    "NUM_UNIQUE_OPERANDS"
+   ]
+  }
+ },
+ "1063": {
+  "1": {
+   "random": [
+    [
+     "branchCount"
+    ],
+    [
+     "branchCount"
+    ],
+    [
+     "e"
+    ],
+    [
+     "v"
+    ],
+    [
+     "d"
+    ]
+   ],
+   "top": [
+    "uniq_Opnd"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "e",
+     "uniq_Op",
+     "v(g)"
+    ],
+    [
+     "l",
+     "t",
+     "uniq_Op"
+    ],
+    [
+     "d",
+     "loc",
+     "v"
+    ],
+    [
+     "ev(g)",
+     "iv(g)",
+     "t"
+    ],
+    [
+     "l",
+     "lOBlank",
+     "lOCodeAndComment"
+    ]
+   ],
+   "top": [
+    "uniq_Opnd",
+    "total_Opnd",
+    "b"
+   ]
+  }
+ },
+ "1065": {
+  "1": {
+   "random": [
+    [
+     "GLOBAL_DATA_DENSITY"
+    ],
+    [
+     "NORMALIZED_CYLOMATIC_COMPLEXITY"
+    ],
+    [
+     "CYCLOMATIC_DENSITY"
+    ],
+    [
+     "PERCENT_COMMENTS"
+    ],
+    [
+     "GLOBAL_DATA_COMPLEXITY"
+    ]
+   ],
+   "top": [
+    "CALL_PAIRS"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "CONDITION_COUNT",
+     "HALSTEAD_LEVEL",
+     "PERCENT_COMMENTS"
+    ],
+    [
+     "DESIGN_DENSITY",
+     "HALSTEAD_VOLUME",
+     "PARAMETER_COUNT"
+    ],
+    [
+     "HALSTEAD_DIFFICULTY",
+     "HALSTEAD_EFFORT",
+     "NUM_OPERANDS"
+    ],
+    [
+     "HALSTEAD_DIFFICULTY",
+     "HALSTEAD_LEVEL",
+     "HALSTEAD_PROG_TIME"
+    ],
+    [
+     "DESIGN_DENSITY",
+     "MULTIPLE_CONDITION_COUNT",
+     "NORMALIZED_CYLOMATIC_COMPLEXITY"
+    ]
+   ],
+   "top": [
+    "CALL_PAIRS",
+    "NUMBER_OF_LINES",
+    "NUM_UNIQUE_OPERANDS"
+   ]
+  }
+ },
+ "1067": {
+  "1": {
+   "random": [
+    [
+     "total_Opnd"
+    ],
+    [
+     "t"
+    ],
+    [
+     "iv(g)"
+    ],
+    [
+     "loc"
+    ],
+    [
+     "total_Opnd"
+    ]
+   ],
+   "top": [
+    "b"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "loc",
+     "t",
+     "v(g)"
+    ],
+    [
+     "ev(g)",
+     "lOComment",
+     "uniq_Opnd"
+    ],
+    [
+     "i",
+     "lOBlank",
+     "v(g)"
+    ],
+    [
+     "lOBlank",
+     "uniq_Op",
+     "v"
+    ],
+    [
+     "e",
+     "loc",
+     "uniq_Op"
+    ]
+   ],
+   "top": [
+    "b",
+    "total_Opnd",
+    "n"
+   ]
+  }
+ },
+ "1068": {
+  "1": {
+   "random": [
+    [
+     "v(g)"
+    ],
+    [
+     "B"
+    ],
+    [
+     "total_Op"
+    ],
+    [
+     "V"
+    ],
+    [
+     "iv(G)"
+    ]
+   ],
+   "top": [
+    "lOBlank"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "L",
+     "branchCount",
+     "locCodeAndComment"
+    ],
+    [
+     "L",
+     "N",
+     "uniq_Op"
+    ],
+    [
+     "lOComment",
+     "total_Opnd",
+     "uniq_Op"
+    ],
+    [
+     "V",
+     "branchCount",
+     "lOComment"
+    ],
+    [
+     "T",
+     "lOCode",
+     "loc"
+    ]
+   ],
+   "top": [
+    "lOBlank",
+    "I",
+    "uniq_Opnd"
+   ]
+  }
+ },
+ "1071": {
+  "1": {
+   "random": [
+    [
+     "NODE_COUNT"
+    ],
+    [
+     "NUM_UNIQUE_OPERANDS"
+    ],
+    [
+     "HALSTEAD_CONTENT"
+    ],
+    [
+     "DESIGN_COMPLEXITY"
+    ],
+    [
+     "DECISION_DENSITY"
+    ]
+   ],
+   "top": [
+    "CALL_PAIRS"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "EDGE_COUNT",
+     "HALSTEAD_DIFFICULTY",
+     "LOC_BLANK"
+    ],
+    [
+     "DECISION_DENSITY",
+     "EDGE_COUNT",
+     "MULTIPLE_CONDITION_COUNT"
+    ],
+    [
+     "DECISION_DENSITY",
+     "MULTIPLE_CONDITION_COUNT",
+     "NUM_OPERANDS"
+    ],
+    [
+     "LOC_EXECUTABLE",
+     "MAINTENANCE_SEVERITY",
+     "NUM_UNIQUE_OPERATORS"
+    ],
+    [
+     "DECISION_COUNT",
+     "ESSENTIAL_DENSITY",
+     "HALSTEAD_EFFORT"
+    ]
+   ],
+   "top": [
+    "CALL_PAIRS",
+    "NUM_UNIQUE_OPERANDS",
+    "HALSTEAD_CONTENT"
+   ]
+  }
+ },
+ "1073": {
+  "1": {
+   "random": [
+    [
+     "WMC"
+    ],
+    [
+     "DIT"
+    ],
+    [
+     "CBO"
+    ],
+    [
+     "WMC"
+    ],
+    [
+     "RFC"
+    ]
+   ],
+   "top": [
+    "LOC"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "DIT",
+     "NOC",
+     "NPM"
+    ],
+    [
+     "DIT",
+     "NPM",
+     "RFC"
+    ],
+    [
+     "DIT",
+     "NOC",
+     "NPM"
+    ],
+    [
+     "DIT",
+     "NPM",
+     "RFC"
+    ],
+    [
+     "DIT",
+     "NOC",
+     "RFC"
+    ]
+   ],
+   "top": [
+    "LOC",
+    "CBO",
+    "WMC"
+   ]
+  }
+ },
+ "1167": {
+  "1": {
+   "random": [
+    [
+     "SOURCE"
+    ],
+    [
+     "WEAK_PHRASE"
+    ],
+    [
+     "CONDITIONAL"
+    ],
+    [
+     "SOURCE"
+    ],
+    [
+     "ACTION"
+    ]
+   ],
+   "top": [
+    "CONTINUANCE"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "IMPERATIVE",
+     "OPTION",
+     "RISK_LEVEL"
+    ],
+    [
+     "IMPERATIVE",
+     "RISK_LEVEL",
+     "WEAK_PHRASE"
+    ],
+    [
+     "IMPERATIVE",
+     "OPTION",
+     "SOURCE"
+    ],
+    [
+     "RISK_LEVEL",
+     "SOURCE",
+     "WEAK_PHRASE"
+    ],
+    [
+     "IMPERATIVE",
+     "RISK_LEVEL",
+     "SOURCE"
+    ]
+   ],
+   "top": [
+    "CONTINUANCE",
+    "ACTION",
+    "CONDITIONAL"
+   ]
+  }
+ },
+ "13": {
+  "1": {
+   "random": [
+    [
+     "breast"
+    ],
+    [
+     "irradiat"
+    ],
+    [
+     "node-caps"
+    ],
+    [
+     "age"
+    ],
+    [
+     "tumor-size"
+    ]
+   ],
+   "top": [
+    "deg-malig"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "age",
+     "breast-quad",
+     "irradiat"
+    ],
+    [
+     "age",
+     "breast",
+     "irradiat"
+    ],
+    [
+     "age",
+     "menopause",
+     "tumor-size"
+    ],
+    [
+     "age",
+     "breast",
+     "menopause"
+    ],
+    [
+     "age",
+     "irradiat",
+     "tumor-size"
+    ]
+   ],
+   "top": [
+    "deg-malig",
+    "node-caps",
+    "inv-nodes"
+   ]
+  }
+ },
+ "1412": {
+  "1": {
+   "random": [
+    [
+     "g_203968_s_at"
+    ],
+    [
+     "age"
+    ],
+    [
+     "g_204531_s_at"
+    ],
+    [
+     "g_212724_at"
+    ],
+    [
+     "g_206926_s_at"
+    ]
+   ],
+   "top": [
+    "OS_years"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "g_206926_s_at",
+     "g_211475_s_at",
+     "g_211851_x_at"
+    ],
+    [
+     "g_206926_s_at",
+     "g_AFFX.HUMGAPDH.M33197_5_at",
+     "histology"
+    ],
+    [
+     "g_204979_s_at",
+     "g_AFFX.HUMGAPDH.M33197_5_at",
+     "histology"
+    ],
+    [
+     "age",
+     "g_206926_s_at",
+     "sex"
+    ],
+    [
+     "g_206924_at",
+     "g_212724_at",
+     "sex"
+    ]
+   ],
+   "top": [
+    "OS_years",
+    "g_AFFX.HUMGAPDH.M33197_M_at",
+    "g_203968_s_at"
+   ]
+  }
+ },
+ "1442": {
+  "1": {
+   "random": [
+    [
+     "e"
+    ],
+    [
+     "ah"
+    ],
+    [
+     "al"
+    ],
+    [
+     "z"
+    ],
+    [
+     "am"
+    ]
+   ],
+   "top": [
+    "ak"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "af",
+     "ag",
+     "i"
+    ],
+    [
+     "ai",
+     "k",
+     "z"
+    ],
+    [
+     "ai",
+     "aj",
+     "k"
+    ],
+    [
+     "aa",
+     "am",
+     "ao"
+    ],
+    [
+     "ao",
+     "k",
+     "v"
+    ]
+   ],
+   "top": [
+    "ak",
+    "c",
+    "s"
+   ]
+  }
+ },
+ "1443": {
+  "1": {
+   "random": [
+    [
+     "l"
+    ],
+    [
+     "b"
+    ],
+    [
+     "ai"
+    ],
+    [
+     "k"
+    ],
+    [
+     "i"
+    ]
+   ],
+   "top": [
+    "a"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "ag",
+     "v",
+     "z"
+    ],
+    [
+     "af",
+     "d",
+     "r"
+    ],
+    [
+     "an",
+     "b",
+     "n"
+    ],
+    [
+     "d",
+     "f",
+     "m"
+    ],
+    [
+     "ad",
+     "e",
+     "n"
+    ]
+   ],
+   "top": [
+    "a",
+    "s",
+    "am"
+   ]
+  }
+ },
+ "1444": {
+  "1": {
+   "random": [
+    [
+     "v"
+    ],
+    [
+     "h"
+    ],
+    [
+     "al"
+    ],
+    [
+     "p"
+    ],
+    [
+     "u"
+    ]
+   ],
+   "top": [
+    "a"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "ac",
+     "b",
+     "r"
+    ],
+    [
+     "ae",
+     "an",
+     "c"
+    ],
+    [
+     "ae",
+     "ai",
+     "am"
+    ],
+    [
+     "aj",
+     "o",
+     "z"
+    ],
+    [
+     "ae",
+     "g",
+     "p"
+    ]
+   ],
+   "top": [
+    "a",
+    "s",
+    "ak"
+   ]
+  }
+ },
+ "1446": {
+  "1": {
+   "random": [
+    [
+     "ak"
+    ],
+    [
+     "ah"
+    ],
+    [
+     "b"
+    ],
+    [
+     "p"
+    ],
+    [
+     "o"
+    ]
+   ],
+   "top": [
+    "e"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "h",
+     "i",
+     "u"
+    ],
+    [
+     "ag",
+     "ak",
+     "h"
+    ],
+    [
+     "an",
+     "b",
+     "l"
+    ],
+    [
+     "b",
+     "l",
+     "t"
+    ],
+    [
+     "aa",
+     "an",
+     "z"
+    ]
+   ],
+   "top": [
+    "e",
+    "am",
+    "al"
+   ]
+  }
+ },
+ "1447": {
+  "1": {
+   "random": [
+    [
+     "m"
+    ],
+    [
+     "k"
+    ],
+    [
+     "o"
+    ],
+    [
+     "ad"
+    ],
+    [
+     "af"
+    ]
+   ],
+   "top": [
+    "e"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "d",
+     "k",
+     "o"
+    ],
+    [
+     "ah",
+     "ak",
+     "p"
+    ],
+    [
+     "af",
+     "g",
+     "j"
+    ],
+    [
+     "a",
+     "h",
+     "l"
+    ],
+    [
+     "af",
+     "ah",
+     "ao"
+    ]
+   ],
+   "top": [
+    "e",
+    "am",
+    "al"
+   ]
+  }
+ },
+ "1449": {
+  "1": {
+   "random": [
+    [
+     "a"
+    ],
+    [
+     "ad"
+    ],
+    [
+     "al"
+    ],
+    [
+     "o"
+    ],
+    [
+     "o"
+    ]
+   ],
+   "top": [
+    "ak"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "ag",
+     "m",
+     "t"
+    ],
+    [
+     "ad",
+     "k",
+     "n"
+    ],
+    [
+     "aj",
+     "ao",
+     "u"
+    ],
+    [
+     "aj",
+     "h",
+     "k"
+    ],
+    [
+     "ab",
+     "v",
+     "z"
+    ]
+   ],
+   "top": [
+    "ak",
+    "c",
+    "s"
+   ]
+  }
+ },
+ "1451": {
+  "1": {
+   "random": [
+    [
+     "o"
+    ],
+    [
+     "k"
+    ],
+    [
+     "s"
+    ],
+    [
+     "ae"
+    ],
+    [
+     "ae"
+    ]
+   ],
+   "top": [
+    "a"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "ab",
+     "an",
+     "t"
+    ],
+    [
+     "ah",
+     "al",
+     "e"
+    ],
+    [
+     "ai",
+     "k",
+     "o"
+    ],
+    [
+     "aa",
+     "ag",
+     "u"
+    ],
+    [
+     "aa",
+     "n",
+     "o"
+    ]
+   ],
+   "top": [
+    "a",
+    "am",
+    "s"
+   ]
+  }
+ },
+ "1453": {
+  "1": {
+   "random": [
+    [
+     "m"
+    ],
+    [
+     "af"
+    ],
+    [
+     "b"
+    ],
+    [
+     "u"
+    ],
+    [
+     "s"
+    ]
+   ],
+   "top": [
+    "a"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "al",
+     "e",
+     "n"
+    ],
+    [
+     "ad",
+     "ae",
+     "k"
+    ],
+    [
+     "aa",
+     "o",
+     "v"
+    ],
+    [
+     "af",
+     "g",
+     "m"
+    ],
+    [
+     "ah",
+     "ao",
+     "h"
+    ]
+   ],
+   "top": [
+    "a",
+    "s",
+    "ak"
+   ]
+  }
+ },
+ "1467": {
+  "1": {
+   "random": [
+    [
+     "V4"
+    ],
+    [
+     "V9"
+    ],
+    [
+     "V10"
+    ],
+    [
+     "V8"
+    ],
+    [
+     "V6"
+    ]
+   ],
+   "top": [
+    "V3"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "V18",
+     "V20",
+     "V7"
+    ],
+    [
+     "V10",
+     "V16",
+     "V9"
+    ],
+    [
+     "V1",
+     "V17",
+     "V20"
+    ],
+    [
+     "V11",
+     "V17",
+     "V6"
+    ],
+    [
+     "V16",
+     "V7",
+     "V8"
+    ]
+   ],
+   "top": [
+    "V3",
+    "V4",
+    "V15"
+   ]
+  }
+ },
+ "1480": {
+  "1": {
+   "random": [
+    [
+     "V5"
+    ],
+    [
+     "V10"
+    ],
+    [
+     "V5"
+    ],
+    [
+     "V9"
+    ],
+    [
+     "V10"
+    ]
+   ],
+   "top": [
+    "V7"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "V1",
+     "V10",
+     "V2"
+    ],
+    [
+     "V1",
+     "V10",
+     "V6"
+    ],
+    [
+     "V2",
+     "V5",
+     "V8"
+    ],
+    [
+     "V10",
+     "V8",
+     "V9"
+    ],
+    [
+     "V10",
+     "V6",
+     "V8"
+    ]
+   ],
+   "top": [
+    "V7",
+    "V3",
+    "V4"
+   ]
+  }
+ },
+ "1489": {
+  "1": {
+   "random": [
+    [
+     "V3"
+    ],
+    [
+     "V5"
+    ],
+    [
+     "V2"
+    ],
+    [
+     "V1"
+    ],
+    [
+     "V5"
+    ]
+   ],
+   "top": [
+    "V4"
+   ]
+  },
+  "3": null
+ },
+ "1496": {
+  "1": {
+   "random": [
+    [
+     "V4"
+    ],
+    [
+     "V13"
+    ],
+    [
+     "V7"
+    ],
+    [
+     "V15"
+    ],
+    [
+     "V11"
+    ]
+   ],
+   "top": [
+    "V19"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "V1",
+     "V13",
+     "V20"
+    ],
+    [
+     "V11",
+     "V4",
+     "V7"
+    ],
+    [
+     "V18",
+     "V5",
+     "V8"
+    ],
+    [
+     "V12",
+     "V18",
+     "V7"
+    ],
+    [
+     "V13",
+     "V15",
+     "V8"
+    ]
+   ],
+   "top": [
+    "V19",
+    "V9",
+    "V10"
+   ]
+  }
+ },
+ "1498": {
+  "1": {
+   "random": [
+    [
+     "V6"
+    ],
+    [
+     "V1"
+    ],
+    [
+     "V1"
+    ],
+    [
+     "V6"
+    ],
+    [
+     "V3"
+    ]
+   ],
+   "top": [
+    "V9"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "V1",
+     "V6",
+     "V8"
+    ],
+    [
+     "V4",
+     "V5",
+     "V7"
+    ],
+    [
+     "V4",
+     "V5",
+     "V8"
+    ],
+    [
+     "V1",
+     "V4",
+     "V7"
+    ],
+    [
+     "V1",
+     "V4",
+     "V5"
+    ]
+   ],
+   "top": [
+    "V9",
+    "V2",
+    "V3"
+   ]
+  }
+ },
+ "1506": {
+  "1": {
+   "random": [
+    [
+     "V14"
+    ],
+    [
+     "V15"
+    ],
+    [
+     "V13"
+    ],
+    [
+     "V5"
+    ],
+    [
+     "V14"
+    ]
+   ],
+   "top": [
+    "V10"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "V16",
+     "V4",
+     "V7"
+    ],
+    [
+     "V12",
+     "V13",
+     "V14"
+    ],
+    [
+     "V14",
+     "V16",
+     "V2"
+    ],
+    [
+     "V14",
+     "V15",
+     "V6"
+    ],
+    [
+     "V1",
+     "V12",
+     "V8"
+    ]
+   ],
+   "top": [
+    "V10",
+    "V9",
+    "V3"
+   ]
+  }
+ },
+ "1547": {
+  "1": {
+   "random": [
+    [
+     "V2"
+    ],
+    [
+     "V15"
+    ],
+    [
+     "V2"
+    ],
+    [
+     "V13"
+    ],
+    [
+     "V8"
+    ]
+   ],
+   "top": [
+    "V16"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "V14",
+     "V15",
+     "V8"
+    ],
+    [
+     "V3",
+     "V6",
+     "V7"
+    ],
+    [
+     "V10",
+     "V11",
+     "V17"
+    ],
+    [
+     "V11",
+     "V17",
+     "V5"
+    ],
+    [
+     "V13",
+     "V14",
+     "V7"
+    ]
+   ],
+   "top": [
+    "V16",
+    "V2",
+    "V4"
+   ]
+  }
+ },
+ "1600": {
+  "1": {
+   "random": [
+    [
+     "F3S"
+    ],
+    [
+     "F5S"
+    ],
+    [
+     "F6R"
+    ],
+    [
+     "F2R"
+    ],
+    [
+     "F13S"
+    ]
+   ],
+   "top": [
+    "F20S"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "F12R",
+     "F17R",
+     "F9S"
+    ],
+    [
+     "F19R",
+     "F1S",
+     "F8R"
+    ],
+    [
+     "F15R",
+     "F2R",
+     "F8S"
+    ],
+    [
+     "F12R",
+     "F13S",
+     "F2S"
+    ],
+    [
+     "F15S",
+     "F17S",
+     "F1S"
+    ]
+   ],
+   "top": [
+    "F20S",
+    "F21S",
+    "F22R"
+   ]
+  }
+ },
+ "23381": {
+  "1": {
+   "random": [
+    [
+     "V9"
+    ],
+    [
+     "V9"
+    ],
+    [
+     "V7"
+    ],
+    [
+     "V2"
+    ],
+    [
+     "V2"
+    ]
+   ],
+   "top": [
+    "V3"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "V6",
+     "V7",
+     "V9"
+    ],
+    [
+     "V10",
+     "V6",
+     "V8"
+    ],
+    [
+     "V5",
+     "V6",
+     "V9"
+    ],
+    [
+     "V13",
+     "V7",
+     "V9"
+    ],
+    [
+     "V10",
+     "V8",
+     "V9"
+    ]
+   ],
+   "top": [
+    "V3",
+    "V2",
+    "V4"
+   ]
+  }
+ },
+ "23499": {
+  "1": {
+   "random": [
+    [
+     "tumor-size"
+    ],
+    [
+     "irradiat"
+    ],
+    [
+     "breast"
+    ],
+    [
+     "tumor-size"
+    ],
+    [
+     "breast-quad"
+    ]
+   ],
+   "top": [
+    "deg-malig"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "age",
+     "breast",
+     "breast-quad"
+    ],
+    [
+     "breast",
+     "menopause",
+     "node-caps"
+    ],
+    [
+     "breast-quad",
+     "menopause",
+     "tumor-size"
+    ],
+    [
+     "breast-quad",
+     "menopause",
+     "tumor-size"
+    ],
+    [
+     "age",
+     "breast-quad",
+     "node-caps"
+    ]
+   ],
+   "top": [
+    "deg-malig",
+    "irradiat",
+    "inv-nodes"
+   ]
+  }
+ },
+ "31": {
+  "1": {
+   "random": [
+    [
+     "property_magnitude"
+    ],
+    [
+     "purpose"
+    ],
+    [
+     "foreign_worker"
+    ],
+    [
+     "installment_commitment"
+    ],
+    [
+     "duration"
+    ]
+   ],
+   "top": [
+    "checking_status"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "age",
+     "installment_commitment",
+     "num_dependents"
+    ],
+    [
+     "other_parties",
+     "property_magnitude",
+     "residence_since"
+    ],
+    [
+     "credit_history",
+     "num_dependents",
+     "residence_since"
+    ],
+    [
+     "credit_amount",
+     "installment_commitment",
+     "other_parties"
+    ],
+    [
+     "employment",
+     "foreign_worker",
+     "num_dependents"
+    ]
+   ],
+   "top": [
+    "checking_status",
+    "duration",
+    "purpose"
+   ]
+  }
+ },
+ "333": {
+  "1": {
+   "random": [
+    [
+     "attr2"
+    ],
+    [
+     "attr1"
+    ],
+    [
+     "attr3"
+    ],
+    [
+     "attr2"
+    ],
+    [
+     "attr3"
+    ]
+   ],
+   "top": [
+    "attr5"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "attr3",
+     "attr4",
+     "attr6"
+    ],
+    [
+     "attr3",
+     "attr4",
+     "attr6"
+    ],
+    [
+     "attr3",
+     "attr4",
+     "attr6"
+    ],
+    [
+     "attr3",
+     "attr4",
+     "attr6"
+    ],
+    [
+     "attr3",
+     "attr4",
+     "attr6"
+    ]
+   ],
+   "top": [
+    "attr5",
+    "attr1",
+    "attr2"
+   ]
+  }
+ },
+ "336": {
+  "1": {
+   "random": [
+    [
+     "F8"
+    ],
+    [
+     "F16"
+    ],
+    [
+     "F15"
+    ],
+    [
+     "F22"
+    ],
+    [
+     "F7"
+    ]
+   ],
+   "top": [
+    "F13"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "F1",
+     "F16",
+     "F3"
+    ],
+    [
+     "F1",
+     "F12",
+     "F20"
+    ],
+    [
+     "F16",
+     "F17",
+     "F2"
+    ],
+    [
+     "F19",
+     "F3",
+     "F6"
+    ],
+    [
+     "F18",
+     "F3",
+     "F7"
+    ]
+   ],
+   "top": [
+    "F13",
+    "F22",
+    "F21"
+   ]
+  }
+ },
+ "37": {
+  "1": {
+   "random": [
+    [
+     "age"
+    ],
+    [
+     "pres"
+    ],
+    [
+     "age"
+    ],
+    [
+     "skin"
+    ],
+    [
+     "mass"
+    ]
+   ],
+   "top": [
+    "plas"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "pedi",
+     "preg",
+     "skin"
+    ],
+    [
+     "pedi",
+     "preg",
+     "pres"
+    ],
+    [
+     "insu",
+     "pres",
+     "skin"
+    ],
+    [
+     "pedi",
+     "preg",
+     "pres"
+    ],
+    [
+     "pedi",
+     "preg",
+     "pres"
+    ]
+   ],
+   "top": [
+    "plas",
+    "mass",
+    "age"
+   ]
+  }
+ },
+ "40": {
+  "1": {
+   "random": [
+    [
+     "attribute_2"
+    ],
+    [
+     "attribute_26"
+    ],
+    [
+     "attribute_56"
+    ],
+    [
+     "attribute_55"
+    ],
+    [
+     "attribute_60"
+    ]
+   ],
+   "top": [
+    "attribute_11"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "attribute_26",
+     "attribute_34",
+     "attribute_60"
+    ],
+    [
+     "attribute_4",
+     "attribute_49",
+     "attribute_6"
+    ],
+    [
+     "attribute_13",
+     "attribute_51",
+     "attribute_52"
+    ],
+    [
+     "attribute_19",
+     "attribute_28",
+     "attribute_60"
+    ],
+    [
+     "attribute_16",
+     "attribute_20",
+     "attribute_50"
+    ]
+   ],
+   "top": [
+    "attribute_11",
+    "attribute_12",
+    "attribute_10"
+   ]
+  }
+ },
+ "40702": {
+  "1": {
+   "random": [
+    [
+     "class_code"
+    ],
+    [
+     "Historically-complex"
+    ],
+    [
+     "Area"
+    ],
+    [
+     "Evolution"
+    ],
+    [
+     "Historically-complex"
+    ]
+   ],
+   "top": [
+    "spot_dist_code"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "Area",
+     "Evolution",
+     "Previous_24_hour_code"
+    ],
+    [
+     "Area",
+     "Area_of_the_largest_spot",
+     "Evolution"
+    ],
+    [
+     "Previous_24_hour_code",
+     "become_complex",
+     "class_code"
+    ],
+    [
+     "Area_of_the_largest_spot",
+     "Historically-complex",
+     "become_complex"
+    ],
+    [
+     "Area",
+     "Previous_24_hour_code",
+     "class_code"
+    ]
+   ],
+   "top": [
+    "spot_dist_code",
+    "largest_spot_code",
+    "Activity"
+   ]
+  }
+ },
+ "40945": {
+  "1": {
+   "random": [
+    [
+     "embarked"
+    ],
+    [
+     "age"
+    ],
+    [
+     "age"
+    ],
+    [
+     "ticket"
+    ],
+    [
+     "parch"
+    ]
+   ],
+   "top": [
+    "sex"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "age",
+     "embarked",
+     "parch"
+    ],
+    [
+     "age",
+     "parch",
+     "ticket"
+    ],
+    [
+     "age",
+     "parch",
+     "sibsp"
+    ],
+    [
+     "age",
+     "embarked",
+     "ticket"
+    ],
+    [
+     "embarked",
+     "sibsp",
+     "ticket"
+    ]
+   ],
+   "top": [
+    "sex",
+    "fare",
+    "pclass"
+   ]
+  }
+ },
+ "41538": {
+  "1": {
+   "random": [
+    [
+     "uni"
+    ],
+    [
+     "regDateCat"
+    ],
+    [
+     "regDateCat"
+    ],
+    [
+     "wegan"
+    ],
+    [
+     "tshirtSize"
+    ]
+   ],
+   "top": [
+    "participation"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "favSubject",
+     "tshirtSize",
+     "uni"
+    ],
+    [
+     "favSubject",
+     "tshirtSize",
+     "uni"
+    ],
+    [
+     "favSubject",
+     "tshirtSize",
+     "uni"
+    ],
+    [
+     "favSubject",
+     "tshirtSize",
+     "uni"
+    ],
+    [
+     "favSubject",
+     "tshirtSize",
+     "uni"
+    ]
+   ],
+   "top": [
+    "participation",
+    "regDateCat",
+    "wegan"
+   ]
+  }
+ },
+ "41945": {
+  "1": {
+   "random": [
+    [
+     "V3"
+    ],
+    [
+     "V2"
+    ],
+    [
+     "V5"
+    ],
+    [
+     "V3"
+    ],
+    [
+     "V4"
+    ]
+   ],
+   "top": [
+    "V7"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "V10",
+     "V2",
+     "V6"
+    ],
+    [
+     "V1",
+     "V5",
+     "V6"
+    ],
+    [
+     "V10",
+     "V6",
+     "V8"
+    ],
+    [
+     "V1",
+     "V10",
+     "V2"
+    ],
+    [
+     "V10",
+     "V6",
+     "V9"
+    ]
+   ],
+   "top": [
+    "V7",
+    "V3",
+    "V4"
+   ]
+  }
+ },
+ "42192": {
+  "1": {
+   "random": [
+    [
+     "age"
+    ],
+    [
+     "race_Caucasian"
+    ],
+    [
+     "race_African-American"
+    ],
+    [
+     "c_charge_degree_M"
+    ],
+    [
+     "c_charge_degree_M"
+    ]
+   ],
+   "top": [
+    "priors_count"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "age_cat_25-45",
+     "c_charge_degree_M",
+     "race_African-American"
+    ],
+    [
+     "age_cat_Lessthan25",
+     "c_charge_degree_M",
+     "juv_misd_count"
+    ],
+    [
+     "c_charge_degree_F",
+     "race_African-American",
+     "sex"
+    ],
+    [
+     "age_cat_Greaterthan45",
+     "juv_fel_count",
+     "race_African-American"
+    ],
+    [
+     "c_charge_degree_M",
+     "juv_other_count",
+     "sex"
+    ]
+   ],
+   "top": [
+    "priors_count",
+    "age",
+    "race_Caucasian"
+   ]
+  }
+ },
+ "4329": {
+  "1": {
+   "random": [
+    [
+     "PRE4"
+    ],
+    [
+     "AGE"
+    ],
+    [
+     "PRE7"
+    ],
+    [
+     "PRE5"
+    ],
+    [
+     "PRE19"
+    ]
+   ],
+   "top": [
+    "PRE14"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "PRE32",
+     "PRE7",
+     "PRE8"
+    ],
+    [
+     "PRE7",
+     "PRE8",
+     "PRE9"
+    ],
+    [
+     "PRE10",
+     "PRE17",
+     "PRE19"
+    ],
+    [
+     "PRE10",
+     "PRE19",
+     "PRE6"
+    ],
+    [
+     "DGN",
+     "PRE10",
+     "PRE6"
+    ]
+   ],
+   "top": [
+    "PRE14",
+    "PRE11",
+    "PRE5"
+   ]
+  }
+ },
+ "43595": {
+  "1": {
+   "random": [
+    [
+     "ApplicantIncome"
+    ],
+    [
+     "Loan_Amount_Term"
+    ],
+    [
+     "CoapplicantIncome"
+    ],
+    [
+     "ApplicantIncome"
+    ],
+    [
+     "ApplicantIncome"
+    ]
+   ],
+   "top": [
+    "Credit_History"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "ApplicantIncome",
+     "CoapplicantIncome",
+     "Loan_Amount_Term"
+    ],
+    [
+     "ApplicantIncome",
+     "CoapplicantIncome",
+     "Loan_Amount_Term"
+    ],
+    [
+     "ApplicantIncome",
+     "CoapplicantIncome",
+     "Loan_Amount_Term"
+    ],
+    [
+     "ApplicantIncome",
+     "CoapplicantIncome",
+     "Loan_Amount_Term"
+    ],
+    [
+     "ApplicantIncome",
+     "CoapplicantIncome",
+     "Loan_Amount_Term"
+    ]
+   ],
+   "top": [
+    "Credit_History",
+    "Dependents",
+    "LoanAmount"
+   ]
+  }
+ },
+ "43893": {
+  "1": {
+   "random": [
+    [
+     "TotalWorkingYears"
+    ],
+    [
+     "StockOptionLevel"
+    ],
+    [
+     "WorkLifeBalance"
+    ],
+    [
+     "MonthlyRate"
+    ],
+    [
+     "StockOptionLevel"
+    ]
+   ],
+   "top": [
+    "MonthlyIncome"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "DailyRate",
+     "StockOptionLevel",
+     "YearsWithCurrManager"
+    ],
+    [
+     "DistanceFromHome",
+     "HourlyRate",
+     "PercentSalaryHike"
+    ],
+    [
+     "Age",
+     "EmployeeNumber",
+     "JobLevel"
+    ],
+    [
+     "Age",
+     "DistanceFromHome",
+     "PercentSalaryHike"
+    ],
+    [
+     "EmployeeCount",
+     "WorkLifeBalance",
+     "YearsInCurrentRole"
+    ]
+   ],
+   "top": [
+    "MonthlyIncome",
+    "TotalWorkingYears",
+    "YearsAtCompany"
+   ]
+  }
+ },
+ "43947": {
+  "1": {
+   "random": [
+    [
+     "Var22"
+    ],
+    [
+     "Var123"
+    ],
+    [
+     "Var133"
+    ],
+    [
+     "Var134"
+    ],
+    [
+     "Var218"
+    ]
+   ],
+   "top": [
+    "Var126"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "Var133",
+     "Var65",
+     "Var74"
+    ],
+    [
+     "Var119",
+     "Var144",
+     "Var78"
+    ],
+    [
+     "Var132",
+     "Var24",
+     "Var35"
+    ],
+    [
+     "Var38",
+     "Var65",
+     "Var78"
+    ],
+    [
+     "Var160",
+     "Var207",
+     "Var65"
+    ]
+   ],
+   "top": [
+    "Var126",
+    "Var28",
+    "Var211"
+   ]
+  }
+ },
+ "43949": {
+  "1": {
+   "random": [
+    [
+     "V20"
+    ],
+    [
+     "V20"
+    ],
+    [
+     "V20"
+    ],
+    [
+     "V1"
+    ],
+    [
+     "V5"
+    ]
+   ],
+   "top": [
+    "V21"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "V14",
+     "V15",
+     "V6"
+    ],
+    [
+     "V14",
+     "V19",
+     "V8"
+    ],
+    [
+     "V15",
+     "V17",
+     "V18"
+    ],
+    [
+     "V17",
+     "V18",
+     "V22"
+    ],
+    [
+     "V14",
+     "V22",
+     "V8"
+    ]
+   ],
+   "top": [
+    "V21",
+    "V20",
+    "V5"
+   ]
+  }
+ },
+ "43973": {
+  "1": {
+   "random": [
+    [
+     "V2"
+    ],
+    [
+     "V2"
+    ],
+    [
+     "V5"
+    ],
+    [
+     "V3"
+    ],
+    [
+     "V1"
+    ]
+   ],
+   "top": [
+    "V4"
+   ]
+  },
+  "3": null
+ },
+ "43980": {
+  "1": {
+   "random": [
+    [
+     "sulphates"
+    ],
+    [
+     "pH"
+    ],
+    [
+     "residual sugar"
+    ],
+    [
+     "free sulfur dioxide"
+    ],
+    [
+     "sulphates"
+    ]
+   ],
+   "top": [
+    "alcohol"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "fixed acidity",
+     "free sulfur dioxide",
+     "sulphates"
+    ],
+    [
+     "residual sugar",
+     "total sulfur dioxide",
+     "volatile acidity"
+    ],
+    [
+     "fixed acidity",
+     "pH",
+     "residual sugar"
+    ],
+    [
+     "free sulfur dioxide",
+     "residual sugar",
+     "volatile acidity"
+    ],
+    [
+     "free sulfur dioxide",
+     "residual sugar",
+     "total sulfur dioxide"
+    ]
+   ],
+   "top": [
+    "alcohol",
+    "density",
+    "chlorides"
+   ]
+  }
+ },
+ "44097": {
+  "1": {
+   "random": [
+    [
+     "credit_history"
+    ],
+    [
+     "credit_amount"
+    ],
+    [
+     "foreign_worker"
+    ],
+    [
+     "existing_credits"
+    ],
+    [
+     "num_dependents"
+    ]
+   ],
+   "top": [
+    "checking_status"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "other_parties",
+     "property_magnitude",
+     "savings_status"
+    ],
+    [
+     "existing_credits",
+     "foreign_worker",
+     "installment_commitment"
+    ],
+    [
+     "other_payment_plans",
+     "property_magnitude",
+     "residence_since"
+    ],
+    [
+     "credit_amount",
+     "other_payment_plans",
+     "personal_status"
+    ],
+    [
+     "credit_history",
+     "housing",
+     "other_parties"
+    ]
+   ],
+   "top": [
+    "checking_status",
+    "duration",
+    "purpose"
+   ]
+  }
+ },
+ "44098": {
+  "1": {
+   "random": [
+    [
+     "employment"
+    ],
+    [
+     "housing"
+    ],
+    [
+     "other_payment_plans"
+    ],
+    [
+     "num_dependents"
+    ],
+    [
+     "credit_history"
+    ]
+   ],
+   "top": [
+    "checking_status"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "housing",
+     "own_telephone",
+     "property_magnitude"
+    ],
+    [
+     "credit_history",
+     "existing_credits",
+     "foreign_worker"
+    ],
+    [
+     "existing_credits",
+     "installment_commitment",
+     "own_telephone"
+    ],
+    [
+     "age",
+     "num_dependents",
+     "other_payment_plans"
+    ],
+    [
+     "credit_amount",
+     "credit_history",
+     "savings_status"
+    ]
+   ],
+   "top": [
+    "checking_status",
+    "duration",
+    "purpose"
+   ]
+  }
+ },
+ "44186": {
+  "1": {
+   "random": [
+    [
+     "Var65"
+    ],
+    [
+     "Var208"
+    ],
+    [
+     "Var125"
+    ],
+    [
+     "Var203"
+    ],
+    [
+     "Var201"
+    ]
+   ],
+   "top": [
+    "Var126"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "Var153",
+     "Var208",
+     "Var221"
+    ],
+    [
+     "Var218",
+     "Var223",
+     "Var76"
+    ],
+    [
+     "Var132",
+     "Var160",
+     "Var203"
+    ],
+    [
+     "Var13",
+     "Var194",
+     "Var65"
+    ],
+    [
+     "Var112",
+     "Var196",
+     "Var35"
+    ]
+   ],
+   "top": [
+    "Var126",
+    "Var28",
+    "Var211"
+   ]
+  }
+ },
+ "44227": {
+  "1": {
+   "random": [
+    [
+     "Aggregate_complaint_count"
+    ],
+    [
+     "Aggregate_Data_Vol"
+    ],
+    [
+     "Aggregate_OFFNET_REV"
+    ],
+    [
+     "Aggregate_Calls"
+    ],
+    [
+     "Aggregate_complaint_count"
+    ]
+   ],
+   "top": [
+    "Aggregate_Total_Rev"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "Aggregate_OFFNET_REV",
+     "Aggregate_ONNET_REV",
+     "network_age"
+    ],
+    [
+     "Aggregate_OFFNET_REV",
+     "Aggregate_SMS_Rev",
+     "Aggregate_complaint_count"
+    ],
+    [
+     "Aggregate_Data_Rev",
+     "Aggregate_SMS_Rev",
+     "network_age"
+    ],
+    [
+     "Aggregate_Data_Rev",
+     "Aggregate_SMS_Rev",
+     "network_age"
+    ],
+    [
+     "Aggregate_Data_Rev",
+     "Aggregate_ONNET_REV",
+     "Aggregate_complaint_count"
+    ]
+   ],
+   "top": [
+    "Aggregate_Total_Rev",
+    "Aggregate_Calls",
+    "Aggregate_Data_Vol"
+   ]
+  }
+ },
+ "44232": {
+  "1": {
+   "random": [
+    [
+     "total intl minutes"
+    ],
+    [
+     "total intl minutes"
+    ],
+    [
+     "total day minutes"
+    ],
+    [
+     "total eve charge"
+    ],
+    [
+     "total night minutes"
+    ]
+   ],
+   "top": [
+    "total day charge"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "total eve minutes",
+     "total night calls",
+     "total night charge"
+    ],
+    [
+     "total eve calls",
+     "total intl minutes",
+     "total night minutes"
+    ],
+    [
+     "total day calls",
+     "total eve calls",
+     "total intl charge"
+    ],
+    [
+     "account length",
+     "total day calls",
+     "total eve minutes"
+    ],
+    [
+     "number vmail messages",
+     "total eve calls",
+     "total night calls"
+    ]
+   ],
+   "top": [
+    "total day charge",
+    "total day minutes",
+    "customer service calls"
+   ]
+  }
+ },
+ "44345": {
+  "1": {
+   "random": [
+    [
+     "DebtRatio"
+    ],
+    [
+     "NumberRealEstateLoansOrLines"
+    ],
+    [
+     "age"
+    ],
+    [
+     "NumberOfTimes90DaysLate"
+    ],
+    [
+     "NumberRealEstateLoansOrLines"
+    ]
+   ],
+   "top": [
+    "RevolvingUtilizationOfUnsecuredLines"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "NumberOfOpenCreditLinesAndLoans",
+     "NumberOfTime60-89DaysPastDueNotWorse",
+     "age"
+    ],
+    [
+     "MonthlyIncome",
+     "NumberOfOpenCreditLinesAndLoans",
+     "age"
+    ],
+    [
+     "NumberOfOpenCreditLinesAndLoans",
+     "NumberRealEstateLoansOrLines",
+     "age"
+    ],
+    [
+     "DebtRatio",
+     "NumberOfTime60-89DaysPastDueNotWorse",
+     "age"
+    ],
+    [
+     "DebtRatio",
+     "NumberOfTime60-89DaysPastDueNotWorse",
+     "NumberRealEstateLoansOrLines"
+    ]
+   ],
+   "top": [
+    "RevolvingUtilizationOfUnsecuredLines",
+    "NumberOfTime30-59DaysPastDueNotWorse",
+    "NumberOfTimes90DaysLate"
+   ]
+  }
+ },
+ "44347": {
+  "1": {
+   "random": [
+    [
+     "DebtRatio"
+    ],
+    [
+     "NumberRealEstateLoansOrLines"
+    ],
+    [
+     "NumberOfOpenCreditLinesAndLoans"
+    ],
+    [
+     "NumberOfTime30-59DaysPastDueNotWorse"
+    ],
+    [
+     "NumberOfDependents"
+    ]
+   ],
+   "top": [
+    "RevolvingUtilizationOfUnsecuredLines"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "DebtRatio",
+     "NumberOfDependents",
+     "NumberOfOpenCreditLinesAndLoans"
+    ],
+    [
+     "DebtRatio",
+     "MonthlyIncome",
+     "NumberOfTime60-89DaysPastDueNotWorse"
+    ],
+    [
+     "DebtRatio",
+     "NumberOfDependents",
+     "NumberRealEstateLoansOrLines"
+    ],
+    [
+     "NumberOfDependents",
+     "NumberRealEstateLoansOrLines",
+     "age"
+    ],
+    [
+     "DebtRatio",
+     "NumberOfOpenCreditLinesAndLoans",
+     "age"
+    ]
+   ],
+   "top": [
+    "RevolvingUtilizationOfUnsecuredLines",
+    "NumberOfTime30-59DaysPastDueNotWorse",
+    "NumberOfTimes90DaysLate"
+   ]
+  }
+ },
+ "44349": {
+  "1": {
+   "random": [
+    [
+     "age"
+    ],
+    [
+     "NumberOfTimes90DaysLate"
+    ],
+    [
+     "MonthlyIncome"
+    ],
+    [
+     "NumberOfOpenCreditLinesAndLoans"
+    ],
+    [
+     "NumberOfTimes90DaysLate"
+    ]
+   ],
+   "top": [
+    "RevolvingUtilizationOfUnsecuredLines"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "NumberOfOpenCreditLinesAndLoans",
+     "NumberOfTime60-89DaysPastDueNotWorse",
+     "NumberRealEstateLoansOrLines"
+    ],
+    [
+     "DebtRatio",
+     "NumberOfDependents",
+     "NumberRealEstateLoansOrLines"
+    ],
+    [
+     "NumberOfDependents",
+     "NumberOfOpenCreditLinesAndLoans",
+     "NumberOfTime60-89DaysPastDueNotWorse"
+    ],
+    [
+     "DebtRatio",
+     "MonthlyIncome",
+     "NumberRealEstateLoansOrLines"
+    ],
+    [
+     "NumberOfDependents",
+     "NumberOfOpenCreditLinesAndLoans",
+     "NumberOfTime60-89DaysPastDueNotWorse"
+    ]
+   ],
+   "top": [
+    "RevolvingUtilizationOfUnsecuredLines",
+    "NumberOfTime30-59DaysPastDueNotWorse",
+    "NumberOfTimes90DaysLate"
+   ]
+  }
+ },
+ "44350": {
+  "1": {
+   "random": [
+    [
+     "NumberOfDependents"
+    ],
+    [
+     "age"
+    ],
+    [
+     "DebtRatio"
+    ],
+    [
+     "DebtRatio"
+    ],
+    [
+     "DebtRatio"
+    ]
+   ],
+   "top": [
+    "RevolvingUtilizationOfUnsecuredLines"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "NumberOfTime60-89DaysPastDueNotWorse",
+     "NumberRealEstateLoansOrLines",
+     "age"
+    ],
+    [
+     "DebtRatio",
+     "NumberRealEstateLoansOrLines",
+     "age"
+    ],
+    [
+     "NumberOfOpenCreditLinesAndLoans",
+     "NumberOfTime60-89DaysPastDueNotWorse",
+     "NumberRealEstateLoansOrLines"
+    ],
+    [
+     "NumberOfOpenCreditLinesAndLoans",
+     "NumberRealEstateLoansOrLines",
+     "age"
+    ],
+    [
+     "DebtRatio",
+     "MonthlyIncome",
+     "age"
+    ]
+   ],
+   "top": [
+    "RevolvingUtilizationOfUnsecuredLines",
+    "NumberOfTime30-59DaysPastDueNotWorse",
+    "NumberOfTimes90DaysLate"
+   ]
+  }
+ },
+ "44351": {
+  "1": {
+   "random": [
+    [
+     "NumberRealEstateLoansOrLines"
+    ],
+    [
+     "DebtRatio"
+    ],
+    [
+     "age"
+    ],
+    [
+     "NumberRealEstateLoansOrLines"
+    ],
+    [
+     "NumberOfDependents"
+    ]
+   ],
+   "top": [
+    "RevolvingUtilizationOfUnsecuredLines"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "DebtRatio",
+     "NumberOfOpenCreditLinesAndLoans",
+     "NumberOfTime60-89DaysPastDueNotWorse"
+    ],
+    [
+     "DebtRatio",
+     "MonthlyIncome",
+     "NumberOfDependents"
+    ],
+    [
+     "DebtRatio",
+     "MonthlyIncome",
+     "NumberOfOpenCreditLinesAndLoans"
+    ],
+    [
+     "NumberOfDependents",
+     "NumberRealEstateLoansOrLines",
+     "age"
+    ],
+    [
+     "DebtRatio",
+     "NumberOfTime60-89DaysPastDueNotWorse",
+     "age"
+    ]
+   ],
+   "top": [
+    "RevolvingUtilizationOfUnsecuredLines",
+    "NumberOfTime30-59DaysPastDueNotWorse",
+    "NumberOfTimes90DaysLate"
+   ]
+  }
+ },
+ "44352": {
+  "1": {
+   "random": [
+    [
+     "age"
+    ],
+    [
+     "NumberRealEstateLoansOrLines"
+    ],
+    [
+     "NumberOfOpenCreditLinesAndLoans"
+    ],
+    [
+     "age"
+    ],
+    [
+     "age"
+    ]
+   ],
+   "top": [
+    "RevolvingUtilizationOfUnsecuredLines"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "MonthlyIncome",
+     "NumberOfTime60-89DaysPastDueNotWorse",
+     "NumberRealEstateLoansOrLines"
+    ],
+    [
+     "MonthlyIncome",
+     "NumberOfOpenCreditLinesAndLoans",
+     "NumberOfTime60-89DaysPastDueNotWorse"
+    ],
+    [
+     "NumberOfDependents",
+     "NumberOfOpenCreditLinesAndLoans",
+     "NumberRealEstateLoansOrLines"
+    ],
+    [
+     "MonthlyIncome",
+     "NumberOfOpenCreditLinesAndLoans",
+     "NumberOfTime60-89DaysPastDueNotWorse"
+    ],
+    [
+     "NumberOfOpenCreditLinesAndLoans",
+     "NumberRealEstateLoansOrLines",
+     "age"
+    ]
+   ],
+   "top": [
+    "RevolvingUtilizationOfUnsecuredLines",
+    "NumberOfTime30-59DaysPastDueNotWorse",
+    "NumberOfTimes90DaysLate"
+   ]
+  }
+ },
+ "44367": {
+  "1": {
+   "random": [
+    [
+     "fixed acidity"
+    ],
+    [
+     "volatile acidity"
+    ],
+    [
+     "sulphates"
+    ],
+    [
+     "sulphates"
+    ],
+    [
+     "volatile acidity"
+    ]
+   ],
+   "top": [
+    "alcohol"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "pH",
+     "sulphates",
+     "total sulfur dioxide"
+    ],
+    [
+     "fixed acidity",
+     "total sulfur dioxide",
+     "volatile acidity"
+    ],
+    [
+     "sulphates",
+     "total sulfur dioxide",
+     "volatile acidity"
+    ],
+    [
+     "fixed acidity",
+     "free sulfur dioxide",
+     "sulphates"
+    ],
+    [
+     "fixed acidity",
+     "residual sugar",
+     "total sulfur dioxide"
+    ]
+   ],
+   "top": [
+    "alcohol",
+    "density",
+    "chlorides"
+   ]
+  }
+ },
+ "44368": {
+  "1": {
+   "random": [
+    [
+     "chlorides"
+    ],
+    [
+     "fixed acidity"
+    ],
+    [
+     "volatile acidity"
+    ],
+    [
+     "free sulfur dioxide"
+    ],
+    [
+     "sulphates"
+    ]
+   ],
+   "top": [
+    "alcohol"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "free sulfur dioxide",
+     "residual sugar",
+     "volatile acidity"
+    ],
+    [
+     "pH",
+     "residual sugar",
+     "sulphates"
+    ],
+    [
+     "fixed acidity",
+     "pH",
+     "volatile acidity"
+    ],
+    [
+     "fixed acidity",
+     "residual sugar",
+     "total sulfur dioxide"
+    ],
+    [
+     "residual sugar",
+     "sulphates",
+     "total sulfur dioxide"
+    ]
+   ],
+   "top": [
+    "alcohol",
+    "density",
+    "chlorides"
+   ]
+  }
+ },
+ "44369": {
+  "1": {
+   "random": [
+    [
+     "volatile acidity"
+    ],
+    [
+     "fixed acidity"
+    ],
+    [
+     "fixed acidity"
+    ],
+    [
+     "pH"
+    ],
+    [
+     "free sulfur dioxide"
+    ]
+   ],
+   "top": [
+    "alcohol"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "fixed acidity",
+     "pH",
+     "total sulfur dioxide"
+    ],
+    [
+     "fixed acidity",
+     "free sulfur dioxide",
+     "total sulfur dioxide"
+    ],
+    [
+     "free sulfur dioxide",
+     "residual sugar",
+     "total sulfur dioxide"
+    ],
+    [
+     "pH",
+     "total sulfur dioxide",
+     "volatile acidity"
+    ],
+    [
+     "fixed acidity",
+     "residual sugar",
+     "sulphates"
+    ]
+   ],
+   "top": [
+    "alcohol",
+    "density",
+    "chlorides"
+   ]
+  }
+ },
+ "44370": {
+  "1": {
+   "random": [
+    [
+     "chlorides"
+    ],
+    [
+     "free sulfur dioxide"
+    ],
+    [
+     "chlorides"
+    ],
+    [
+     "volatile acidity"
+    ],
+    [
+     "sulphates"
+    ]
+   ],
+   "top": [
+    "alcohol"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "pH",
+     "sulphates",
+     "volatile acidity"
+    ],
+    [
+     "sulphates",
+     "total sulfur dioxide",
+     "volatile acidity"
+    ],
+    [
+     "free sulfur dioxide",
+     "residual sugar",
+     "sulphates"
+    ],
+    [
+     "residual sugar",
+     "total sulfur dioxide",
+     "volatile acidity"
+    ],
+    [
+     "fixed acidity",
+     "pH",
+     "sulphates"
+    ]
+   ],
+   "top": [
+    "alcohol",
+    "density",
+    "chlorides"
+   ]
+  }
+ },
+ "44371": {
+  "1": {
+   "random": [
+    [
+     "free sulfur dioxide"
+    ],
+    [
+     "residual sugar"
+    ],
+    [
+     "free sulfur dioxide"
+    ],
+    [
+     "pH"
+    ],
+    [
+     "residual sugar"
+    ]
+   ],
+   "top": [
+    "alcohol"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "free sulfur dioxide",
+     "pH",
+     "volatile acidity"
+    ],
+    [
+     "fixed acidity",
+     "pH",
+     "total sulfur dioxide"
+    ],
+    [
+     "free sulfur dioxide",
+     "pH",
+     "total sulfur dioxide"
+    ],
+    [
+     "free sulfur dioxide",
+     "pH",
+     "residual sugar"
+    ],
+    [
+     "fixed acidity",
+     "residual sugar",
+     "total sulfur dioxide"
+    ]
+   ],
+   "top": [
+    "alcohol",
+    "density",
+    "chlorides"
+   ]
+  }
+ },
+ "44377": {
+  "1": {
+   "random": [
+    [
+     "X9"
+    ],
+    [
+     "X5"
+    ],
+    [
+     "X3"
+    ],
+    [
+     "X10"
+    ],
+    [
+     "X6"
+    ]
+   ],
+   "top": [
+    "X1"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "X4",
+     "X5",
+     "X7"
+    ],
+    [
+     "X2",
+     "X4",
+     "X5"
+    ],
+    [
+     "X3",
+     "X5",
+     "X6"
+    ],
+    [
+     "X3",
+     "X6",
+     "X7"
+    ],
+    [
+     "X3",
+     "X4",
+     "X6"
+    ]
+   ],
+   "top": [
+    "X1",
+    "X10",
+    "X8"
+   ]
+  }
+ },
+ "44378": {
+  "1": {
+   "random": [
+    [
+     "X10"
+    ],
+    [
+     "X7"
+    ],
+    [
+     "X6"
+    ],
+    [
+     "X9"
+    ],
+    [
+     "X7"
+    ]
+   ],
+   "top": [
+    "X1"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "X3",
+     "X4",
+     "X9"
+    ],
+    [
+     "X4",
+     "X6",
+     "X7"
+    ],
+    [
+     "X5",
+     "X6",
+     "X7"
+    ],
+    [
+     "X2",
+     "X6",
+     "X7"
+    ],
+    [
+     "X4",
+     "X6",
+     "X7"
+    ]
+   ],
+   "top": [
+    "X1",
+    "X10",
+    "X8"
+   ]
+  }
+ },
+ "44379": {
+  "1": {
+   "random": [
+    [
+     "X4"
+    ],
+    [
+     "X9"
+    ],
+    [
+     "X6"
+    ],
+    [
+     "X9"
+    ],
+    [
+     "X10"
+    ]
+   ],
+   "top": [
+    "X1"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "X3",
+     "X4",
+     "X7"
+    ],
+    [
+     "X2",
+     "X3",
+     "X5"
+    ],
+    [
+     "X3",
+     "X4",
+     "X9"
+    ],
+    [
+     "X3",
+     "X4",
+     "X7"
+    ],
+    [
+     "X4",
+     "X5",
+     "X9"
+    ]
+   ],
+   "top": [
+    "X1",
+    "X10",
+    "X8"
+   ]
+  }
+ },
+ "44380": {
+  "1": {
+   "random": [
+    [
+     "X2"
+    ],
+    [
+     "X9"
+    ],
+    [
+     "X3"
+    ],
+    [
+     "X7"
+    ],
+    [
+     "X2"
+    ]
+   ],
+   "top": [
+    "X1"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "X2",
+     "X5",
+     "X8"
+    ],
+    [
+     "X5",
+     "X6",
+     "X7"
+    ],
+    [
+     "X2",
+     "X7",
+     "X8"
+    ],
+    [
+     "X2",
+     "X4",
+     "X7"
+    ],
+    [
+     "X2",
+     "X5",
+     "X7"
+    ]
+   ],
+   "top": [
+    "X1",
+    "X10",
+    "X3"
+   ]
+  }
+ },
+ "44381": {
+  "1": {
+   "random": [
+    [
+     "X3"
+    ],
+    [
+     "X6"
+    ],
+    [
+     "X6"
+    ],
+    [
+     "X9"
+    ],
+    [
+     "X5"
+    ]
+   ],
+   "top": [
+    "X1"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "X3",
+     "X4",
+     "X5"
+    ],
+    [
+     "X2",
+     "X5",
+     "X9"
+    ],
+    [
+     "X3",
+     "X5",
+     "X9"
+    ],
+    [
+     "X4",
+     "X6",
+     "X9"
+    ],
+    [
+     "X2",
+     "X5",
+     "X8"
+    ]
+   ],
+   "top": [
+    "X1",
+    "X10",
+    "X7"
+   ]
+  }
+ },
+ "44397": {
+  "1": {
+   "random": [
+    [
+     "fConc:"
+    ],
+    [
+     "fLength:"
+    ],
+    [
+     "fM3Trans:"
+    ],
+    [
+     "fConc1:"
+    ],
+    [
+     "fM3Long:"
+    ]
+   ],
+   "top": [
+    "fAlpha:"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "fAsym:",
+     "fConc:",
+     "fDist:"
+    ],
+    [
+     "fAsym:",
+     "fDist:",
+     "fWidth:"
+    ],
+    [
+     "fDist:",
+     "fM3Trans:",
+     "fWidth:"
+    ],
+    [
+     "fAsym:",
+     "fConc1:",
+     "fDist:"
+    ],
+    [
+     "fDist:",
+     "fSize:",
+     "fWidth:"
+    ]
+   ],
+   "top": [
+    "fAlpha:",
+    "fLength:",
+    "fM3Long:"
+   ]
+  }
+ },
+ "44398": {
+  "1": {
+   "random": [
+    [
+     "fM3Long:"
+    ],
+    [
+     "fDist:"
+    ],
+    [
+     "fAsym:"
+    ],
+    [
+     "fM3Trans:"
+    ],
+    [
+     "fConc1:"
+    ]
+   ],
+   "top": [
+    "fAlpha:"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "fConc:",
+     "fM3Long:",
+     "fWidth:"
+    ],
+    [
+     "fConc1:",
+     "fDist:",
+     "fM3Trans:"
+    ],
+    [
+     "fAsym:",
+     "fConc1:",
+     "fConc:"
+    ],
+    [
+     "fConc:",
+     "fDist:",
+     "fM3Trans:"
+    ],
+    [
+     "fAsym:",
+     "fM3Long:",
+     "fWidth:"
+    ]
+   ],
+   "top": [
+    "fAlpha:",
+    "fLength:",
+    "fSize:"
+   ]
+  }
+ },
+ "44399": {
+  "1": {
+   "random": [
+    [
+     "fLength:"
+    ],
+    [
+     "fDist:"
+    ],
+    [
+     "fAsym:"
+    ],
+    [
+     "fConc1:"
+    ],
+    [
+     "fDist:"
+    ]
+   ],
+   "top": [
+    "fAlpha:"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "fConc:",
+     "fDist:",
+     "fWidth:"
+    ],
+    [
+     "fAsym:",
+     "fConc1:",
+     "fSize:"
+    ],
+    [
+     "fConc1:",
+     "fDist:",
+     "fWidth:"
+    ],
+    [
+     "fConc:",
+     "fDist:",
+     "fSize:"
+    ],
+    [
+     "fConc1:",
+     "fConc:",
+     "fM3Trans:"
+    ]
+   ],
+   "top": [
+    "fAlpha:",
+    "fLength:",
+    "fM3Long:"
+   ]
+  }
+ },
+ "44400": {
+  "1": {
+   "random": [
+    [
+     "fAsym:"
+    ],
+    [
+     "fDist:"
+    ],
+    [
+     "fM3Long:"
+    ],
+    [
+     "fAsym:"
+    ],
+    [
+     "fDist:"
+    ]
+   ],
+   "top": [
+    "fAlpha:"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "fAsym:",
+     "fConc:",
+     "fM3Trans:"
+    ],
+    [
+     "fDist:",
+     "fM3Trans:",
+     "fWidth:"
+    ],
+    [
+     "fAsym:",
+     "fConc:",
+     "fWidth:"
+    ],
+    [
+     "fConc1:",
+     "fConc:",
+     "fSize:"
+    ],
+    [
+     "fAsym:",
+     "fConc:",
+     "fDist:"
+    ]
+   ],
+   "top": [
+    "fAlpha:",
+    "fLength:",
+    "fM3Long:"
+   ]
+  }
+ },
+ "44401": {
+  "1": {
+   "random": [
+    [
+     "fConc:"
+    ],
+    [
+     "fM3Trans:"
+    ],
+    [
+     "fLength:"
+    ],
+    [
+     "fLength:"
+    ],
+    [
+     "fConc1:"
+    ]
+   ],
+   "top": [
+    "fAlpha:"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "fAsym:",
+     "fConc1:",
+     "fM3Trans:"
+    ],
+    [
+     "fAsym:",
+     "fConc1:",
+     "fDist:"
+    ],
+    [
+     "fConc:",
+     "fDist:",
+     "fM3Trans:"
+    ],
+    [
+     "fAsym:",
+     "fConc1:",
+     "fSize:"
+    ],
+    [
+     "fConc1:",
+     "fDist:",
+     "fWidth:"
+    ]
+   ],
+   "top": [
+    "fAlpha:",
+    "fLength:",
+    "fM3Long:"
+   ]
+  }
+ },
+ "44402": {
+  "1": {
+   "random": [
+    [
+     "V6"
+    ],
+    [
+     "V15"
+    ],
+    [
+     "V14"
+    ],
+    [
+     "V10"
+    ],
+    [
+     "V15"
+    ]
+   ],
+   "top": [
+    "V12"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "V10",
+     "V13",
+     "V14"
+    ],
+    [
+     "V1",
+     "V10",
+     "V13"
+    ],
+    [
+     "V1",
+     "V10",
+     "V14"
+    ],
+    [
+     "V1",
+     "V10",
+     "V14"
+    ],
+    [
+     "V1",
+     "V10",
+     "V14"
+    ]
+   ],
+   "top": [
+    "V12",
+    "V15",
+    "V6"
+   ]
+  }
+ },
+ "44403": {
+  "1": {
+   "random": [
+    [
+     "V1"
+    ],
+    [
+     "V14"
+    ],
+    [
+     "V6"
+    ],
+    [
+     "V14"
+    ],
+    [
+     "V1"
+    ]
+   ],
+   "top": [
+    "V12"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "V1",
+     "V13",
+     "V14"
+    ],
+    [
+     "V1",
+     "V10",
+     "V13"
+    ],
+    [
+     "V1",
+     "V10",
+     "V13"
+    ],
+    [
+     "V1",
+     "V13",
+     "V14"
+    ],
+    [
+     "V10",
+     "V13",
+     "V14"
+    ]
+   ],
+   "top": [
+    "V12",
+    "V6",
+    "V15"
+   ]
+  }
+ },
+ "44404": {
+  "1": {
+   "random": [
+    [
+     "V10"
+    ],
+    [
+     "V10"
+    ],
+    [
+     "V14"
+    ],
+    [
+     "V15"
+    ],
+    [
+     "V1"
+    ]
+   ],
+   "top": [
+    "V12"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "V1",
+     "V10",
+     "V14"
+    ],
+    [
+     "V1",
+     "V10",
+     "V14"
+    ],
+    [
+     "V10",
+     "V13",
+     "V14"
+    ],
+    [
+     "V1",
+     "V13",
+     "V14"
+    ],
+    [
+     "V10",
+     "V13",
+     "V14"
+    ]
+   ],
+   "top": [
+    "V12",
+    "V6",
+    "V15"
+   ]
+  }
+ },
+ "44405": {
+  "1": {
+   "random": [
+    [
+     "V15"
+    ],
+    [
+     "V6"
+    ],
+    [
+     "V1"
+    ],
+    [
+     "V13"
+    ],
+    [
+     "V10"
+    ]
+   ],
+   "top": [
+    "V12"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "V1",
+     "V10",
+     "V14"
+    ],
+    [
+     "V1",
+     "V10",
+     "V14"
+    ],
+    [
+     "V1",
+     "V13",
+     "V14"
+    ],
+    [
+     "V10",
+     "V13",
+     "V14"
+    ],
+    [
+     "V10",
+     "V13",
+     "V14"
+    ]
+   ],
+   "top": [
+    "V12",
+    "V6",
+    "V15"
+   ]
+  }
+ },
+ "44406": {
+  "1": {
+   "random": [
+    [
+     "V1"
+    ],
+    [
+     "V13"
+    ],
+    [
+     "V1"
+    ],
+    [
+     "V1"
+    ],
+    [
+     "V15"
+    ]
+   ],
+   "top": [
+    "V12"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "V10",
+     "V13",
+     "V14"
+    ],
+    [
+     "V1",
+     "V10",
+     "V13"
+    ],
+    [
+     "V1",
+     "V10",
+     "V14"
+    ],
+    [
+     "V1",
+     "V13",
+     "V14"
+    ],
+    [
+     "V1",
+     "V10",
+     "V13"
+    ]
+   ],
+   "top": [
+    "V12",
+    "V6",
+    "V15"
+   ]
+  }
+ },
+ "44407": {
+  "1": {
+   "random": [
+    [
+     "V5"
+    ],
+    [
+     "V1"
+    ],
+    [
+     "V1"
+    ],
+    [
+     "V1"
+    ],
+    [
+     "V5"
+    ]
+   ],
+   "top": [
+    "V4"
+   ]
+  },
+  "3": null
+ },
+ "44408": {
+  "1": {
+   "random": [
+    [
+     "V4"
+    ],
+    [
+     "V4"
+    ],
+    [
+     "V2"
+    ],
+    [
+     "V5"
+    ],
+    [
+     "V4"
+    ]
+   ],
+   "top": [
+    "V3"
+   ]
+  },
+  "3": null
+ },
+ "44409": {
+  "1": {
+   "random": [
+    [
+     "V3"
+    ],
+    [
+     "V2"
+    ],
+    [
+     "V5"
+    ],
+    [
+     "V5"
+    ],
+    [
+     "V1"
+    ]
+   ],
+   "top": [
+    "V4"
+   ]
+  },
+  "3": null
+ },
+ "44410": {
+  "1": {
+   "random": [
+    [
+     "V3"
+    ],
+    [
+     "V2"
+    ],
+    [
+     "V2"
+    ],
+    [
+     "V5"
+    ],
+    [
+     "V5"
+    ]
+   ],
+   "top": [
+    "V4"
+   ]
+  },
+  "3": null
+ },
+ "44411": {
+  "1": {
+   "random": [
+    [
+     "V3"
+    ],
+    [
+     "V2"
+    ],
+    [
+     "V3"
+    ],
+    [
+     "V2"
+    ],
+    [
+     "V3"
+    ]
+   ],
+   "top": [
+    "V4"
+   ]
+  },
+  "3": null
+ },
+ "44417": {
+  "1": {
+   "random": [
+    [
+     "m_lv"
+    ],
+    [
+     "m_jjj"
+    ],
+    [
+     "jet_1_phi"
+    ],
+    [
+     "lepton_eta"
+    ],
+    [
+     "m_jjj"
+    ]
+   ],
+   "top": [
+    "m_wwbb"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "jet_3_pt",
+     "jet_4_phi",
+     "m_jjj"
+    ],
+    [
+     "jet_3_pt",
+     "lepton_phi",
+     "m_lv"
+    ],
+    [
+     "jet_3_pt",
+     "lepton_eta",
+     "missing_energy_phi"
+    ],
+    [
+     "jet_1_phi",
+     "jet_4_phi",
+     "jet_4_pt"
+    ],
+    [
+     "jet_1_phi",
+     "m_jj",
+     "m_wbb"
+    ]
+   ],
+   "top": [
+    "m_wwbb",
+    "m_bb",
+    "jet_1_pt"
+   ]
+  }
+ },
+ "44418": {
+  "1": {
+   "random": [
+    [
+     "jet_3_eta"
+    ],
+    [
+     "jet_3_phi"
+    ],
+    [
+     "jet_4_eta"
+    ],
+    [
+     "m_jjj"
+    ],
+    [
+     "m_jjj"
+    ]
+   ],
+   "top": [
+    "missing_energy_magnitude"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "jet_1_pt",
+     "jet_3_phi",
+     "jet_4_pt"
+    ],
+    [
+     "jet_4_phi",
+     "jet_4_pt",
+     "missing_energy_phi"
+    ],
+    [
+     "jet_1_eta",
+     "jet_3_eta",
+     "m_lv"
+    ],
+    [
+     "jet_1_phi",
+     "m_jj",
+     "m_jlv"
+    ],
+    [
+     "jet_1_eta",
+     "jet_3_pt",
+     "m_wbb"
+    ]
+   ],
+   "top": [
+    "missing_energy_magnitude",
+    "m_wwbb",
+    "m_bb"
+   ]
+  }
+ },
+ "44419": {
+  "1": {
+   "random": [
+    [
+     "lepton_phi"
+    ],
+    [
+     "m_jjj"
+    ],
+    [
+     "jet_3_eta"
+    ],
+    [
+     "lepton_pT"
+    ],
+    [
+     "jet_3_pt"
+    ]
+   ],
+   "top": [
+    "m_bb"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "jet_1_pt",
+     "m_jj",
+     "m_lv"
+    ],
+    [
+     "jet_3_phi",
+     "lepton_pT",
+     "m_jlv"
+    ],
+    [
+     "jet_1_eta",
+     "jet_4_eta",
+     "lepton_pT"
+    ],
+    [
+     "jet_4_pt",
+     "lepton_eta",
+     "m_jj"
+    ],
+    [
+     "jet_4_phi",
+     "lepton_eta",
+     "m_lv"
+    ]
+   ],
+   "top": [
+    "m_bb",
+    "missing_energy_magnitude",
+    "m_wwbb"
+   ]
+  }
+ },
+ "44420": {
+  "1": {
+   "random": [
+    [
+     "jet_4_eta"
+    ],
+    [
+     "missing_energy_magnitude"
+    ],
+    [
+     "m_jlv"
+    ],
+    [
+     "jet_2_pt"
+    ],
+    [
+     "m_bb"
+    ]
+   ],
+   "top": [
+    "m_wwbb"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "jet_3_pt",
+     "m_jjj",
+     "missing_energy_phi"
+    ],
+    [
+     "jet_1_phi",
+     "lepton_eta",
+     "m_jjj"
+    ],
+    [
+     "jet_4_phi",
+     "jet_4_pt",
+     "m_jlv"
+    ],
+    [
+     "jet_2_pt",
+     "jet_3_phi",
+     "m_jj"
+    ],
+    [
+     "jet_2_eta",
+     "m_jlv",
+     "missing_energy_phi"
+    ]
+   ],
+   "top": [
+    "m_wwbb",
+    "missing_energy_magnitude",
+    "m_bb"
+   ]
+  }
+ },
+ "44421": {
+  "1": {
+   "random": [
+    [
+     "m_jj"
+    ],
+    [
+     "lepton_phi"
+    ],
+    [
+     "jet_2_phi"
+    ],
+    [
+     "m_lv"
+    ],
+    [
+     "missing_energy_magnitude"
+    ]
+   ],
+   "top": [
+    "m_wwbb"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "jet_1_eta",
+     "jet_1_pt",
+     "m_jjj"
+    ],
+    [
+     "jet_1_pt",
+     "jet_4_phi",
+     "jet_4_pt"
+    ],
+    [
+     "lepton_phi",
+     "m_jjj",
+     "missing_energy_phi"
+    ],
+    [
+     "lepton_phi",
+     "m_jlv",
+     "m_wbb"
+    ],
+    [
+     "jet_4_phi",
+     "m_lv",
+     "m_wbb"
+    ]
+   ],
+   "top": [
+    "m_wwbb",
+    "m_bb",
+    "missing_energy_magnitude"
+   ]
+  }
+ },
+ "44428": {
+  "1": {
+   "random": [
+    [
+     "V45"
+    ],
+    [
+     "V52"
+    ],
+    [
+     "V15"
+    ],
+    [
+     "V10"
+    ],
+    [
+     "V41"
+    ]
+   ],
+   "top": [
+    "V2"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "V21",
+     "V42",
+     "V53"
+    ],
+    [
+     "V32",
+     "V51",
+     "V53"
+    ],
+    [
+     "V10",
+     "V33",
+     "V51"
+    ],
+    [
+     "V18",
+     "V21",
+     "V44"
+    ],
+    [
+     "V3",
+     "V48",
+     "V52"
+    ]
+   ],
+   "top": [
+    "V2",
+    "V6",
+    "V15"
+   ]
+  }
+ },
+ "44429": {
+  "1": {
+   "random": [
+    [
+     "V17"
+    ],
+    [
+     "V15"
+    ],
+    [
+     "V4"
+    ],
+    [
+     "V40"
+    ],
+    [
+     "V44"
+    ]
+   ],
+   "top": [
+    "V22"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "V3",
+     "V30",
+     "V53"
+    ],
+    [
+     "V16",
+     "V21",
+     "V27"
+    ],
+    [
+     "V16",
+     "V52",
+     "V7"
+    ],
+    [
+     "V1",
+     "V36",
+     "V45"
+    ],
+    [
+     "V42",
+     "V48",
+     "V52"
+    ]
+   ],
+   "top": [
+    "V22",
+    "V2",
+    "V6"
+   ]
+  }
+ },
+ "44430": {
+  "1": {
+   "random": [
+    [
+     "V43"
+    ],
+    [
+     "V4"
+    ],
+    [
+     "V23"
+    ],
+    [
+     "V15"
+    ],
+    [
+     "V4"
+    ]
+   ],
+   "top": [
+    "V20"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "V24",
+     "V51",
+     "V54"
+    ],
+    [
+     "V17",
+     "V27",
+     "V48"
+    ],
+    [
+     "V1",
+     "V23",
+     "V47"
+    ],
+    [
+     "V24",
+     "V39",
+     "V54"
+    ],
+    [
+     "V36",
+     "V37",
+     "V42"
+    ]
+   ],
+   "top": [
+    "V20",
+    "V22",
+    "V2"
+   ]
+  }
+ },
+ "44431": {
+  "1": {
+   "random": [
+    [
+     "V38"
+    ],
+    [
+     "V53"
+    ],
+    [
+     "V24"
+    ],
+    [
+     "V24"
+    ],
+    [
+     "V49"
+    ]
+   ],
+   "top": [
+    "V2"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "V10",
+     "V14",
+     "V44"
+    ],
+    [
+     "V16",
+     "V27",
+     "V38"
+    ],
+    [
+     "V3",
+     "V46",
+     "V54"
+    ],
+    [
+     "V32",
+     "V46",
+     "V50"
+    ],
+    [
+     "V12",
+     "V17",
+     "V24"
+    ]
+   ],
+   "top": [
+    "V2",
+    "V22",
+    "V6"
+   ]
+  }
+ },
+ "44432": {
+  "1": {
+   "random": [
+    [
+     "V45"
+    ],
+    [
+     "V53"
+    ],
+    [
+     "V32"
+    ],
+    [
+     "V18"
+    ],
+    [
+     "V43"
+    ]
+   ],
+   "top": [
+    "V22"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "V2",
+     "V37",
+     "V46"
+    ],
+    [
+     "V10",
+     "V23",
+     "V8"
+    ],
+    [
+     "V25",
+     "V33",
+     "V44"
+    ],
+    [
+     "V16",
+     "V17",
+     "V31"
+    ],
+    [
+     "V31",
+     "V38",
+     "V43"
+    ]
+   ],
+   "top": [
+    "V22",
+    "V20",
+    "V15"
+   ]
+  }
+ },
+ "44439": {
+  "1": {
+   "random": [
+    [
+     "pupilDiamMax"
+    ],
+    [
+     "firstfixDur"
+    ],
+    [
+     "firstfixDur"
+    ],
+    [
+     "firstSaccLen"
+    ],
+    [
+     "firstPassFixDur"
+    ]
+   ],
+   "top": [
+    "titleNo"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "firstfixDur",
+     "landingPos",
+     "totalFixDur"
+    ],
+    [
+     "P1stFixation",
+     "assgNo",
+     "pupilDiamMax"
+    ],
+    [
+     "firstPassFixDur",
+     "leavingPos",
+     "lineNo"
+    ],
+    [
+     "firstPassFixDur",
+     "timePrtctg",
+     "totalFixDur"
+    ],
+    [
+     "pupilDiamLag",
+     "regressDur",
+     "regressLen"
+    ]
+   ],
+   "top": [
+    "titleNo",
+    "wordNo",
+    "nextWordRegress"
+   ]
+  }
+ },
+ "44446": {
+  "1": {
+   "random": [
+    [
+     "Soil_Type30"
+    ],
+    [
+     "Soil_Type24"
+    ],
+    [
+     "Horizontal_Distance_To_Roadways"
+    ],
+    [
+     "Soil_Type11"
+    ],
+    [
+     "Wilderness_Area2"
+    ]
+   ],
+   "top": [
+    "Elevation"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "Soil_Type22",
+     "Soil_Type32",
+     "Soil_Type35"
+    ],
+    [
+     "Soil_Type31",
+     "Soil_Type34",
+     "Soil_Type9"
+    ],
+    [
+     "Soil_Type24",
+     "Soil_Type40",
+     "Soil_Type6"
+    ],
+    [
+     "Soil_Type10",
+     "Soil_Type26",
+     "Soil_Type4"
+    ],
+    [
+     "Soil_Type26",
+     "Soil_Type31",
+     "Soil_Type9"
+    ]
+   ],
+   "top": [
+    "Elevation",
+    "Horizontal_Distance_To_Roadways",
+    "Vertical_Distance_To_Hydrology"
+   ]
+  }
+ },
+ "44447": {
+  "1": {
+   "random": [
+    [
+     "Hillshade_9am"
+    ],
+    [
+     "Soil_Type38"
+    ],
+    [
+     "Soil_Type38"
+    ],
+    [
+     "Soil_Type2"
+    ],
+    [
+     "Soil_Type3"
+    ]
+   ],
+   "top": [
+    "Elevation"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "Hillshade_Noon",
+     "Soil_Type11",
+     "Soil_Type34"
+    ],
+    [
+     "Soil_Type17",
+     "Soil_Type39",
+     "Soil_Type7"
+    ],
+    [
+     "Hillshade_3pm",
+     "Soil_Type19",
+     "Wilderness_Area4"
+    ],
+    [
+     "Horizontal_Distance_To_Fire_Points",
+     "Soil_Type39",
+     "Soil_Type9"
+    ],
+    [
+     "Hillshade_Noon",
+     "Soil_Type23",
+     "Soil_Type30"
+    ]
+   ],
+   "top": [
+    "Elevation",
+    "Horizontal_Distance_To_Roadways",
+    "Soil_Type22"
+   ]
+  }
+ },
+ "44448": {
+  "1": {
+   "random": [
+    [
+     "V8"
+    ],
+    [
+     "V6"
+    ],
+    [
+     "V15"
+    ],
+    [
+     "V22"
+    ],
+    [
+     "V20"
+    ]
+   ],
+   "top": [
+    "V21"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "V14",
+     "V17",
+     "V8"
+    ],
+    [
+     "V1",
+     "V18",
+     "V6"
+    ],
+    [
+     "V14",
+     "V6",
+     "V8"
+    ],
+    [
+     "V15",
+     "V6",
+     "V8"
+    ],
+    [
+     "V15",
+     "V17",
+     "V19"
+    ]
+   ],
+   "top": [
+    "V21",
+    "V20",
+    "V5"
+   ]
+  }
+ },
+ "44449": {
+  "1": {
+   "random": [
+    [
+     "V14"
+    ],
+    [
+     "V22"
+    ],
+    [
+     "V17"
+    ],
+    [
+     "V20"
+    ],
+    [
+     "V19"
+    ]
+   ],
+   "top": [
+    "V21"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "V18",
+     "V19",
+     "V8"
+    ],
+    [
+     "V18",
+     "V19",
+     "V8"
+    ],
+    [
+     "V17",
+     "V19",
+     "V22"
+    ],
+    [
+     "V14",
+     "V17",
+     "V6"
+    ],
+    [
+     "V15",
+     "V22",
+     "V6"
+    ]
+   ],
+   "top": [
+    "V21",
+    "V20",
+    "V5"
+   ]
+  }
+ },
+ "44450": {
+  "1": {
+   "random": [
+    [
+     "V17"
+    ],
+    [
+     "V18"
+    ],
+    [
+     "V1"
+    ],
+    [
+     "V1"
+    ],
+    [
+     "V18"
+    ]
+   ],
+   "top": [
+    "V21"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "V18",
+     "V6",
+     "V8"
+    ],
+    [
+     "V1",
+     "V15",
+     "V22"
+    ],
+    [
+     "V14",
+     "V15",
+     "V18"
+    ],
+    [
+     "V14",
+     "V15",
+     "V22"
+    ],
+    [
+     "V1",
+     "V14",
+     "V19"
+    ]
+   ],
+   "top": [
+    "V21",
+    "V20",
+    "V5"
+   ]
+  }
+ },
+ "44451": {
+  "1": {
+   "random": [
+    [
+     "V14"
+    ],
+    [
+     "V22"
+    ],
+    [
+     "V20"
+    ],
+    [
+     "V18"
+    ],
+    [
+     "V5"
+    ]
+   ],
+   "top": [
+    "V21"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "V15",
+     "V19",
+     "V8"
+    ],
+    [
+     "V14",
+     "V17",
+     "V8"
+    ],
+    [
+     "V15",
+     "V19",
+     "V8"
+    ],
+    [
+     "V1",
+     "V14",
+     "V17"
+    ],
+    [
+     "V15",
+     "V17",
+     "V19"
+    ]
+   ],
+   "top": [
+    "V21",
+    "V20",
+    "V5"
+   ]
+  }
+ },
+ "44452": {
+  "1": {
+   "random": [
+    [
+     "V5"
+    ],
+    [
+     "V5"
+    ],
+    [
+     "V19"
+    ],
+    [
+     "V18"
+    ],
+    [
+     "V18"
+    ]
+   ],
+   "top": [
+    "V21"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "V15",
+     "V19",
+     "V22"
+    ],
+    [
+     "V18",
+     "V19",
+     "V8"
+    ],
+    [
+     "V1",
+     "V17",
+     "V6"
+    ],
+    [
+     "V1",
+     "V22",
+     "V8"
+    ],
+    [
+     "V14",
+     "V17",
+     "V19"
+    ]
+   ],
+   "top": [
+    "V21",
+    "V20",
+    "V5"
+   ]
+  }
+ },
+ "44453": {
+  "1": {
+   "random": [
+    [
+     "Pedestrian_Movement"
+    ],
+    [
+     "Age_of_Casualty"
+    ],
+    [
+     "Pedestrian_Movement"
+    ],
+    [
+     "Vehicle_Type"
+    ],
+    [
+     "Propulsion_Code"
+    ]
+   ],
+   "top": [
+    "Sex_of_Casualty"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "Casualty_IMD_Decile",
+     "Location_Easting_OSGR",
+     "Location_Northing_OSGR"
+    ],
+    [
+     "Hit_Object_in_Carriageway",
+     "Longitude",
+     "Vehicle_Reference_df_res"
+    ],
+    [
+     "Hit_Object_off_Carriageway",
+     "Number_of_Casualties",
+     "Pedestrian_Movement"
+    ],
+    [
+     "Casualty_Reference",
+     "Hit_Object_in_Carriageway",
+     "Hit_Object_off_Carriageway"
+    ],
+    [
+     "2nd_Road_Number",
+     "Casualty_Reference",
+     "Number_of_Casualties"
+    ]
+   ],
+   "top": [
+    "Sex_of_Casualty",
+    "Engine_Capacity_(CC)",
+    "Propulsion_Code"
+   ]
+  }
+ },
+ "44454": {
+  "1": {
+   "random": [
+    [
+     "Number_of_Casualties"
+    ],
+    [
+     "Age_of_Driver"
+    ],
+    [
+     "Hit_Object_off_Carriageway"
+    ],
+    [
+     "Number_of_Casualties"
+    ],
+    [
+     "Pedestrian_Movement"
+    ]
+   ],
+   "top": [
+    "Sex_of_Casualty"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "2nd_Road_Number",
+     "Age_of_Driver",
+     "Vehicle_Type"
+    ],
+    [
+     "Casualty_IMD_Decile",
+     "Hit_Object_in_Carriageway",
+     "Pedestrian_Movement"
+    ],
+    [
+     "Casualty_Reference",
+     "Pedestrian_Location",
+     "Vehicle_Reference_df"
+    ],
+    [
+     "Casualty_Type",
+     "Hit_Object_off_Carriageway",
+     "Number_of_Casualties"
+    ],
+    [
+     "Casualty_Reference",
+     "Longitude",
+     "Vehicle_Manoeuvre"
+    ]
+   ],
+   "top": [
+    "Sex_of_Casualty",
+    "Engine_Capacity_(CC)",
+    "Propulsion_Code"
+   ]
+  }
+ },
+ "44455": {
+  "1": {
+   "random": [
+    [
+     "1st_Road_Number"
+    ],
+    [
+     "Engine_Capacity_(CC)"
+    ],
+    [
+     "Location_Easting_OSGR"
+    ],
+    [
+     "Age_Band_of_Casualty"
+    ],
+    [
+     "Age_of_Casualty"
+    ]
+   ],
+   "top": [
+    "Sex_of_Casualty"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "Age_Band_of_Casualty",
+     "Age_of_Vehicle",
+     "Hit_Object_off_Carriageway"
+    ],
+    [
+     "Age_Band_of_Casualty",
+     "Hit_Object_in_Carriageway",
+     "Vehicle_Location-Restricted_Lane"
+    ],
+    [
+     "1st_Road_Number",
+     "Hit_Object_off_Carriageway",
+     "Location_Northing_OSGR"
+    ],
+    [
+     "Age_Band_of_Driver",
+     "Urban_or_Rural_Area",
+     "Was_Vehicle_Left_Hand_Drive?"
+    ],
+    [
+     "Casualty_IMD_Decile",
+     "Police_Force",
+     "Was_Vehicle_Left_Hand_Drive?"
+    ]
+   ],
+   "top": [
+    "Sex_of_Casualty",
+    "Engine_Capacity_(CC)",
+    "Propulsion_Code"
+   ]
+  }
+ },
+ "44456": {
+  "1": {
+   "random": [
+    [
+     "Longitude"
+    ],
+    [
+     "Vehicle_Type"
+    ],
+    [
+     "Location_Easting_OSGR"
+    ],
+    [
+     "Vehicle_Manoeuvre"
+    ],
+    [
+     "Urban_or_Rural_Area"
+    ]
+   ],
+   "top": [
+    "Sex_of_Casualty"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "Casualty_Reference",
+     "Location_Northing_OSGR",
+     "Pedestrian_Movement"
+    ],
+    [
+     "Age_Band_of_Driver",
+     "Latitude",
+     "Police_Force"
+    ],
+    [
+     "Casualty_Type",
+     "Number_of_Vehicles",
+     "Was_Vehicle_Left_Hand_Drive?"
+    ],
+    [
+     "Casualty_IMD_Decile",
+     "Vehicle_Location-Restricted_Lane",
+     "Vehicle_Reference_df_res"
+    ],
+    [
+     "Casualty_Type",
+     "Location_Northing_OSGR",
+     "Was_Vehicle_Left_Hand_Drive?"
+    ]
+   ],
+   "top": [
+    "Sex_of_Casualty",
+    "Engine_Capacity_(CC)",
+    "Local_Authority_(District)"
+   ]
+  }
+ },
+ "44457": {
+  "1": {
+   "random": [
+    [
+     "1st_Road_Number"
+    ],
+    [
+     "Hit_Object_off_Carriageway"
+    ],
+    [
+     "Hit_Object_off_Carriageway"
+    ],
+    [
+     "Number_of_Vehicles"
+    ],
+    [
+     "Number_of_Casualties"
+    ]
+   ],
+   "top": [
+    "Sex_of_Casualty"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "Hit_Object_in_Carriageway",
+     "Local_Authority_(District)",
+     "Location_Easting_OSGR"
+    ],
+    [
+     "Age_Band_of_Driver",
+     "Local_Authority_(District)",
+     "Vehicle_Reference_df"
+    ],
+    [
+     "Casualty_Reference",
+     "Number_of_Vehicles",
+     "Vehicle_Location-Restricted_Lane"
+    ],
+    [
+     "Age_Band_of_Driver",
+     "Age_of_Casualty",
+     "Casualty_IMD_Decile"
+    ],
+    [
+     "Age_Band_of_Casualty",
+     "Pedestrian_Location",
+     "Was_Vehicle_Left_Hand_Drive?"
+    ]
+   ],
+   "top": [
+    "Sex_of_Casualty",
+    "Engine_Capacity_(CC)",
+    "Propulsion_Code"
+   ]
+  }
+ },
+ "44458": {
+  "1": {
+   "random": [
+    [
+     "race"
+    ],
+    [
+     "v_score_text"
+    ],
+    [
+     "juv_fel_count"
+    ],
+    [
+     "score_text"
+    ],
+    [
+     "c_charge_degree"
+    ]
+   ],
+   "top": [
+    "decile_score.1"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "juv_fel_count",
+     "juv_misd_count",
+     "v_score_text"
+    ],
+    [
+     "days_b_screening_arrest",
+     "end",
+     "race"
+    ],
+    [
+     "age",
+     "end",
+     "race"
+    ],
+    [
+     "juv_fel_count",
+     "race",
+     "v_type_of_assessment"
+    ],
+    [
+     "c_days_from_compas",
+     "days_b_screening_arrest",
+     "race"
+    ]
+   ],
+   "top": [
+    "decile_score.1",
+    "priors_count",
+    "v_decile_score"
+   ]
+  }
+ },
+ "44459": {
+  "1": {
+   "random": [
+    [
+     "days_b_screening_arrest"
+    ],
+    [
+     "score_text"
+    ],
+    [
+     "age"
+    ],
+    [
+     "v_decile_score"
+    ],
+    [
+     "sex"
+    ]
+   ],
+   "top": [
+    "decile_score.1"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "juv_fel_count",
+     "juv_misd_count",
+     "score_text"
+    ],
+    [
+     "juv_misd_count",
+     "score_text",
+     "v_score_text"
+    ],
+    [
+     "age_cat",
+     "juv_fel_count",
+     "v_score_text"
+    ],
+    [
+     "age",
+     "c_days_from_compas",
+     "score_text"
+    ],
+    [
+     "age_cat",
+     "end",
+     "juv_fel_count"
+    ]
+   ],
+   "top": [
+    "decile_score.1",
+    "v_decile_score",
+    "priors_count"
+   ]
+  }
+ },
+ "44460": {
+  "1": {
+   "random": [
+    [
+     "v_score_text"
+    ],
+    [
+     "age_cat"
+    ],
+    [
+     "days_b_screening_arrest"
+    ],
+    [
+     "v_score_text"
+    ],
+    [
+     "age"
+    ]
+   ],
+   "top": [
+    "decile_score.1"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "age",
+     "days_b_screening_arrest",
+     "v_score_text"
+    ],
+    [
+     "age_cat",
+     "c_days_from_compas",
+     "race"
+    ],
+    [
+     "c_charge_degree",
+     "score_text",
+     "sex"
+    ],
+    [
+     "juv_misd_count",
+     "juv_other_count",
+     "v_type_of_assessment"
+    ],
+    [
+     "age_cat",
+     "score_text",
+     "v_decile_score"
+    ]
+   ],
+   "top": [
+    "decile_score.1",
+    "priors_count",
+    "end"
+   ]
+  }
+ },
+ "44461": {
+  "1": {
+   "random": [
+    [
+     "c_charge_degree"
+    ],
+    [
+     "age"
+    ],
+    [
+     "juv_fel_count"
+    ],
+    [
+     "v_decile_score"
+    ],
+    [
+     "v_score_text"
+    ]
+   ],
+   "top": [
+    "decile_score.1"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "c_charge_degree",
+     "juv_fel_count",
+     "race"
+    ],
+    [
+     "juv_other_count",
+     "sex",
+     "v_score_text"
+    ],
+    [
+     "age",
+     "race",
+     "v_type_of_assessment"
+    ],
+    [
+     "c_charge_degree",
+     "c_days_from_compas",
+     "juv_misd_count"
+    ],
+    [
+     "juv_fel_count",
+     "juv_misd_count",
+     "juv_other_count"
+    ]
+   ],
+   "top": [
+    "decile_score.1",
+    "end",
+    "v_decile_score"
+   ]
+  }
+ },
+ "44462": {
+  "1": {
+   "random": [
+    [
+     "c_days_from_compas"
+    ],
+    [
+     "juv_other_count"
+    ],
+    [
+     "race"
+    ],
+    [
+     "v_type_of_assessment"
+    ],
+    [
+     "age_cat"
+    ]
+   ],
+   "top": [
+    "end"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "age",
+     "juv_other_count",
+     "v_type_of_assessment"
+    ],
+    [
+     "juv_fel_count",
+     "race",
+     "score_text"
+    ],
+    [
+     "age",
+     "days_b_screening_arrest",
+     "race"
+    ],
+    [
+     "c_charge_degree",
+     "c_days_from_compas",
+     "days_b_screening_arrest"
+    ],
+    [
+     "age",
+     "c_charge_degree",
+     "race"
+    ]
+   ],
+   "top": [
+    "end",
+    "decile_score.1",
+    "priors_count"
+   ]
+  }
+ },
+ "44463": {
+  "1": {
+   "random": [
+    [
+     "Var133"
+    ],
+    [
+     "Var74"
+    ],
+    [
+     "Var208"
+    ],
+    [
+     "Var211"
+    ],
+    [
+     "Var81"
+    ]
+   ],
+   "top": [
+    "Var126"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "Var112",
+     "Var35",
+     "Var78"
+    ],
+    [
+     "Var113",
+     "Var24",
+     "Var83"
+    ],
+    [
+     "Var123",
+     "Var229",
+     "Var83"
+    ],
+    [
+     "Var21",
+     "Var25",
+     "Var78"
+    ],
+    [
+     "Var22",
+     "Var225",
+     "Var38"
+    ]
+   ],
+   "top": [
+    "Var126",
+    "Var28",
+    "Var153"
+   ]
+  }
+ },
+ "44464": {
+  "1": {
+   "random": [
+    [
+     "Var163"
+    ],
+    [
+     "Var28"
+    ],
+    [
+     "Var74"
+    ],
+    [
+     "Var78"
+    ],
+    [
+     "Var211"
+    ]
+   ],
+   "top": [
+    "Var126"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "Var144",
+     "Var25",
+     "Var6"
+    ],
+    [
+     "Var109",
+     "Var123",
+     "Var208"
+    ],
+    [
+     "Var112",
+     "Var163",
+     "Var22"
+    ],
+    [
+     "Var113",
+     "Var57",
+     "Var76"
+    ],
+    [
+     "Var119",
+     "Var123",
+     "Var194"
+    ]
+   ],
+   "top": [
+    "Var126",
+    "Var28",
+    "Var211"
+   ]
+  }
+ },
+ "44465": {
+  "1": {
+   "random": [
+    [
+     "Var57"
+    ],
+    [
+     "Var25"
+    ],
+    [
+     "Var65"
+    ],
+    [
+     "Var225"
+    ],
+    [
+     "Var38"
+    ]
+   ],
+   "top": [
+    "Var126"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "Var218",
+     "Var35",
+     "Var78"
+    ],
+    [
+     "Var144",
+     "Var153",
+     "Var73"
+    ],
+    [
+     "Var203",
+     "Var223",
+     "Var76"
+    ],
+    [
+     "Var21",
+     "Var218",
+     "Var229"
+    ],
+    [
+     "Var229",
+     "Var38",
+     "Var76"
+    ]
+   ],
+   "top": [
+    "Var126",
+    "Var28",
+    "Var211"
+   ]
+  }
+ },
+ "44466": {
+  "1": {
+   "random": [
+    [
+     "Var133"
+    ],
+    [
+     "Var196"
+    ],
+    [
+     "Var125"
+    ],
+    [
+     "Var211"
+    ],
+    [
+     "Var123"
+    ]
+   ],
+   "top": [
+    "Var126"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "Var160",
+     "Var221",
+     "Var25"
+    ],
+    [
+     "Var149",
+     "Var201",
+     "Var57"
+    ],
+    [
+     "Var132",
+     "Var210",
+     "Var22"
+    ],
+    [
+     "Var134",
+     "Var205",
+     "Var78"
+    ],
+    [
+     "Var112",
+     "Var119",
+     "Var65"
+    ]
+   ],
+   "top": [
+    "Var126",
+    "Var28",
+    "Var153"
+   ]
+  }
+ },
+ "44467": {
+  "1": {
+   "random": [
+    [
+     "Var227"
+    ],
+    [
+     "Var134"
+    ],
+    [
+     "Var25"
+    ],
+    [
+     "Var163"
+    ],
+    [
+     "Var123"
+    ]
+   ],
+   "top": [
+    "Var126"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "Var203",
+     "Var205",
+     "Var207"
+    ],
+    [
+     "Var57",
+     "Var65",
+     "Var85"
+    ],
+    [
+     "Var153",
+     "Var22",
+     "Var78"
+    ],
+    [
+     "Var113",
+     "Var119",
+     "Var73"
+    ],
+    [
+     "Var125",
+     "Var194",
+     "Var223"
+    ]
+   ],
+   "top": [
+    "Var126",
+    "Var28",
+    "Var211"
+   ]
+  }
+ },
+ "44498": {
+  "1": {
+   "random": [
+    [
+     "credit_amount"
+    ],
+    [
+     "personal_status"
+    ],
+    [
+     "purpose"
+    ],
+    [
+     "age"
+    ],
+    [
+     "job"
+    ]
+   ],
+   "top": [
+    "checking_status"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "credit_amount",
+     "personal_status",
+     "property_magnitude"
+    ],
+    [
+     "own_telephone",
+     "residence_since",
+     "savings_status"
+    ],
+    [
+     "credit_amount",
+     "job",
+     "num_dependents"
+    ],
+    [
+     "housing",
+     "installment_commitment",
+     "other_payment_plans"
+    ],
+    [
+     "age",
+     "foreign_worker",
+     "other_parties"
+    ]
+   ],
+   "top": [
+    "checking_status",
+    "duration",
+    "purpose"
+   ]
+  }
+ },
+ "44499": {
+  "1": {
+   "random": [
+    [
+     "age"
+    ],
+    [
+     "residence_since"
+    ],
+    [
+     "job"
+    ],
+    [
+     "credit_amount"
+    ],
+    [
+     "property_magnitude"
+    ]
+   ],
+   "top": [
+    "checking_status"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "credit_amount",
+     "own_telephone",
+     "personal_status"
+    ],
+    [
+     "existing_credits",
+     "other_payment_plans",
+     "savings_status"
+    ],
+    [
+     "credit_history",
+     "employment",
+     "foreign_worker"
+    ],
+    [
+     "credit_history",
+     "foreign_worker",
+     "job"
+    ],
+    [
+     "credit_amount",
+     "credit_history",
+     "foreign_worker"
+    ]
+   ],
+   "top": [
+    "checking_status",
+    "duration",
+    "purpose"
+   ]
+  }
+ },
+ "44500": {
+  "1": {
+   "random": [
+    [
+     "installment_commitment"
+    ],
+    [
+     "foreign_worker"
+    ],
+    [
+     "employment"
+    ],
+    [
+     "job"
+    ],
+    [
+     "credit_amount"
+    ]
+   ],
+   "top": [
+    "checking_status"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "job",
+     "num_dependents",
+     "savings_status"
+    ],
+    [
+     "age",
+     "credit_amount",
+     "residence_since"
+    ],
+    [
+     "credit_history",
+     "residence_since",
+     "savings_status"
+    ],
+    [
+     "age",
+     "employment",
+     "job"
+    ],
+    [
+     "credit_amount",
+     "foreign_worker",
+     "other_payment_plans"
+    ]
+   ],
+   "top": [
+    "checking_status",
+    "duration",
+    "purpose"
+   ]
+  }
+ },
+ "44501": {
+  "1": {
+   "random": [
+    [
+     "residence_since"
+    ],
+    [
+     "purpose"
+    ],
+    [
+     "own_telephone"
+    ],
+    [
+     "own_telephone"
+    ],
+    [
+     "residence_since"
+    ]
+   ],
+   "top": [
+    "checking_status"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "existing_credits",
+     "job",
+     "property_magnitude"
+    ],
+    [
+     "credit_amount",
+     "existing_credits",
+     "other_payment_plans"
+    ],
+    [
+     "credit_amount",
+     "credit_history",
+     "residence_since"
+    ],
+    [
+     "existing_credits",
+     "num_dependents",
+     "residence_since"
+    ],
+    [
+     "credit_history",
+     "property_magnitude",
+     "residence_since"
+    ]
+   ],
+   "top": [
+    "checking_status",
+    "duration",
+    "purpose"
+   ]
+  }
+ },
+ "44502": {
+  "1": {
+   "random": [
+    [
+     "credit_amount"
+    ],
+    [
+     "purpose"
+    ],
+    [
+     "installment_commitment"
+    ],
+    [
+     "housing"
+    ],
+    [
+     "age"
+    ]
+   ],
+   "top": [
+    "checking_status"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "existing_credits",
+     "foreign_worker",
+     "installment_commitment"
+    ],
+    [
+     "credit_history",
+     "other_payment_plans",
+     "savings_status"
+    ],
+    [
+     "installment_commitment",
+     "job",
+     "num_dependents"
+    ],
+    [
+     "installment_commitment",
+     "job",
+     "personal_status"
+    ],
+    [
+     "age",
+     "job",
+     "personal_status"
+    ]
+   ],
+   "top": [
+    "checking_status",
+    "duration",
+    "purpose"
+   ]
+  }
+ },
+ "44538": {
+  "1": {
+   "random": [
+    [
+     "V41"
+    ],
+    [
+     "V54"
+    ],
+    [
+     "V24"
+    ],
+    [
+     "V29"
+    ],
+    [
+     "V34"
+    ]
+   ],
+   "top": [
+    "V6"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "V18",
+     "V20",
+     "V36"
+    ],
+    [
+     "V24",
+     "V3",
+     "V57"
+    ],
+    [
+     "V36",
+     "V48",
+     "V55"
+    ],
+    [
+     "V25",
+     "V27",
+     "V40"
+    ],
+    [
+     "V17",
+     "V33",
+     "V48"
+    ]
+   ],
+   "top": [
+    "V6",
+    "V5",
+    "V7"
+   ]
+  }
+ },
+ "44539": {
+  "1": {
+   "random": [
+    [
+     "V44"
+    ],
+    [
+     "V41"
+    ],
+    [
+     "V3"
+    ],
+    [
+     "V68"
+    ],
+    [
+     "V22"
+    ]
+   ],
+   "top": [
+    "V7"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "V13",
+     "V44",
+     "V76"
+    ],
+    [
+     "V40",
+     "V46",
+     "V51"
+    ],
+    [
+     "V3",
+     "V33",
+     "V9"
+    ],
+    [
+     "V21",
+     "V57",
+     "V8"
+    ],
+    [
+     "V17",
+     "V65",
+     "V71"
+    ]
+   ],
+   "top": [
+    "V7",
+    "V11",
+    "V6"
+   ]
+  }
+ },
+ "44540": {
+  "1": {
+   "random": [
+    [
+     "V49"
+    ],
+    [
+     "V77"
+    ],
+    [
+     "V7"
+    ],
+    [
+     "V22"
+    ],
+    [
+     "V76"
+    ]
+   ],
+   "top": [
+    "V11"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "V19",
+     "V26",
+     "V33"
+    ],
+    [
+     "V40",
+     "V49",
+     "V71"
+    ],
+    [
+     "V3",
+     "V71",
+     "V77"
+    ],
+    [
+     "V35",
+     "V58",
+     "V72"
+    ],
+    [
+     "V22",
+     "V43",
+     "V65"
+    ]
+   ],
+   "top": [
+    "V11",
+    "V6",
+    "V7"
+   ]
+  }
+ },
+ "44541": {
+  "1": {
+   "random": [
+    [
+     "V75"
+    ],
+    [
+     "V45"
+    ],
+    [
+     "V45"
+    ],
+    [
+     "V70"
+    ],
+    [
+     "V48"
+    ]
+   ],
+   "top": [
+    "V11"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "V24",
+     "V50",
+     "V66"
+    ],
+    [
+     "V20",
+     "V47",
+     "V59"
+    ],
+    [
+     "V19",
+     "V57",
+     "V66"
+    ],
+    [
+     "V40",
+     "V50",
+     "V66"
+    ],
+    [
+     "V25",
+     "V32",
+     "V44"
+    ]
+   ],
+   "top": [
+    "V11",
+    "V6",
+    "V7"
+   ]
+  }
+ },
+ "44542": {
+  "1": {
+   "random": [
+    [
+     "V50"
+    ],
+    [
+     "V57"
+    ],
+    [
+     "V49"
+    ],
+    [
+     "V22"
+    ],
+    [
+     "V71"
+    ]
+   ],
+   "top": [
+    "V11"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "V21",
+     "V3",
+     "V46"
+    ],
+    [
+     "V13",
+     "V17",
+     "V33"
+    ],
+    [
+     "V29",
+     "V32",
+     "V40"
+    ],
+    [
+     "V16",
+     "V43",
+     "V68"
+    ],
+    [
+     "V28",
+     "V29",
+     "V49"
+    ]
+   ],
+   "top": [
+    "V11",
+    "V7",
+    "V6"
+   ]
+  }
+ },
+ "44628": {
+  "1": {
+   "random": [
+    [
+     "v(g)"
+    ],
+    [
+     "iv(g)"
+    ],
+    [
+     "l"
+    ],
+    [
+     "t"
+    ],
+    [
+     "e"
+    ]
+   ],
+   "top": [
+    "b"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "l",
+     "lOComment",
+     "uniq_Op"
+    ],
+    [
+     "loc",
+     "t",
+     "v(g)"
+    ],
+    [
+     "e",
+     "l",
+     "v(g)"
+    ],
+    [
+     "e",
+     "locCodeAndComment",
+     "v(g)"
+    ],
+    [
+     "e",
+     "ev(g)",
+     "v(g)"
+    ]
+   ],
+   "top": [
+    "b",
+    "total_Opnd",
+    "n"
+   ]
+  }
+ },
+ "44629": {
+  "1": {
+   "random": [
+    [
+     "n"
+    ],
+    [
+     "total_Op"
+    ],
+    [
+     "d"
+    ],
+    [
+     "lOCode"
+    ],
+    [
+     "e"
+    ]
+   ],
+   "top": [
+    "total_Opnd"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "e",
+     "i",
+     "lOComment"
+    ],
+    [
+     "i",
+     "lOComment",
+     "uniq_Op"
+    ],
+    [
+     "d",
+     "locCodeAndComment",
+     "uniq_Opnd"
+    ],
+    [
+     "e",
+     "i",
+     "loc"
+    ],
+    [
+     "e",
+     "loc",
+     "v(g)"
+    ]
+   ],
+   "top": [
+    "total_Opnd",
+    "b",
+    "t"
+   ]
+  }
+ },
+ "44630": {
+  "1": {
+   "random": [
+    [
+     "n"
+    ],
+    [
+     "l"
+    ],
+    [
+     "locCodeAndComment"
+    ],
+    [
+     "v"
+    ],
+    [
+     "branchCount"
+    ]
+   ],
+   "top": [
+    "b"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "e",
+     "ev(g)",
+     "i"
+    ],
+    [
+     "iv(g)",
+     "lOBlank",
+     "total_Op"
+    ],
+    [
+     "branchCount",
+     "lOCode",
+     "uniq_Opnd"
+    ],
+    [
+     "lOComment",
+     "total_Op",
+     "v(g)"
+    ],
+    [
+     "loc",
+     "total_Op",
+     "v"
+    ]
+   ],
+   "top": [
+    "b",
+    "total_Opnd",
+    "n"
+   ]
+  }
+ },
+ "44631": {
+  "1": {
+   "random": [
+    [
+     "loc"
+    ],
+    [
+     "loc"
+    ],
+    [
+     "d"
+    ],
+    [
+     "uniq_Op"
+    ],
+    [
+     "v"
+    ]
+   ],
+   "top": [
+    "b"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "i",
+     "total_Op",
+     "v(g)"
+    ],
+    [
+     "i",
+     "lOComment",
+     "loc"
+    ],
+    [
+     "iv(g)",
+     "l",
+     "uniq_Opnd"
+    ],
+    [
+     "e",
+     "lOComment",
+     "v"
+    ],
+    [
+     "lOBlank",
+     "t",
+     "uniq_Opnd"
+    ]
+   ],
+   "top": [
+    "b",
+    "total_Opnd",
+    "n"
+   ]
+  }
+ },
+ "44632": {
+  "1": {
+   "random": [
+    [
+     "d"
+    ],
+    [
+     "uniq_Opnd"
+    ],
+    [
+     "uniq_Opnd"
+    ],
+    [
+     "v(g)"
+    ],
+    [
+     "d"
+    ]
+   ],
+   "top": [
+    "b"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "d",
+     "iv(g)",
+     "total_Op"
+    ],
+    [
+     "d",
+     "t",
+     "total_Op"
+    ],
+    [
+     "ev(g)",
+     "lOBlank",
+     "lOCode"
+    ],
+    [
+     "ev(g)",
+     "lOComment",
+     "loc"
+    ],
+    [
+     "e",
+     "loc",
+     "uniq_Opnd"
+    ]
+   ],
+   "top": [
+    "b",
+    "total_Opnd",
+    "n"
+   ]
+  }
+ },
+ "44659": {
+  "1": {
+   "random": [
+    [
+     "area_code"
+    ],
+    [
+     "total_day_calls"
+    ],
+    [
+     "total_intl_minutes"
+    ],
+    [
+     "total_day_calls"
+    ],
+    [
+     "total_night_charge"
+    ]
+   ],
+   "top": [
+    "total_day_charge"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "number_vmail_messages",
+     "total_eve_calls",
+     "voice_mail_plan"
+    ],
+    [
+     "account_length",
+     "area_code",
+     "state"
+    ],
+    [
+     "number_vmail_messages",
+     "state",
+     "total_intl_minutes"
+    ],
+    [
+     "number_vmail_messages",
+     "phone_number",
+     "state"
+    ],
+    [
+     "number_vmail_messages",
+     "total_eve_calls",
+     "total_eve_charge"
+    ]
+   ],
+   "top": [
+    "total_day_charge",
+    "total_day_minutes",
+    "number_customer_service_calls"
+   ]
+  }
+ },
+ "44661": {
+  "1": {
+   "random": [
+    [
+     "total_intl_minutes"
+    ],
+    [
+     "total_intl_charge"
+    ],
+    [
+     "total_intl_charge"
+    ],
+    [
+     "total_eve_charge"
+    ],
+    [
+     "area_code"
+    ]
+   ],
+   "top": [
+    "total_day_charge"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "area_code",
+     "total_day_calls",
+     "voice_mail_plan"
+    ],
+    [
+     "account_length",
+     "total_eve_minutes",
+     "total_night_charge"
+    ],
+    [
+     "number_vmail_messages",
+     "total_eve_minutes",
+     "total_night_minutes"
+    ],
+    [
+     "account_length",
+     "number_vmail_messages",
+     "phone_number"
+    ],
+    [
+     "account_length",
+     "international_plan",
+     "total_eve_charge"
+    ]
+   ],
+   "top": [
+    "total_day_charge",
+    "total_day_minutes",
+    "number_customer_service_calls"
+   ]
+  }
+ },
+ "44662": {
+  "1": {
+   "random": [
+    [
+     "total_night_calls"
+    ],
+    [
+     "total_night_charge"
+    ],
+    [
+     "total_intl_calls"
+    ],
+    [
+     "number_vmail_messages"
+    ],
+    [
+     "total_night_charge"
+    ]
+   ],
+   "top": [
+    "total_day_charge"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "account_length",
+     "total_day_calls",
+     "total_night_calls"
+    ],
+    [
+     "account_length",
+     "total_intl_calls",
+     "total_night_calls"
+    ],
+    [
+     "account_length",
+     "total_eve_calls",
+     "total_intl_calls"
+    ],
+    [
+     "account_length",
+     "international_plan",
+     "total_intl_minutes"
+    ],
+    [
+     "phone_number",
+     "total_night_calls",
+     "total_night_charge"
+    ]
+   ],
+   "top": [
+    "total_day_charge",
+    "total_day_minutes",
+    "number_customer_service_calls"
+   ]
+  }
+ },
+ "44708": {
+  "1": {
+   "random": [
+    [
+     "ROLE_CODE"
+    ],
+    [
+     "ROLE_FAMILY_DESC"
+    ],
+    [
+     "ROLE_FAMILY_DESC"
+    ],
+    [
+     "ROLE_FAMILY_DESC"
+    ],
+    [
+     "RESOURCE"
+    ]
+   ],
+   "top": [
+    "ROLE_ROLLUP_1"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "ROLE_CODE",
+     "ROLE_ROLLUP_2",
+     "ROLE_TITLE"
+    ],
+    [
+     "RESOURCE",
+     "ROLE_FAMILY_DESC",
+     "ROLE_TITLE"
+    ],
+    [
+     "RESOURCE",
+     "ROLE_FAMILY_DESC",
+     "ROLE_ROLLUP_2"
+    ],
+    [
+     "ROLE_CODE",
+     "ROLE_FAMILY_DESC",
+     "ROLE_ROLLUP_2"
+    ],
+    [
+     "RESOURCE",
+     "ROLE_CODE",
+     "ROLE_TITLE"
+    ]
+   ],
+   "top": [
+    "ROLE_ROLLUP_1",
+    "ROLE_DEPTNAME",
+    "ROLE_FAMILY"
+   ]
+  }
+ },
+ "44709": {
+  "1": {
+   "random": [
+    [
+     "ROLE_CODE"
+    ],
+    [
+     "RESOURCE"
+    ],
+    [
+     "ROLE_ROLLUP_1"
+    ],
+    [
+     "ROLE_TITLE"
+    ],
+    [
+     "ROLE_FAMILY"
+    ]
+   ],
+   "top": [
+    "ROLE_DEPTNAME"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "ROLE_FAMILY_DESC",
+     "ROLE_ROLLUP_1",
+     "ROLE_ROLLUP_2"
+    ],
+    [
+     "ROLE_FAMILY_DESC",
+     "ROLE_ROLLUP_1",
+     "ROLE_TITLE"
+    ],
+    [
+     "RESOURCE",
+     "ROLE_FAMILY_DESC",
+     "ROLE_TITLE"
+    ],
+    [
+     "RESOURCE",
+     "ROLE_ROLLUP_1",
+     "ROLE_ROLLUP_2"
+    ],
+    [
+     "RESOURCE",
+     "ROLE_ROLLUP_2",
+     "ROLE_TITLE"
+    ]
+   ],
+   "top": [
+    "ROLE_DEPTNAME",
+    "ROLE_FAMILY",
+    "ROLE_CODE"
+   ]
+  }
+ },
+ "44710": {
+  "1": {
+   "random": [
+    [
+     "ROLE_ROLLUP_1"
+    ],
+    [
+     "ROLE_TITLE"
+    ],
+    [
+     "ROLE_FAMILY_DESC"
+    ],
+    [
+     "ROLE_ROLLUP_1"
+    ],
+    [
+     "ROLE_CODE"
+    ]
+   ],
+   "top": [
+    "ROLE_DEPTNAME"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "RESOURCE",
+     "ROLE_FAMILY_DESC",
+     "ROLE_TITLE"
+    ],
+    [
+     "ROLE_FAMILY",
+     "ROLE_ROLLUP_2",
+     "ROLE_TITLE"
+    ],
+    [
+     "RESOURCE",
+     "ROLE_FAMILY",
+     "ROLE_ROLLUP_2"
+    ],
+    [
+     "ROLE_FAMILY",
+     "ROLE_FAMILY_DESC",
+     "ROLE_TITLE"
+    ],
+    [
+     "ROLE_FAMILY",
+     "ROLE_ROLLUP_2",
+     "ROLE_TITLE"
+    ]
+   ],
+   "top": [
+    "ROLE_DEPTNAME",
+    "ROLE_ROLLUP_1",
+    "ROLE_CODE"
+   ]
+  }
+ },
+ "44711": {
+  "1": {
+   "random": [
+    [
+     "ROLE_ROLLUP_1"
+    ],
+    [
+     "ROLE_TITLE"
+    ],
+    [
+     "ROLE_ROLLUP_1"
+    ],
+    [
+     "RESOURCE"
+    ],
+    [
+     "ROLE_FAMILY_DESC"
+    ]
+   ],
+   "top": [
+    "ROLE_FAMILY"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "ROLE_CODE",
+     "ROLE_DEPTNAME",
+     "ROLE_TITLE"
+    ],
+    [
+     "ROLE_CODE",
+     "ROLE_ROLLUP_2",
+     "ROLE_TITLE"
+    ],
+    [
+     "ROLE_CODE",
+     "ROLE_ROLLUP_2",
+     "ROLE_TITLE"
+    ],
+    [
+     "ROLE_CODE",
+     "ROLE_DEPTNAME",
+     "ROLE_ROLLUP_2"
+    ],
+    [
+     "ROLE_DEPTNAME",
+     "ROLE_FAMILY_DESC",
+     "ROLE_TITLE"
+    ]
+   ],
+   "top": [
+    "ROLE_FAMILY",
+    "ROLE_ROLLUP_1",
+    "RESOURCE"
+   ]
+  }
+ },
+ "44712": {
+  "1": {
+   "random": [
+    [
+     "ROLE_CODE"
+    ],
+    [
+     "ROLE_FAMILY"
+    ],
+    [
+     "ROLE_TITLE"
+    ],
+    [
+     "RESOURCE"
+    ],
+    [
+     "ROLE_CODE"
+    ]
+   ],
+   "top": [
+    "ROLE_DEPTNAME"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "RESOURCE",
+     "ROLE_FAMILY_DESC",
+     "ROLE_TITLE"
+    ],
+    [
+     "ROLE_FAMILY_DESC",
+     "ROLE_ROLLUP_2",
+     "ROLE_TITLE"
+    ],
+    [
+     "ROLE_CODE",
+     "ROLE_ROLLUP_2",
+     "ROLE_TITLE"
+    ],
+    [
+     "RESOURCE",
+     "ROLE_CODE",
+     "ROLE_TITLE"
+    ],
+    [
+     "RESOURCE",
+     "ROLE_CODE",
+     "ROLE_FAMILY_DESC"
+    ]
+   ],
+   "top": [
+    "ROLE_DEPTNAME",
+    "ROLE_ROLLUP_1",
+    "ROLE_FAMILY"
+   ]
+  }
+ },
+ "44758": {
+  "1": {
+   "random": [
+    [
+     "Model"
+    ],
+    [
+     "MMRCurrentRetailAveragePrice"
+    ],
+    [
+     "WarrantyCost"
+    ],
+    [
+     "WheelType"
+    ],
+    [
+     "Transmission"
+    ]
+   ],
+   "top": [
+    "VehicleAge"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "BYRNO",
+     "MMRAcquisitionRetailAveragePrice",
+     "Nationality"
+    ],
+    [
+     "MMRAcquisitionRetailAveragePrice",
+     "SubModel",
+     "TopThreeAmericanName"
+    ],
+    [
+     "BYRNO",
+     "MMRAcquisitionAuctionAveragePrice",
+     "MMRAcquisitionRetailAveragePrice"
+    ],
+    [
+     "Nationality",
+     "Size",
+     "VNST"
+    ],
+    [
+     "MMRCurrentAuctionCleanPrice",
+     "Transmission",
+     "Trim"
+    ]
+   ],
+   "top": [
+    "VehicleAge",
+    "VehYear",
+    "WheelType"
+   ]
+  }
+ },
+ "44760": {
+  "1": {
+   "random": [
+    [
+     "MMRAcquisitionAuctionCleanPrice"
+    ],
+    [
+     "MMRCurrentAuctionAveragePrice"
+    ],
+    [
+     "MMRAcquisitonRetailCleanPrice"
+    ],
+    [
+     "VehBCost"
+    ],
+    [
+     "Nationality"
+    ]
+   ],
+   "top": [
+    "VehicleAge"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "BYRNO",
+     "Make",
+     "Nationality"
+    ],
+    [
+     "BYRNO",
+     "MMRCurrentRetailAveragePrice",
+     "VNZIP1"
+    ],
+    [
+     "IsOnlineSale",
+     "Make",
+     "TopThreeAmericanName"
+    ],
+    [
+     "BYRNO",
+     "MMRAcquisitionRetailAveragePrice",
+     "VehOdo"
+    ],
+    [
+     "MMRAcquisitionAuctionAveragePrice",
+     "TopThreeAmericanName",
+     "WarrantyCost"
+    ]
+   ],
+   "top": [
+    "VehicleAge",
+    "VehYear",
+    "MMRCurrentAuctionAveragePrice"
+   ]
+  }
+ },
+ "44762": {
+  "1": {
+   "random": [
+    [
+     "TopThreeAmericanName"
+    ],
+    [
+     "SubModel"
+    ],
+    [
+     "Model"
+    ],
+    [
+     "Size"
+    ],
+    [
+     "PurchDate"
+    ]
+   ],
+   "top": [
+    "VehicleAge"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "MMRAcquisitionAuctionCleanPrice",
+     "Model",
+     "WheelType"
+    ],
+    [
+     "TopThreeAmericanName",
+     "VehBCost",
+     "WheelType"
+    ],
+    [
+     "Model",
+     "Nationality",
+     "SubModel"
+    ],
+    [
+     "MMRAcquisitionAuctionCleanPrice",
+     "PurchDate",
+     "VehOdo"
+    ],
+    [
+     "MMRAcquisitionRetailAveragePrice",
+     "VNZIP1",
+     "VehBCost"
+    ]
+   ],
+   "top": [
+    "VehicleAge",
+    "MMRAcquisitionAuctionAveragePrice",
+    "MMRCurrentAuctionAveragePrice"
+   ]
+  }
+ },
+ "45023": {
+  "1": {
+   "random": [
+    [
+     "MSinceMostRecentTradeOpen"
+    ],
+    [
+     "MaxDelq2PublicRecLast12M"
+    ],
+    [
+     "NumBank2NatlTradesWHighUtilization"
+    ],
+    [
+     "NumInstallTradesWBalance"
+    ],
+    [
+     "NumInqLast6M"
+    ]
+   ],
+   "top": [
+    "ExternalRiskEstimate"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "MSinceOldestTradeOpen",
+     "NumBank2NatlTradesWHighUtilization",
+     "NumInstallTradesWBalance"
+    ],
+    [
+     "MSinceMostRecentTradeOpen",
+     "NumInqLast6M",
+     "NumRevolvingTradesWBalance"
+    ],
+    [
+     "MSinceMostRecentDelq",
+     "MSinceMostRecentTradeOpen",
+     "NumTradesOpeninLast12M"
+    ],
+    [
+     "MSinceOldestTradeOpen",
+     "MaxDelq2PublicRecLast12M",
+     "NumInqLast6Mexcl7days"
+    ],
+    [
+     "MSinceMostRecentTradeOpen",
+     "NumSatisfactoryTrades",
+     "NumTrades60Ever2DerogPubRec"
+    ]
+   ],
+   "top": [
+    "ExternalRiskEstimate",
+    "NetFractionRevolvingBurden",
+    "PercentTradesNeverDelq"
+   ]
+  }
+ },
+ "45039": {
+  "1": {
+   "random": [
+    [
+     "sex"
+    ],
+    [
+     "juv_misd_count"
+    ],
+    [
+     "race_African-American"
+    ],
+    [
+     "age"
+    ],
+    [
+     "age_cat_Lessthan25"
+    ]
+   ],
+   "top": [
+    "priors_count"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "age_cat_Greaterthan45",
+     "age_cat_Lessthan25",
+     "c_charge_degree_F"
+    ],
+    [
+     "age_cat_Greaterthan45",
+     "c_charge_degree_M",
+     "juv_misd_count"
+    ],
+    [
+     "age_cat_25-45",
+     "age_cat_Greaterthan45",
+     "sex"
+    ],
+    [
+     "age_cat_25-45",
+     "c_charge_degree_F",
+     "juv_misd_count"
+    ],
+    [
+     "age_cat_Greaterthan45",
+     "c_charge_degree_M",
+     "sex"
+    ]
+   ],
+   "top": [
+    "priors_count",
+    "age",
+    "race_African-American"
+   ]
+  }
+ },
+ "45545": {
+  "1": {
+   "random": [
+    [
+     "BookedHotelOrNot"
+    ],
+    [
+     "BookedHotelOrNot"
+    ],
+    [
+     "AccountSyncedToSocialMedia"
+    ],
+    [
+     "AccountSyncedToSocialMedia"
+    ],
+    [
+     "BookedHotelOrNot"
+    ]
+   ],
+   "top": [
+    "AnnualIncomeClass"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "AccountSyncedToSocialMedia",
+     "BookedHotelOrNot",
+     "ServicesOpted"
+    ],
+    [
+     "AccountSyncedToSocialMedia",
+     "BookedHotelOrNot",
+     "ServicesOpted"
+    ],
+    [
+     "AccountSyncedToSocialMedia",
+     "BookedHotelOrNot",
+     "ServicesOpted"
+    ],
+    [
+     "AccountSyncedToSocialMedia",
+     "BookedHotelOrNot",
+     "ServicesOpted"
+    ],
+    [
+     "AccountSyncedToSocialMedia",
+     "BookedHotelOrNot",
+     "ServicesOpted"
+    ]
+   ],
+   "top": [
+    "AnnualIncomeClass",
+    "FrequentFlyer",
+    "Age"
+   ]
+  }
+ },
+ "45553": {
+  "1": {
+   "random": [
+    [
+     "NetFractionRevolvingBurden"
+    ],
+    [
+     "MaxDelq2PublicRecLast12M"
+    ],
+    [
+     "NetFractionRevolvingBurden"
+    ],
+    [
+     "NumRevolvingTradesWBalance"
+    ],
+    [
+     "NetFractionRevolvingBurden"
+    ]
+   ],
+   "top": [
+    "ExternalRiskEstimate"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "MSinceMostRecentDelq",
+     "MSinceMostRecentTradeOpen",
+     "NumInqLast6M"
+    ],
+    [
+     "MSinceMostRecentInqexcl7days",
+     "NumBank2NatlTradesWHighUtilization",
+     "NumTotalTrades"
+    ],
+    [
+     "MSinceMostRecentInqexcl7days",
+     "MaxDelqEver",
+     "NumBank2NatlTradesWHighUtilization"
+    ],
+    [
+     "MaxDelqEver",
+     "NumBank2NatlTradesWHighUtilization",
+     "NumSatisfactoryTrades"
+    ],
+    [
+     "MSinceMostRecentDelq",
+     "MSinceMostRecentTradeOpen",
+     "MSinceOldestTradeOpen"
+    ]
+   ],
+   "top": [
+    "ExternalRiskEstimate",
+    "NetFractionRevolvingBurden",
+    "PercentTradesWBalance"
+   ]
+  }
+ },
+ "45562": {
+  "1": {
+   "random": [
+    [
+     "ghazard"
+    ],
+    [
+     "seismic"
+    ],
+    [
+     "ghazard"
+    ],
+    [
+     "seismic"
+    ],
+    [
+     "seismic"
+    ]
+   ],
+   "top": [
+    "nbumps"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "maxenergy",
+     "nbumps5",
+     "nbumps6"
+    ],
+    [
+     "ghazard",
+     "nbumps3",
+     "seismoacoustic"
+    ],
+    [
+     "energy",
+     "nbumps7",
+     "seismic"
+    ],
+    [
+     "gdenergy",
+     "gdpuls",
+     "nbumps7"
+    ],
+    [
+     "energy",
+     "nbumps6",
+     "shift"
+    ]
+   ],
+   "top": [
+    "nbumps",
+    "genergy",
+    "gpuls"
+   ]
+  }
+ },
+ "45711": {
+  "1": {
+   "random": [
+    [
+     "p2sumstake"
+    ],
+    [
+     "Zp2stakeSD1m"
+    ],
+    [
+     "Zp2stakeSD1m"
+    ],
+    [
+     "p2bpd"
+    ],
+    [
+     "p2sumbet"
+    ]
+   ],
+   "top": [
+    "p2intvday"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "Gender",
+     "Zp2totalactivedays1m",
+     "p2sumstake"
+    ],
+    [
+     "ageRDATE",
+     "p2sumbet",
+     "p2sumstake"
+    ],
+    [
+     "Gender",
+     "Zp2stakeslope1m",
+     "p2bpd"
+    ],
+    [
+     "Gender",
+     "p2sumday",
+     "p2sumstake"
+    ],
+    [
+     "ageRDATE",
+     "p2net",
+     "p2sumbet"
+    ]
+   ],
+   "top": [
+    "p2intvday",
+    "Zp2bpd1m",
+    "Zp2stakeSD1m"
+   ]
+  }
+ },
+ "45712": {
+  "1": {
+   "random": [
+    [
+     "p2sumday"
+    ],
+    [
+     "Zp2stakeSD1m"
+    ],
+    [
+     "ageRDATE"
+    ],
+    [
+     "p2sumstake"
+    ],
+    [
+     "Zp2stakeslope1m"
+    ]
+   ],
+   "top": [
+    "p2intvday"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "Zp2totalactivedays1m",
+     "ageRDATE",
+     "p2sumday"
+    ],
+    [
+     "ageRDATE",
+     "p2net",
+     "p2sumbet"
+    ],
+    [
+     "Gender",
+     "Zp2stakeslope1m",
+     "p2net"
+    ],
+    [
+     "Zp2stakeslope1m",
+     "Zp2totalactivedays1m",
+     "ageRDATE"
+    ],
+    [
+     "Gender",
+     "Zp2totalactivedays1m",
+     "p2bpd"
+    ]
+   ],
+   "top": [
+    "p2intvday",
+    "Zp2bpd1m",
+    "Zp2stakeSD1m"
+   ]
+  }
+ },
+ "45717": {
+  "1": {
+   "random": [
+    [
+     "p2stakeSD1m"
+    ],
+    [
+     "p2net"
+    ],
+    [
+     "p2bpd"
+    ],
+    [
+     "p2stakeSlope1m"
+    ],
+    [
+     "p2totalactivedays1m"
+    ]
+   ],
+   "top": [
+    "p2intvday"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "p2bpd",
+     "p2net",
+     "p2sumday"
+    ],
+    [
+     "p2net",
+     "p2sumstake",
+     "p2totalactivedays1m"
+    ],
+    [
+     "ageRDATE",
+     "p2stakeSlope1m",
+     "p2totalactivedays1m"
+    ],
+    [
+     "Gender",
+     "p2stakeSlope1m",
+     "p2sumbet"
+    ],
+    [
+     "ageRDATE",
+     "p2net",
+     "p2sumstake"
+    ]
+   ],
+   "top": [
+    "p2intvday",
+    "p2bpd1m",
+    "p2stakeSD1m"
+   ]
+  }
+ },
+ "46116": {
+  "1": {
+   "random": [
+    [
+     "Saving accounts"
+    ],
+    [
+     "Age"
+    ],
+    [
+     "Age"
+    ],
+    [
+     "Housing"
+    ],
+    [
+     "Housing"
+    ]
+   ],
+   "top": [
+    "Duration"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "Job",
+     "Saving accounts",
+     "Sex"
+    ],
+    [
+     "Housing",
+     "Saving accounts",
+     "Sex"
+    ],
+    [
+     "Job",
+     "Saving accounts",
+     "Sex"
+    ],
+    [
+     "Housing",
+     "Job",
+     "Saving accounts"
+    ],
+    [
+     "Housing",
+     "Job",
+     "Sex"
+    ]
+   ],
+   "top": [
+    "Duration",
+    "Age",
+    "Credit amount"
+   ]
+  }
+ },
+ "46280": {
+  "1": {
+   "random": [
+    [
+     "SeniorCitizen"
+    ],
+    [
+     "Dependents"
+    ],
+    [
+     "TotalCharges"
+    ],
+    [
+     "OnlineSecurity"
+    ],
+    [
+     "StreamingMovies"
+    ]
+   ],
+   "top": [
+    "tenure"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "MultipleLines",
+     "OnlineBackup",
+     "PaymentMethod"
+    ],
+    [
+     "Partner",
+     "PhoneService",
+     "StreamingTV"
+    ],
+    [
+     "InternetService",
+     "StreamingMovies",
+     "TechSupport"
+    ],
+    [
+     "MultipleLines",
+     "PhoneService",
+     "TotalCharges"
+    ],
+    [
+     "Dependents",
+     "DeviceProtection",
+     "PaymentMethod"
+    ]
+   ],
+   "top": [
+    "tenure",
+    "Contract",
+    "OnlineSecurity"
+   ]
+  }
+ },
+ "46281": {
+  "1": {
+   "random": [
+    [
+     "17"
+    ],
+    [
+     "67"
+    ],
+    [
+     "81"
+    ],
+    [
+     "66"
+    ],
+    [
+     "3"
+    ]
+   ],
+   "top": [
+    "46"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "25",
+     "75",
+     "8"
+    ],
+    [
+     "24",
+     "65",
+     "74"
+    ],
+    [
+     "15",
+     "51",
+     "55"
+    ],
+    [
+     "20",
+     "22",
+     "61"
+    ],
+    [
+     "20",
+     "66",
+     "77"
+    ]
+   ],
+   "top": [
+    "46",
+    "67",
+    "42"
+   ]
+  }
+ },
+ "46358": {
+  "1": {
+   "random": [
+    [
+     "first_loan_year"
+    ],
+    [
+     "rep_loan_date_month"
+    ],
+    [
+     "past_billings_cnt"
+    ],
+    [
+     "rep_loan_date_year"
+    ],
+    [
+     "payment_type_2"
+    ]
+   ],
+   "top": [
+    "score_1"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "gender",
+     "payment_type_3",
+     "payment_type_4"
+    ],
+    [
+     "federal_district_nm",
+     "payment_type_2",
+     "payment_type_3"
+    ],
+    [
+     "federal_district_nm",
+     "rep_loan_date_day",
+     "rep_loan_date_month"
+    ],
+    [
+     "first_loan_day",
+     "first_overdue_date_weekday",
+     "rep_loan_date_month"
+    ],
+    [
+     "first_loan_weekday",
+     "gender",
+     "payment_type_4"
+    ]
+   ],
+   "top": [
+    "score_1",
+    "age",
+    "close_loans_cnt"
+   ]
+  }
+ },
+ "46359": {
+  "1": {
+   "random": [
+    [
+     "first_loan_month"
+    ],
+    [
+     "payment_type_1"
+    ],
+    [
+     "first_loan_day"
+    ],
+    [
+     "payment_type_4"
+    ],
+    [
+     "first_loan_weekday"
+    ]
+   ],
+   "top": [
+    "score_1"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "first_loan_weekday",
+     "first_overdue_date_weekday",
+     "payment_type_5"
+    ],
+    [
+     "first_loan_month",
+     "payment_type_0",
+     "payment_type_2"
+    ],
+    [
+     "first_loan_weekday",
+     "gender",
+     "rep_loan_date_day"
+    ],
+    [
+     "first_loan_month",
+     "past_billings_cnt",
+     "payment_type_4"
+    ],
+    [
+     "federal_district_nm",
+     "payment_type_1",
+     "rep_loan_date_day"
+    ]
+   ],
+   "top": [
+    "score_1",
+    "age",
+    "close_loans_cnt"
+   ]
+  }
+ },
+ "46365": {
+  "1": {
+   "random": [
+    [
+     "age"
+    ],
+    [
+     "installment_commitment"
+    ],
+    [
+     "installment_commitment"
+    ],
+    [
+     "num_dependents"
+    ],
+    [
+     "existing_credits"
+    ]
+   ],
+   "top": [
+    "duration"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "existing_credits",
+     "num_dependents",
+     "residence_since"
+    ],
+    [
+     "existing_credits",
+     "num_dependents",
+     "residence_since"
+    ],
+    [
+     "installment_commitment",
+     "num_dependents",
+     "residence_since"
+    ],
+    [
+     "installment_commitment",
+     "num_dependents",
+     "residence_since"
+    ],
+    [
+     "installment_commitment",
+     "num_dependents",
+     "residence_since"
+    ]
+   ],
+   "top": [
+    "duration",
+    "age",
+    "credit_amount"
+   ]
+  }
+ },
+ "46416": {
+  "1": {
+   "random": [
+    [
+     "guarantors"
+    ],
+    [
+     "length_of_current_employment"
+    ],
+    [
+     "purpose"
+    ],
+    [
+     "instalment_per_cent"
+    ],
+    [
+     "guarantors"
+    ]
+   ],
+   "top": [
+    "account_balance"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "guarantors",
+     "instalment_per_cent",
+     "value_savings_stocks"
+    ],
+    [
+     "instalment_per_cent",
+     "length_of_current_employment",
+     "value_savings_stocks"
+    ],
+    [
+     "concurrent_credits",
+     "credit_amount",
+     "duration_in_current_address"
+    ],
+    [
+     "no_of_credits_at_this_bank",
+     "no_of_dependents",
+     "sex_marital_status"
+    ],
+    [
+     "duration_in_current_address",
+     "guarantors",
+     "type_of_apartment"
+    ]
+   ],
+   "top": [
+    "account_balance",
+    "duration_of_credit_monthly",
+    "payment_status_of_previous_credit"
+   ]
+  }
+ },
+ "46421": {
+  "1": {
+   "random": [
+    [
+     "occupation_4"
+    ],
+    [
+     "age_years"
+    ],
+    [
+     "instalment_per_cent_1"
+    ],
+    [
+     "purpose_5"
+    ],
+    [
+     "duration_in_current_address_3"
+    ]
+   ],
+   "top": [
+    "account_balance_4"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "instalment_per_cent_3",
+     "instalment_per_cent_4",
+     "sex_marital_status_2"
+    ],
+    [
+     "duration_in_current_address_4",
+     "guarantors_3",
+     "no_of_credits_at_this_bank_3"
+    ],
+    [
+     "concurrent_credits_3",
+     "credit_amount",
+     "purpose_1"
+    ],
+    [
+     "most_valuable_available_asset_2",
+     "purpose_10",
+     "sex_marital_status_1"
+    ],
+    [
+     "concurrent_credits_1",
+     "instalment_per_cent_2",
+     "most_valuable_available_asset_3"
+    ]
+   ],
+   "top": [
+    "account_balance_4",
+    "duration_of_credit_monthly",
+    "account_balance_1"
+   ]
+  }
+ },
+ "46431": {
+  "1": {
+   "random": [
+    [
+     "job_Office"
+    ],
+    [
+     "yoj"
+    ],
+    [
+     "job_Sales"
+    ],
+    [
+     "derog"
+    ],
+    [
+     "value"
+    ]
+   ],
+   "top": [
+    "delinq"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "job_Office",
+     "job_ProfExe",
+     "job_Sales"
+    ],
+    [
+     "job_Mgr",
+     "job_Other",
+     "ninq"
+    ],
+    [
+     "job_Office",
+     "reason_HomeImp",
+     "yoj"
+    ],
+    [
+     "job_ProfExe",
+     "job_nan",
+     "reason_HomeImp"
+    ],
+    [
+     "ninq",
+     "reason_nan",
+     "value"
+    ]
+   ],
+   "top": [
+    "delinq",
+    "clage",
+    "derog"
+   ]
+  }
+ },
+ "46482": {
+  "1": {
+   "random": [
+    [
+     "sex_marital_status"
+    ],
+    [
+     "instalment_per_cent"
+    ],
+    [
+     "duration_of_credit_monthly"
+    ],
+    [
+     "occupation"
+    ],
+    [
+     "type_of_apartment"
+    ]
+   ],
+   "top": [
+    "account_balance"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "occupation",
+     "type_of_apartment",
+     "value_savings_stocks"
+    ],
+    [
+     "age_years",
+     "type_of_apartment",
+     "value_savings_stocks"
+    ],
+    [
+     "concurrent_credits",
+     "credit_amount",
+     "duration_in_current_address"
+    ],
+    [
+     "instalment_per_cent",
+     "no_of_credits_at_this_bank",
+     "type_of_apartment"
+    ],
+    [
+     "foreign_worker",
+     "occupation",
+     "value_savings_stocks"
+    ]
+   ],
+   "top": [
+    "account_balance",
+    "duration_of_credit_monthly",
+    "payment_status_of_previous_credit"
+   ]
+  }
+ },
+ "46483": {
+  "1": {
+   "random": [
+    [
+     "ninq"
+    ],
+    [
+     "yoj"
+    ],
+    [
+     "value"
+    ],
+    [
+     "mortdue"
+    ],
+    [
+     "mortdue"
+    ]
+   ],
+   "top": [
+    "delinq"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "debtinc",
+     "loan",
+     "value"
+    ],
+    [
+     "debtinc",
+     "mortdue",
+     "ninq"
+    ],
+    [
+     "clno",
+     "loan",
+     "yoj"
+    ],
+    [
+     "clno",
+     "mortdue",
+     "yoj"
+    ],
+    [
+     "ninq",
+     "value",
+     "yoj"
+    ]
+   ],
+   "top": [
+    "delinq",
+    "clage",
+    "derog"
+   ]
+  }
+ },
+ "46502": {
+  "1": {
+   "random": [
+    [
+     "property_magnitude_no known property"
+    ],
+    [
+     "other_parties_none"
+    ],
+    [
+     "purpose_furniture/equipment"
+    ],
+    [
+     "property_magnitude_car"
+    ],
+    [
+     "credit_history_delayed previously"
+    ]
+   ],
+   "top": [
+    "checking_status"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "age",
+     "employment",
+     "purpose_business"
+    ],
+    [
+     "housing_rent",
+     "job_unemp/unskilled non res",
+     "purpose_radio/tv"
+    ],
+    [
+     "credit_history_delayed previously",
+     "foreign_worker_no",
+     "personal_status_male single"
+    ],
+    [
+     "other_parties_co applicant",
+     "own_telephone_none",
+     "property_magnitude_no known property"
+    ],
+    [
+     "property_magnitude_no known property",
+     "purpose_new car",
+     "purpose_other"
+    ]
+   ],
+   "top": [
+    "checking_status",
+    "duration",
+    "credit_history_critical/other existing credit"
+   ]
+  }
+ },
+ "46517": {
+  "1": {
+   "random": [
+    [
+     "derog"
+    ],
+    [
+     "debtinc"
+    ],
+    [
+     "ninq"
+    ],
+    [
+     "clno"
+    ],
+    [
+     "job_mgr"
+    ]
+   ],
+   "top": [
+    "delinq"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "job_office",
+     "reason_debtcon",
+     "yoj"
+    ],
+    [
+     "debtinc",
+     "loan",
+     "yoj"
+    ],
+    [
+     "reason_debtcon",
+     "reason_homeimp",
+     "yoj"
+    ],
+    [
+     "job_other",
+     "job_sales",
+     "value"
+    ],
+    [
+     "job_other",
+     "mortdue",
+     "reason_debtcon"
+    ]
+   ],
+   "top": [
+    "delinq",
+    "clage",
+    "derog"
+   ]
+  }
+ },
+ "46532": {
+  "1": {
+   "random": [
+    [
+     "num_dependents"
+    ],
+    [
+     "age"
+    ],
+    [
+     "num_dependents"
+    ],
+    [
+     "credit_history"
+    ],
+    [
+     "property_magnitude"
+    ]
+   ],
+   "top": [
+    "checking_status"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "age",
+     "credit_history",
+     "residence_since"
+    ],
+    [
+     "job",
+     "num_dependents",
+     "own_telephone"
+    ],
+    [
+     "foreign_worker",
+     "own_telephone",
+     "property_magnitude"
+    ],
+    [
+     "housing",
+     "other_parties",
+     "other_payment_plans"
+    ],
+    [
+     "credit_amount",
+     "own_telephone",
+     "savings_status"
+    ]
+   ],
+   "top": [
+    "checking_status",
+    "duration",
+    "purpose"
+   ]
+  }
+ },
+ "46562": {
+  "1": {
+   "random": [
+    [
+     "telephone"
+    ],
+    [
+     "credit_amount"
+    ],
+    [
+     "purpose_4"
+    ],
+    [
+     "duration_in_current_address"
+    ],
+    [
+     "purpose_5"
+    ]
+   ],
+   "top": [
+    "account_balance"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "credit_amount",
+     "occupation_4",
+     "value_savings_stocks"
+    ],
+    [
+     "length_of_current_employment",
+     "occupation_2",
+     "sex_marital_status_2"
+    ],
+    [
+     "foreign_worker",
+     "purpose_3",
+     "sex_marital_status_2"
+    ],
+    [
+     "credit_amount",
+     "no_of_credits_at_this_bank",
+     "occupation_4"
+    ],
+    [
+     "foreign_worker",
+     "guarantors",
+     "sex_marital_status_3"
+    ]
+   ],
+   "top": [
+    "account_balance",
+    "duration_of_credit_monthly",
+    "payment_status_of_previous_credit"
+   ]
+  }
+ },
+ "466": {
+  "1": {
+   "random": [
+    [
+     "target"
+    ],
+    [
+     "gain_ratio_2"
+    ],
+    [
+     "gain_ratio_2"
+    ],
+    [
+     "target"
+    ],
+    [
+     "gain_ratio_5"
+    ]
+   ],
+   "top": [
+    "sex"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "gain_ratio_5",
+     "gain_ratio_6",
+     "gain_ratio_9"
+    ],
+    [
+     "gain_ratio_3",
+     "gain_ratio_8",
+     "target"
+    ],
+    [
+     "gain_ratio_10",
+     "gain_ratio_5",
+     "gain_ratio_9"
+    ],
+    [
+     "gain_ratio_10",
+     "gain_ratio_4",
+     "gain_ratio_8"
+    ],
+    [
+     "gain_ratio_5",
+     "gain_ratio_8",
+     "gain_ratio_9"
+    ]
+   ],
+   "top": [
+    "sex",
+    "gain_ratio_2",
+    "gain_ratio_1"
+   ]
+  }
+ },
+ "46667": {
+  "1": {
+   "random": [
+    [
+     "Runtime (Minutes)"
+    ],
+    [
+     "Year"
+    ],
+    [
+     "Rating"
+    ],
+    [
+     "Rank"
+    ],
+    [
+     "Year"
+    ]
+   ],
+   "top": [
+    "Revenue (Millions)"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "Rank",
+     "Votes",
+     "Year"
+    ],
+    [
+     "Rank",
+     "Runtime (Minutes)",
+     "Year"
+    ],
+    [
+     "Rank",
+     "Runtime (Minutes)",
+     "Year"
+    ],
+    [
+     "Rank",
+     "Runtime (Minutes)",
+     "Year"
+    ],
+    [
+     "Rank",
+     "Runtime (Minutes)",
+     "Year"
+    ]
+   ],
+   "top": [
+    "Revenue (Millions)",
+    "Rating",
+    "Metascore"
+   ]
+  }
+ },
+ "46911": {
+  "1": {
+   "random": [
+    [
+     "estimated_salary"
+    ],
+    [
+     "products_number"
+    ],
+    [
+     "products_number"
+    ],
+    [
+     "balance"
+    ],
+    [
+     "country"
+    ]
+   ],
+   "top": [
+    "age"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "country",
+     "credit_score",
+     "gender"
+    ],
+    [
+     "country",
+     "credit_card",
+     "credit_score"
+    ],
+    [
+     "credit_card",
+     "credit_score",
+     "estimated_salary"
+    ],
+    [
+     "credit_card",
+     "estimated_salary",
+     "tenure"
+    ],
+    [
+     "credit_score",
+     "estimated_salary",
+     "gender"
+    ]
+   ],
+   "top": [
+    "age",
+    "active_member",
+    "products_number"
+   ]
+  }
+ },
+ "46915": {
+  "1": {
+   "random": [
+    [
+     "international_plan"
+    ],
+    [
+     "total_intl_calls"
+    ],
+    [
+     "total_intl_charge"
+    ],
+    [
+     "total_night_charge"
+    ],
+    [
+     "account_length"
+    ]
+   ],
+   "top": [
+    "total_day_charge"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "account_length",
+     "area_code",
+     "total_night_charge"
+    ],
+    [
+     "total_day_calls",
+     "total_eve_charge",
+     "total_intl_minutes"
+    ],
+    [
+     "state",
+     "total_eve_calls",
+     "total_eve_charge"
+    ],
+    [
+     "number_vmail_messages",
+     "total_night_minutes",
+     "voice_mail_plan"
+    ],
+    [
+     "account_length",
+     "total_day_calls",
+     "total_intl_minutes"
+    ]
+   ],
+   "top": [
+    "total_day_charge",
+    "total_day_minutes",
+    "number_customer_service_calls"
+   ]
+  }
+ },
+ "46916": {
+  "1": {
+   "random": [
+    [
+     "otherReligion"
+    ],
+    [
+     "contributionDeliveryVanPolicies"
+    ],
+    [
+     "contributionSurfboardPolicies"
+    ],
+    [
+     "numberOfPropertyInsurancePolicies"
+    ],
+    [
+     "income30To45k"
+    ]
+   ],
+   "top": [
+    "contributionCarPolicies"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "farmer",
+     "numberOfMopedPolicies",
+     "socialClassD"
+    ],
+    [
+     "contributionBicyclePolicies",
+     "customerMainType",
+     "numberOfMotorcycleScooterPolicies"
+    ],
+    [
+     "numberOfFirePolicies",
+     "numberOfMotorcycleScooterPolicies",
+     "numberOfTractorPolicies"
+    ],
+    [
+     "contributionThirdPartyInsuranceFirms",
+     "mediumLevelEducation",
+     "numberOfPrivateThirdPartyInsurance"
+    ],
+    [
+     "contributionSurfboardPolicies",
+     "contributionTractorPolicies",
+     "numberOfAgriculturalMachinesPolicies"
+    ]
+   ],
+   "top": [
+    "contributionCarPolicies",
+    "numberOfCarPolicies",
+    "purchasingPowerClass"
+   ]
+  }
+ },
+ "46925": {
+  "1": {
+   "random": [
+    [
+     "PaymentTier"
+    ],
+    [
+     "JoiningYear"
+    ],
+    [
+     "JoiningYear"
+    ],
+    [
+     "City"
+    ],
+    [
+     "City"
+    ]
+   ],
+   "top": [
+    "Gender"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "Age",
+     "ExperienceInCurrentDomain",
+     "PaymentTier"
+    ],
+    [
+     "Age",
+     "EverBenched",
+     "ExperienceInCurrentDomain"
+    ],
+    [
+     "Age",
+     "Education",
+     "ExperienceInCurrentDomain"
+    ],
+    [
+     "Education",
+     "EverBenched",
+     "ExperienceInCurrentDomain"
+    ],
+    [
+     "EverBenched",
+     "ExperienceInCurrentDomain",
+     "PaymentTier"
+    ]
+   ],
+   "top": [
+    "Gender",
+    "JoiningYear",
+    "City"
+   ]
+  }
+ },
+ "46927": {
+  "1": {
+   "random": [
+    [
+     "weight"
+    ],
+    [
+     "time"
+    ],
+    [
+     "time"
+    ],
+    [
+     "time"
+    ],
+    [
+     "time"
+    ]
+   ],
+   "top": [
+    "months_as_member"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "category",
+     "day_of_week",
+     "days_before"
+    ],
+    [
+     "category",
+     "day_of_week",
+     "days_before"
+    ],
+    [
+     "category",
+     "day_of_week",
+     "days_before"
+    ],
+    [
+     "category",
+     "day_of_week",
+     "days_before"
+    ],
+    [
+     "category",
+     "day_of_week",
+     "days_before"
+    ]
+   ],
+   "top": [
+    "months_as_member",
+    "weight",
+    "time"
+   ]
+  }
+ },
+ "46938": {
+  "1": {
+   "random": [
+    [
+     "family_status"
+    ],
+    [
+     "credit_amount"
+    ],
+    [
+     "credit_amount"
+    ],
+    [
+     "phone_operator"
+    ],
+    [
+     "phone_operator"
+    ]
+   ],
+   "top": [
+    "product_type"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "credit_amount",
+     "having_children_flg",
+     "region"
+    ],
+    [
+     "income",
+     "is_client",
+     "sex"
+    ],
+    [
+     "age",
+     "having_children_flg",
+     "income"
+    ],
+    [
+     "credit_amount",
+     "family_status",
+     "income"
+    ],
+    [
+     "credit_amount",
+     "phone_operator",
+     "sex"
+    ]
+   ],
+   "top": [
+    "product_type",
+    "credit_term",
+    "education"
+   ]
+  }
+ },
+ "46950": {
+  "1": {
+   "random": [
+    [
+     "adjusted_liquidity_ratio"
+    ],
+    [
+     "gross_profit_to_sales"
+    ],
+    [
+     "inventory_days_cost_ratio"
+    ],
+    [
+     "gross_profit_to_sales"
+    ],
+    [
+     "current_assets_to_total_liabilities"
+    ]
+   ],
+   "top": [
+    "net_profit_plus_depreciation_to_total_liabilities"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "current_liabilities_days_ratio",
+     "net_profit_to_total_assets",
+     "operating_expenses_to_total_liabilities"
+    ],
+    [
+     "current_liabilities_days_ratio",
+     "liabilities_to_adjusted_operating_profit",
+     "receivables_days_ratio"
+    ],
+    [
+     "current_liabilities_days_ratio",
+     "ebitda_to_total_assets",
+     "operating_profit_to_financial_expenses"
+    ],
+    [
+     "gross_profit_to_total_assets",
+     "net_profit_to_total_assets",
+     "operating_profit_to_total_assets"
+    ],
+    [
+     "gross_profit_to_short_term_liabilities",
+     "log_total_assets",
+     "short_term_liabilities_days_ratio"
+    ]
+   ],
+   "top": [
+    "net_profit_plus_depreciation_to_total_liabilities",
+    "gross_profit_plus_depreciation_to_total_liabilities",
+    "sales_profit_to_sales"
+   ]
+  }
+ },
+ "46956": {
+  "1": {
+   "random": [
+    [
+     "energy"
+    ],
+    [
+     "seismoacoustic"
+    ],
+    [
+     "energy"
+    ],
+    [
+     "gdpuls"
+    ],
+    [
+     "gdpuls"
+    ]
+   ],
+   "top": [
+    "nbumps"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "gdpuls",
+     "nbumps5",
+     "seismic"
+    ],
+    [
+     "gdpuls",
+     "maxenergy",
+     "seismic"
+    ],
+    [
+     "gdpuls",
+     "nbumps5",
+     "seismoacoustic"
+    ],
+    [
+     "gpuls",
+     "maxenergy",
+     "nbumps3"
+    ],
+    [
+     "nbumps4",
+     "seismic",
+     "seismoacoustic"
+    ]
+   ],
+   "top": [
+    "nbumps",
+    "genergy",
+    "energy"
+   ]
+  }
+ },
+ "470": {
+  "1": {
+   "random": [
+    [
+     "Favorite_Name"
+    ],
+    [
+     "Favorite_Name"
+    ],
+    [
+     "Favorite_Points"
+    ],
+    [
+     "Favorite_Name"
+    ],
+    [
+     "Favorite_Name"
+    ]
+   ],
+   "top": [
+    "Pointspread"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "Favorite_Points",
+     "Underdog_name",
+     "Year"
+    ],
+    [
+     "Favorite_Name",
+     "Underdog_name",
+     "Year"
+    ],
+    [
+     "Favorite_Name",
+     "Favorite_Points",
+     "Underdog_name"
+    ],
+    [
+     "Favorite_Points",
+     "Underdog_name",
+     "Year"
+    ],
+    [
+     "Favorite_Name",
+     "Favorite_Points",
+     "Underdog_name"
+    ]
+   ],
+   "top": [
+    "Pointspread",
+    "Underdog_Points",
+    "Week"
+   ]
+  }
+ },
+ "47044": {
+  "1": {
+   "random": [
+    [
+     "Shift"
+    ],
+    [
+     "Production_Tons"
+    ],
+    [
+     "Production_Tons"
+    ],
+    [
+     "Maintenance_Hours"
+    ],
+    [
+     "Production_Tons"
+    ]
+   ],
+   "top": [
+    "Operator_Experience"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "Equipment",
+     "Production_Tons",
+     "Weather"
+    ],
+    [
+     "Equipment",
+     "Production_Tons",
+     "Weather"
+    ],
+    [
+     "Equipment",
+     "Production_Tons",
+     "Weather"
+    ],
+    [
+     "Equipment",
+     "Production_Tons",
+     "Weather"
+    ],
+    [
+     "Equipment",
+     "Production_Tons",
+     "Weather"
+    ]
+   ],
+   "top": [
+    "Operator_Experience",
+    "Shift",
+    "Maintenance_Hours"
+   ]
+  }
+ },
+ "47050": {
+  "1": {
+   "random": [
+    [
+     "Weather"
+    ],
+    [
+     "Production_Tons"
+    ],
+    [
+     "Maintenance_Hours"
+    ],
+    [
+     "Shift"
+    ],
+    [
+     "Maintenance_Hours"
+    ]
+   ],
+   "top": [
+    "Operator_Experience"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "Equipment",
+     "Production_Tons",
+     "Weather"
+    ],
+    [
+     "Equipment",
+     "Production_Tons",
+     "Weather"
+    ],
+    [
+     "Equipment",
+     "Production_Tons",
+     "Weather"
+    ],
+    [
+     "Equipment",
+     "Production_Tons",
+     "Weather"
+    ],
+    [
+     "Equipment",
+     "Production_Tons",
+     "Weather"
+    ]
+   ],
+   "top": [
+    "Operator_Experience",
+    "Shift",
+    "Maintenance_Hours"
+   ]
+  }
+ },
+ "47052": {
+  "1": {
+   "random": [
+    [
+     "Maintenance_Hours"
+    ],
+    [
+     "Production_Tons"
+    ],
+    [
+     "Production_Tons"
+    ],
+    [
+     "Shift"
+    ],
+    [
+     "Shift"
+    ]
+   ],
+   "top": [
+    "Operator_Experience"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "Equipment",
+     "Production_Tons",
+     "Weather"
+    ],
+    [
+     "Equipment",
+     "Production_Tons",
+     "Weather"
+    ],
+    [
+     "Equipment",
+     "Production_Tons",
+     "Weather"
+    ],
+    [
+     "Equipment",
+     "Production_Tons",
+     "Weather"
+    ],
+    [
+     "Equipment",
+     "Production_Tons",
+     "Weather"
+    ]
+   ],
+   "top": [
+    "Operator_Experience",
+    "Shift",
+    "Maintenance_Hours"
+   ]
+  }
+ },
+ "6332": {
+  "1": {
+   "random": [
+    [
+     "type_on_cylinder"
+    ],
+    [
+     "ink_color"
+    ],
+    [
+     "grain_screened"
+    ],
+    [
+     "job_number"
+    ],
+    [
+     "viscosity"
+    ]
+   ],
+   "top": [
+    "ink_type"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "humifity",
+     "ink_pct",
+     "ink_temperature"
+    ],
+    [
+     "ink_temperature",
+     "paper_type",
+     "unit_number"
+    ],
+    [
+     "chrome_content",
+     "ink_pct",
+     "ink_temperature"
+    ],
+    [
+     "chrome_content",
+     "roller_durometer",
+     "varnish_pct"
+    ],
+    [
+     "ESA_Voltage",
+     "customer",
+     "press"
+    ]
+   ],
+   "top": [
+    "ink_type",
+    "press_speed",
+    "paper_mill_location"
+   ]
+  }
+ },
+ "715": {
+  "1": {
+   "random": [
+    [
+     "oz2"
+    ],
+    [
+     "oz24"
+    ],
+    [
+     "oz14"
+    ],
+    [
+     "oz25"
+    ],
+    [
+     "oz8"
+    ]
+   ],
+   "top": [
+    "oz4"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "oz13",
+     "oz22",
+     "oz7"
+    ],
+    [
+     "oz15",
+     "oz20",
+     "oz21"
+    ],
+    [
+     "oz13",
+     "oz24",
+     "oz6"
+    ],
+    [
+     "oz13",
+     "oz8",
+     "oz9"
+    ],
+    [
+     "oz11",
+     "oz22",
+     "oz3"
+    ]
+   ],
+   "top": [
+    "oz4",
+    "oz2",
+    "oz1"
+   ]
+  }
+ },
+ "723": {
+  "1": {
+   "random": [
+    [
+     "oz11"
+    ],
+    [
+     "oz14"
+    ],
+    [
+     "oz7"
+    ],
+    [
+     "oz17"
+    ],
+    [
+     "oz2"
+    ]
+   ],
+   "top": [
+    "oz4"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "oz11",
+     "oz12",
+     "oz19"
+    ],
+    [
+     "oz23",
+     "oz6",
+     "oz8"
+    ],
+    [
+     "oz11",
+     "oz21",
+     "oz3"
+    ],
+    [
+     "oz12",
+     "oz13",
+     "oz22"
+    ],
+    [
+     "oz13",
+     "oz14",
+     "oz18"
+    ]
+   ],
+   "top": [
+    "oz4",
+    "oz1",
+    "oz2"
+   ]
+  }
+ },
+ "730": {
+  "1": {
+   "random": [
+    [
+     "oz1"
+    ],
+    [
+     "oz4"
+    ],
+    [
+     "oz1"
+    ],
+    [
+     "oz4"
+    ],
+    [
+     "oz4"
+    ]
+   ],
+   "top": [
+    "oz2"
+   ]
+  },
+  "3": null
+ },
+ "740": {
+  "1": {
+   "random": [
+    [
+     "oz9"
+    ],
+    [
+     "oz8"
+    ],
+    [
+     "oz2"
+    ],
+    [
+     "oz7"
+    ],
+    [
+     "oz7"
+    ]
+   ],
+   "top": [
+    "oz4"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "oz3",
+     "oz7",
+     "oz9"
+    ],
+    [
+     "oz6",
+     "oz8",
+     "oz9"
+    ],
+    [
+     "oz10",
+     "oz5",
+     "oz9"
+    ],
+    [
+     "oz3",
+     "oz5",
+     "oz7"
+    ],
+    [
+     "oz5",
+     "oz6",
+     "oz9"
+    ]
+   ],
+   "top": [
+    "oz4",
+    "oz1",
+    "oz2"
+   ]
+  }
+ },
+ "743": {
+  "1": {
+   "random": [
+    [
+     "oz1"
+    ],
+    [
+     "oz3"
+    ],
+    [
+     "oz1"
+    ],
+    [
+     "oz2"
+    ],
+    [
+     "oz5"
+    ]
+   ],
+   "top": [
+    "oz4"
+   ]
+  },
+  "3": null
+ },
+ "744": {
+  "1": {
+   "random": [
+    [
+     "oz2"
+    ],
+    [
+     "oz3"
+    ],
+    [
+     "oz3"
+    ],
+    [
+     "oz3"
+    ],
+    [
+     "oz1"
+    ]
+   ],
+   "top": [
+    "oz4"
+   ]
+  },
+  "3": null
+ },
+ "746": {
+  "1": {
+   "random": [
+    [
+     "oz19"
+    ],
+    [
+     "oz5"
+    ],
+    [
+     "oz20"
+    ],
+    [
+     "oz2"
+    ],
+    [
+     "oz20"
+    ]
+   ],
+   "top": [
+    "oz4"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "oz13",
+     "oz17",
+     "oz3"
+    ],
+    [
+     "oz20",
+     "oz25",
+     "oz8"
+    ],
+    [
+     "oz19",
+     "oz22",
+     "oz9"
+    ],
+    [
+     "oz11",
+     "oz23",
+     "oz6"
+    ],
+    [
+     "oz17",
+     "oz18",
+     "oz21"
+    ]
+   ],
+   "top": [
+    "oz4",
+    "oz2",
+    "oz1"
+   ]
+  }
+ },
+ "749": {
+  "1": {
+   "random": [
+    [
+     "oz2"
+    ],
+    [
+     "oz2"
+    ],
+    [
+     "oz1"
+    ],
+    [
+     "oz3"
+    ],
+    [
+     "oz2"
+    ]
+   ],
+   "top": [
+    "oz4"
+   ]
+  },
+  "3": null
+ },
+ "751": {
+  "1": {
+   "random": [
+    [
+     "oz10"
+    ],
+    [
+     "oz7"
+    ],
+    [
+     "oz7"
+    ],
+    [
+     "oz10"
+    ],
+    [
+     "oz7"
+    ]
+   ],
+   "top": [
+    "oz4"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "oz5",
+     "oz7",
+     "oz9"
+    ],
+    [
+     "oz10",
+     "oz3",
+     "oz6"
+    ],
+    [
+     "oz10",
+     "oz5",
+     "oz6"
+    ],
+    [
+     "oz10",
+     "oz7",
+     "oz8"
+    ],
+    [
+     "oz10",
+     "oz8",
+     "oz9"
+    ]
+   ],
+   "top": [
+    "oz4",
+    "oz2",
+    "oz1"
+   ]
+  }
+ },
+ "752": {
+  "1": {
+   "random": [
+    [
+     "tau5"
+    ],
+    [
+     "db2"
+    ],
+    [
+     "db1"
+    ],
+    [
+     "thetad1"
+    ],
+    [
+     "thetad5"
+    ]
+   ],
+   "top": [
+    "tau4"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "dm1",
+     "tau1",
+     "thetad6"
+    ],
+    [
+     "theta5",
+     "thetad3",
+     "thetad6"
+    ],
+    [
+     "da3",
+     "thetad1",
+     "thetad6"
+    ],
+    [
+     "tau3",
+     "theta3",
+     "thetad5"
+    ],
+    [
+     "db4",
+     "thetad5",
+     "thetad6"
+    ]
+   ],
+   "top": [
+    "tau4",
+    "db2",
+    "theta6"
+   ]
+  }
+ },
+ "766": {
+  "1": {
+   "random": [
+    [
+     "oz18"
+    ],
+    [
+     "oz38"
+    ],
+    [
+     "oz36"
+    ],
+    [
+     "oz12"
+    ],
+    [
+     "oz18"
+    ]
+   ],
+   "top": [
+    "oz2"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "oz13",
+     "oz29",
+     "oz50"
+    ],
+    [
+     "oz29",
+     "oz46",
+     "oz50"
+    ],
+    [
+     "oz11",
+     "oz49",
+     "oz8"
+    ],
+    [
+     "oz20",
+     "oz35",
+     "oz36"
+    ],
+    [
+     "oz15",
+     "oz24",
+     "oz42"
+    ]
+   ],
+   "top": [
+    "oz2",
+    "oz4",
+    "oz1"
+   ]
+  }
+ },
+ "769": {
+  "1": {
+   "random": [
+    [
+     "oz5"
+    ],
+    [
+     "oz5"
+    ],
+    [
+     "oz10"
+    ],
+    [
+     "oz46"
+    ],
+    [
+     "oz47"
+    ]
+   ],
+   "top": [
+    "oz4"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "oz13",
+     "oz19",
+     "oz32"
+    ],
+    [
+     "oz13",
+     "oz17",
+     "oz22"
+    ],
+    [
+     "oz26",
+     "oz39",
+     "oz9"
+    ],
+    [
+     "oz19",
+     "oz37",
+     "oz6"
+    ],
+    [
+     "oz14",
+     "oz15",
+     "oz46"
+    ]
+   ],
+   "top": [
+    "oz4",
+    "oz5",
+    "oz2"
+   ]
+  }
+ },
+ "770": {
+  "1": {
+   "random": [
+    [
+     "country_code"
+    ],
+    [
+     "inflation"
+    ],
+    [
+     "year"
+    ],
+    [
+     "country_code"
+    ],
+    [
+     "country_code"
+    ]
+   ],
+   "top": [
+    "strike_volume"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "country_code",
+     "inflation",
+     "year"
+    ],
+    [
+     "country_code",
+     "inflation",
+     "year"
+    ],
+    [
+     "country_code",
+     "inflation",
+     "year"
+    ],
+    [
+     "country_code",
+     "inflation",
+     "year"
+    ],
+    [
+     "country_code",
+     "inflation",
+     "year"
+    ]
+   ],
+   "top": [
+    "strike_volume",
+    "parliamentary_representation",
+    "unemployment"
+   ]
+  }
+ },
+ "779": {
+  "1": {
+   "random": [
+    [
+     "oz25"
+    ],
+    [
+     "oz21"
+    ],
+    [
+     "oz22"
+    ],
+    [
+     "oz24"
+    ],
+    [
+     "oz3"
+    ]
+   ],
+   "top": [
+    "oz4"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "oz12",
+     "oz18",
+     "oz21"
+    ],
+    [
+     "oz21",
+     "oz8",
+     "oz9"
+    ],
+    [
+     "oz12",
+     "oz19",
+     "oz24"
+    ],
+    [
+     "oz12",
+     "oz13",
+     "oz24"
+    ],
+    [
+     "oz14",
+     "oz16",
+     "oz3"
+    ]
+   ],
+   "top": [
+    "oz4",
+    "oz1",
+    "oz2"
+   ]
+  }
+ },
+ "792": {
+  "1": {
+   "random": [
+    [
+     "oz5"
+    ],
+    [
+     "oz3"
+    ],
+    [
+     "oz1"
+    ],
+    [
+     "oz5"
+    ],
+    [
+     "oz5"
+    ]
+   ],
+   "top": [
+    "oz2"
+   ]
+  },
+  "3": null
+ },
+ "793": {
+  "1": {
+   "random": [
+    [
+     "oz6"
+    ],
+    [
+     "oz1"
+    ],
+    [
+     "oz9"
+    ],
+    [
+     "oz1"
+    ],
+    [
+     "oz6"
+    ]
+   ],
+   "top": [
+    "oz4"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "oz3",
+     "oz5",
+     "oz7"
+    ],
+    [
+     "oz6",
+     "oz7",
+     "oz9"
+    ],
+    [
+     "oz3",
+     "oz5",
+     "oz6"
+    ],
+    [
+     "oz5",
+     "oz6",
+     "oz9"
+    ],
+    [
+     "oz3",
+     "oz5",
+     "oz8"
+    ]
+   ],
+   "top": [
+    "oz4",
+    "oz1",
+    "oz2"
+   ]
+  }
+ },
+ "794": {
+  "1": {
+   "random": [
+    [
+     "oz3"
+    ],
+    [
+     "oz3"
+    ],
+    [
+     "oz1"
+    ],
+    [
+     "oz21"
+    ],
+    [
+     "oz22"
+    ]
+   ],
+   "top": [
+    "oz2"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "oz10",
+     "oz11",
+     "oz7"
+    ],
+    [
+     "oz14",
+     "oz20",
+     "oz8"
+    ],
+    [
+     "oz13",
+     "oz21",
+     "oz6"
+    ],
+    [
+     "oz10",
+     "oz23",
+     "oz25"
+    ],
+    [
+     "oz16",
+     "oz6",
+     "oz7"
+    ]
+   ],
+   "top": [
+    "oz2",
+    "oz1",
+    "oz3"
+   ]
+  }
+ },
+ "797": {
+  "1": {
+   "random": [
+    [
+     "oz14"
+    ],
+    [
+     "oz46"
+    ],
+    [
+     "oz21"
+    ],
+    [
+     "oz41"
+    ],
+    [
+     "oz1"
+    ]
+   ],
+   "top": [
+    "oz4"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "oz12",
+     "oz35",
+     "oz42"
+    ],
+    [
+     "oz46",
+     "oz47",
+     "oz8"
+    ],
+    [
+     "oz26",
+     "oz36",
+     "oz47"
+    ],
+    [
+     "oz10",
+     "oz24",
+     "oz48"
+    ],
+    [
+     "oz16",
+     "oz18",
+     "oz49"
+    ]
+   ],
+   "top": [
+    "oz4",
+    "oz2",
+    "oz1"
+   ]
+  }
+ },
+ "798": {
+  "1": {
+   "random": [
+    [
+     "num"
+    ],
+    [
+     "sex"
+    ],
+    [
+     "slope"
+    ],
+    [
+     "thalach"
+    ],
+    [
+     "slope"
+    ]
+   ],
+   "top": [
+    "restecg"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "num",
+     "sex",
+     "trestbps"
+    ],
+    [
+     "fbs",
+     "thalach",
+     "trestbps"
+    ],
+    [
+     "oldpeak",
+     "sex",
+     "trestbps"
+    ],
+    [
+     "num",
+     "sex",
+     "thal"
+    ],
+    [
+     "ca",
+     "oldpeak",
+     "thalach"
+    ]
+   ],
+   "top": [
+    "restecg",
+    "age",
+    "cp"
+   ]
+  }
+ },
+ "805": {
+  "1": {
+   "random": [
+    [
+     "oz31"
+    ],
+    [
+     "oz1"
+    ],
+    [
+     "oz14"
+    ],
+    [
+     "oz16"
+    ],
+    [
+     "oz26"
+    ]
+   ],
+   "top": [
+    "oz4"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "oz40",
+     "oz43",
+     "oz48"
+    ],
+    [
+     "oz13",
+     "oz24",
+     "oz32"
+    ],
+    [
+     "oz31",
+     "oz42",
+     "oz8"
+    ],
+    [
+     "oz12",
+     "oz34",
+     "oz46"
+    ],
+    [
+     "oz30",
+     "oz35",
+     "oz36"
+    ]
+   ],
+   "top": [
+    "oz4",
+    "oz2",
+    "oz1"
+   ]
+  }
+ },
+ "806": {
+  "1": {
+   "random": [
+    [
+     "oz43"
+    ],
+    [
+     "oz48"
+    ],
+    [
+     "oz26"
+    ],
+    [
+     "oz11"
+    ],
+    [
+     "oz43"
+    ]
+   ],
+   "top": [
+    "oz4"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "oz12",
+     "oz14",
+     "oz34"
+    ],
+    [
+     "oz13",
+     "oz20",
+     "oz48"
+    ],
+    [
+     "oz27",
+     "oz37",
+     "oz44"
+    ],
+    [
+     "oz33",
+     "oz48",
+     "oz6"
+    ],
+    [
+     "oz13",
+     "oz30",
+     "oz39"
+    ]
+   ],
+   "top": [
+    "oz4",
+    "oz2",
+    "oz1"
+   ]
+  }
+ },
+ "807": {
+  "1": {
+   "random": [
+    [
+     "theta1"
+    ],
+    [
+     "theta7"
+    ],
+    [
+     "theta2"
+    ],
+    [
+     "theta8"
+    ],
+    [
+     "theta8"
+    ]
+   ],
+   "top": [
+    "theta3"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "theta2",
+     "theta7",
+     "theta8"
+    ],
+    [
+     "theta4",
+     "theta6",
+     "theta7"
+    ],
+    [
+     "theta2",
+     "theta7",
+     "theta8"
+    ],
+    [
+     "theta2",
+     "theta4",
+     "theta6"
+    ],
+    [
+     "theta4",
+     "theta6",
+     "theta8"
+    ]
+   ],
+   "top": [
+    "theta3",
+    "theta5",
+    "theta1"
+   ]
+  }
+ },
+ "810": {
+  "1": {
+   "random": [
+    [
+     "Z7"
+    ],
+    [
+     "Z7"
+    ],
+    [
+     "Z3"
+    ],
+    [
+     "Z4"
+    ],
+    [
+     "Z6"
+    ]
+   ],
+   "top": [
+    "Z8"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "Z15",
+     "Z4",
+     "Z6"
+    ],
+    [
+     "Z2",
+     "Z5",
+     "Z7"
+    ],
+    [
+     "Z1",
+     "Z12",
+     "Z2"
+    ],
+    [
+     "Z16",
+     "Z5",
+     "Z7"
+    ],
+    [
+     "D",
+     "Z3",
+     "Z4"
+    ]
+   ],
+   "top": [
+    "Z8",
+    "Z10",
+    "Z11"
+   ]
+  }
+ },
+ "813": {
+  "1": {
+   "random": [
+    [
+     "oz3"
+    ],
+    [
+     "oz5"
+    ],
+    [
+     "oz1"
+    ],
+    [
+     "oz2"
+    ],
+    [
+     "oz1"
+    ]
+   ],
+   "top": [
+    "oz4"
+   ]
+  },
+  "3": null
+ },
+ "824": {
+  "1": {
+   "random": [
+    [
+     "oz1"
+    ],
+    [
+     "oz9"
+    ],
+    [
+     "oz7"
+    ],
+    [
+     "oz2"
+    ],
+    [
+     "oz7"
+    ]
+   ],
+   "top": [
+    "oz4"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "oz10",
+     "oz3",
+     "oz5"
+    ],
+    [
+     "oz3",
+     "oz6",
+     "oz7"
+    ],
+    [
+     "oz6",
+     "oz7",
+     "oz9"
+    ],
+    [
+     "oz5",
+     "oz6",
+     "oz7"
+    ],
+    [
+     "oz10",
+     "oz5",
+     "oz9"
+    ]
+   ],
+   "top": [
+    "oz4",
+    "oz1",
+    "oz2"
+   ]
+  }
+ },
+ "826": {
+  "1": {
+   "random": [
+    [
+     "Interval"
+    ],
+    [
+     "Rows"
+    ],
+    [
+     "Columns"
+    ],
+    [
+     "Rows"
+    ],
+    [
+     "Squares"
+    ]
+   ],
+   "top": [
+    "Judges"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "Columns",
+     "Position",
+     "Rows"
+    ],
+    [
+     "Rows",
+     "Sittings",
+     "Squares"
+    ],
+    [
+     "Columns",
+     "Halfplot",
+     "Method"
+    ],
+    [
+     "Halfplot",
+     "Method",
+     "Rows"
+    ],
+    [
+     "Position",
+     "Rows",
+     "Squares"
+    ]
+   ],
+   "top": [
+    "Judges",
+    "Trellis",
+    "Occasion"
+   ]
+  }
+ },
+ "830": {
+  "1": {
+   "random": [
+    [
+     "oz5"
+    ],
+    [
+     "oz1"
+    ],
+    [
+     "oz4"
+    ],
+    [
+     "oz5"
+    ],
+    [
+     "oz1"
+    ]
+   ],
+   "top": [
+    "oz2"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "oz10",
+     "oz5",
+     "oz9"
+    ],
+    [
+     "oz4",
+     "oz6",
+     "oz9"
+    ],
+    [
+     "oz10",
+     "oz4",
+     "oz8"
+    ],
+    [
+     "oz4",
+     "oz5",
+     "oz8"
+    ],
+    [
+     "oz5",
+     "oz6",
+     "oz8"
+    ]
+   ],
+   "top": [
+    "oz2",
+    "oz1",
+    "oz3"
+   ]
+  }
+ },
+ "832": {
+  "1": {
+   "random": [
+    [
+     "oz17"
+    ],
+    [
+     "oz25"
+    ],
+    [
+     "oz9"
+    ],
+    [
+     "oz2"
+    ],
+    [
+     "oz8"
+    ]
+   ],
+   "top": [
+    "oz4"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "oz10",
+     "oz18",
+     "oz24"
+    ],
+    [
+     "oz18",
+     "oz6",
+     "oz8"
+    ],
+    [
+     "oz11",
+     "oz22",
+     "oz7"
+    ],
+    [
+     "oz13",
+     "oz22",
+     "oz9"
+    ],
+    [
+     "oz15",
+     "oz20",
+     "oz24"
+    ]
+   ],
+   "top": [
+    "oz4",
+    "oz2",
+    "oz1"
+   ]
+  }
+ },
+ "837": {
+  "1": {
+   "random": [
+    [
+     "oz35"
+    ],
+    [
+     "oz28"
+    ],
+    [
+     "oz3"
+    ],
+    [
+     "oz30"
+    ],
+    [
+     "oz42"
+    ]
+   ],
+   "top": [
+    "oz4"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "oz3",
+     "oz31",
+     "oz41"
+    ],
+    [
+     "oz10",
+     "oz3",
+     "oz36"
+    ],
+    [
+     "oz19",
+     "oz26",
+     "oz44"
+    ],
+    [
+     "oz10",
+     "oz25",
+     "oz35"
+    ],
+    [
+     "oz20",
+     "oz25",
+     "oz42"
+    ]
+   ],
+   "top": [
+    "oz4",
+    "oz2",
+    "oz1"
+   ]
+  }
+ },
+ "838": {
+  "1": {
+   "random": [
+    [
+     "oz23"
+    ],
+    [
+     "oz21"
+    ],
+    [
+     "oz22"
+    ],
+    [
+     "oz10"
+    ],
+    [
+     "oz22"
+    ]
+   ],
+   "top": [
+    "oz4"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "oz12",
+     "oz15",
+     "oz16"
+    ],
+    [
+     "oz17",
+     "oz18",
+     "oz8"
+    ],
+    [
+     "oz18",
+     "oz19",
+     "oz24"
+    ],
+    [
+     "oz18",
+     "oz21",
+     "oz7"
+    ],
+    [
+     "oz13",
+     "oz16",
+     "oz5"
+    ]
+   ],
+   "top": [
+    "oz4",
+    "oz2",
+    "oz1"
+   ]
+  }
+ },
+ "844": {
+  "1": {
+   "random": [
+    [
+     "deg-malig"
+    ],
+    [
+     "breast-quad"
+    ],
+    [
+     "deg-malig"
+    ],
+    [
+     "deg-malig"
+    ],
+    [
+     "node-caps"
+    ]
+   ],
+   "top": [
+    "inv-nodes"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "age",
+     "breast",
+     "menopause"
+    ],
+    [
+     "age",
+     "irradiation",
+     "menopause"
+    ],
+    [
+     "breast",
+     "irradiation",
+     "menopause"
+    ],
+    [
+     "age",
+     "breast-quad",
+     "menopause"
+    ],
+    [
+     "age",
+     "irradiation",
+     "menopause"
+    ]
+   ],
+   "top": [
+    "inv-nodes",
+    "deg-malig",
+    "recurrence"
+   ]
+  }
+ },
+ "855": {
+  "1": {
+   "random": [
+    [
+     "oz8"
+    ],
+    [
+     "oz3"
+    ],
+    [
+     "oz1"
+    ],
+    [
+     "oz8"
+    ],
+    [
+     "oz7"
+    ]
+   ],
+   "top": [
+    "oz4"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "oz2",
+     "oz5",
+     "oz9"
+    ],
+    [
+     "oz2",
+     "oz6",
+     "oz8"
+    ],
+    [
+     "oz2",
+     "oz7",
+     "oz8"
+    ],
+    [
+     "oz10",
+     "oz2",
+     "oz5"
+    ],
+    [
+     "oz10",
+     "oz6",
+     "oz7"
+    ]
+   ],
+   "top": [
+    "oz4",
+    "oz3",
+    "oz1"
+   ]
+  }
+ },
+ "863": {
+  "1": {
+   "random": [
+    [
+     "oz7"
+    ],
+    [
+     "oz10"
+    ],
+    [
+     "oz9"
+    ],
+    [
+     "oz3"
+    ],
+    [
+     "oz7"
+    ]
+   ],
+   "top": [
+    "oz4"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "oz10",
+     "oz8",
+     "oz9"
+    ],
+    [
+     "oz1",
+     "oz10",
+     "oz5"
+    ],
+    [
+     "oz10",
+     "oz6",
+     "oz7"
+    ],
+    [
+     "oz6",
+     "oz7",
+     "oz9"
+    ],
+    [
+     "oz5",
+     "oz7",
+     "oz8"
+    ]
+   ],
+   "top": [
+    "oz4",
+    "oz3",
+    "oz2"
+   ]
+  }
+ },
+ "866": {
+  "1": {
+   "random": [
+    [
+     "oz41"
+    ],
+    [
+     "oz4"
+    ],
+    [
+     "oz26"
+    ],
+    [
+     "oz23"
+    ],
+    [
+     "oz23"
+    ]
+   ],
+   "top": [
+    "oz2"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "oz12",
+     "oz28",
+     "oz46"
+    ],
+    [
+     "oz32",
+     "oz37",
+     "oz9"
+    ],
+    [
+     "oz15",
+     "oz38",
+     "oz7"
+    ],
+    [
+     "oz24",
+     "oz41",
+     "oz47"
+    ],
+    [
+     "oz34",
+     "oz38",
+     "oz45"
+    ]
+   ],
+   "top": [
+    "oz2",
+    "oz1",
+    "oz4"
+   ]
+  }
+ },
+ "869": {
+  "1": {
+   "random": [
+    [
+     "oz3"
+    ],
+    [
+     "oz3"
+    ],
+    [
+     "oz5"
+    ],
+    [
+     "oz7"
+    ],
+    [
+     "oz6"
+    ]
+   ],
+   "top": [
+    "oz1"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "oz5",
+     "oz6",
+     "oz8"
+    ],
+    [
+     "oz10",
+     "oz6",
+     "oz8"
+    ],
+    [
+     "oz10",
+     "oz6",
+     "oz9"
+    ],
+    [
+     "oz4",
+     "oz5",
+     "oz9"
+    ],
+    [
+     "oz5",
+     "oz6",
+     "oz9"
+    ]
+   ],
+   "top": [
+    "oz1",
+    "oz2",
+    "oz3"
+   ]
+  }
+ },
+ "870": {
+  "1": {
+   "random": [
+    [
+     "oz3"
+    ],
+    [
+     "oz1"
+    ],
+    [
+     "oz3"
+    ],
+    [
+     "oz4"
+    ],
+    [
+     "oz4"
+    ]
+   ],
+   "top": [
+    "oz2"
+   ]
+  },
+  "3": null
+ },
+ "877": {
+  "1": {
+   "random": [
+    [
+     "oz3"
+    ],
+    [
+     "oz10"
+    ],
+    [
+     "oz11"
+    ],
+    [
+     "oz17"
+    ],
+    [
+     "oz8"
+    ]
+   ],
+   "top": [
+    "oz2"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "oz14",
+     "oz3",
+     "oz47"
+    ],
+    [
+     "oz11",
+     "oz43",
+     "oz47"
+    ],
+    [
+     "oz20",
+     "oz28",
+     "oz39"
+    ],
+    [
+     "oz27",
+     "oz38",
+     "oz8"
+    ],
+    [
+     "oz11",
+     "oz28",
+     "oz42"
+    ]
+   ],
+   "top": [
+    "oz2",
+    "oz1",
+    "oz4"
+   ]
+  }
+ },
+ "879": {
+  "1": {
+   "random": [
+    [
+     "oz4"
+    ],
+    [
+     "oz16"
+    ],
+    [
+     "oz15"
+    ],
+    [
+     "oz19"
+    ],
+    [
+     "oz13"
+    ]
+   ],
+   "top": [
+    "oz1"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "oz11",
+     "oz13",
+     "oz19"
+    ],
+    [
+     "oz24",
+     "oz5",
+     "oz8"
+    ],
+    [
+     "oz12",
+     "oz14",
+     "oz6"
+    ],
+    [
+     "oz17",
+     "oz18",
+     "oz7"
+    ],
+    [
+     "oz12",
+     "oz19",
+     "oz22"
+    ]
+   ],
+   "top": [
+    "oz1",
+    "oz2",
+    "oz3"
+   ]
+  }
+ },
+ "896": {
+  "1": {
+   "random": [
+    [
+     "oz20"
+    ],
+    [
+     "oz14"
+    ],
+    [
+     "oz25"
+    ],
+    [
+     "oz17"
+    ],
+    [
+     "oz19"
+    ]
+   ],
+   "top": [
+    "oz4"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "oz11",
+     "oz21",
+     "oz8"
+    ],
+    [
+     "oz18",
+     "oz20",
+     "oz6"
+    ],
+    [
+     "oz11",
+     "oz20",
+     "oz6"
+    ],
+    [
+     "oz11",
+     "oz23",
+     "oz7"
+    ],
+    [
+     "oz11",
+     "oz15",
+     "oz3"
+    ]
+   ],
+   "top": [
+    "oz4",
+    "oz2",
+    "oz1"
+   ]
+  }
+ },
+ "903": {
+  "1": {
+   "random": [
+    [
+     "oz21"
+    ],
+    [
+     "oz3"
+    ],
+    [
+     "oz1"
+    ],
+    [
+     "oz16"
+    ],
+    [
+     "oz1"
+    ]
+   ],
+   "top": [
+    "oz2"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "oz15",
+     "oz20",
+     "oz9"
+    ],
+    [
+     "oz17",
+     "oz18",
+     "oz20"
+    ],
+    [
+     "oz14",
+     "oz24",
+     "oz7"
+    ],
+    [
+     "oz18",
+     "oz23",
+     "oz25"
+    ],
+    [
+     "oz19",
+     "oz23",
+     "oz4"
+    ]
+   ],
+   "top": [
+    "oz2",
+    "oz1",
+    "oz3"
+   ]
+  }
+ },
+ "910": {
+  "1": {
+   "random": [
+    [
+     "oz9"
+    ],
+    [
+     "oz5"
+    ],
+    [
+     "oz9"
+    ],
+    [
+     "oz7"
+    ],
+    [
+     "oz5"
+    ]
+   ],
+   "top": [
+    "oz4"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "oz10",
+     "oz6",
+     "oz7"
+    ],
+    [
+     "oz5",
+     "oz7",
+     "oz8"
+    ],
+    [
+     "oz6",
+     "oz8",
+     "oz9"
+    ],
+    [
+     "oz10",
+     "oz5",
+     "oz7"
+    ],
+    [
+     "oz5",
+     "oz6",
+     "oz7"
+    ]
+   ],
+   "top": [
+    "oz4",
+    "oz2",
+    "oz1"
+   ]
+  }
+ },
+ "911": {
+  "1": {
+   "random": [
+    [
+     "oz3"
+    ],
+    [
+     "oz5"
+    ],
+    [
+     "oz3"
+    ],
+    [
+     "oz5"
+    ],
+    [
+     "oz1"
+    ]
+   ],
+   "top": [
+    "oz2"
+   ]
+  },
+  "3": null
+ },
+ "912": {
+  "1": {
+   "random": [
+    [
+     "oz5"
+    ],
+    [
+     "oz1"
+    ],
+    [
+     "oz5"
+    ],
+    [
+     "oz5"
+    ],
+    [
+     "oz5"
+    ]
+   ],
+   "top": [
+    "oz2"
+   ]
+  },
+  "3": null
+ },
+ "913": {
+  "1": {
+   "random": [
+    [
+     "oz6"
+    ],
+    [
+     "oz3"
+    ],
+    [
+     "oz1"
+    ],
+    [
+     "oz5"
+    ],
+    [
+     "oz7"
+    ]
+   ],
+   "top": [
+    "oz2"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "oz4",
+     "oz5",
+     "oz9"
+    ],
+    [
+     "oz10",
+     "oz4",
+     "oz5"
+    ],
+    [
+     "oz10",
+     "oz7",
+     "oz9"
+    ],
+    [
+     "oz10",
+     "oz4",
+     "oz7"
+    ],
+    [
+     "oz10",
+     "oz7",
+     "oz9"
+    ]
+   ],
+   "top": [
+    "oz2",
+    "oz1",
+    "oz3"
+   ]
+  }
+ },
+ "917": {
+  "1": {
+   "random": [
+    [
+     "oz9"
+    ],
+    [
+     "oz6"
+    ],
+    [
+     "oz16"
+    ],
+    [
+     "oz25"
+    ],
+    [
+     "oz24"
+    ]
+   ],
+   "top": [
+    "oz4"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "oz11",
+     "oz12",
+     "oz5"
+    ],
+    [
+     "oz10",
+     "oz5",
+     "oz9"
+    ],
+    [
+     "oz18",
+     "oz19",
+     "oz22"
+    ],
+    [
+     "oz17",
+     "oz22",
+     "oz24"
+    ],
+    [
+     "oz10",
+     "oz20",
+     "oz9"
+    ]
+   ],
+   "top": [
+    "oz4",
+    "oz1",
+    "oz2"
+   ]
+  }
+ },
+ "918": {
+  "1": {
+   "random": [
+    [
+     "oz7"
+    ],
+    [
+     "oz27"
+    ],
+    [
+     "oz32"
+    ],
+    [
+     "oz27"
+    ],
+    [
+     "oz50"
+    ]
+   ],
+   "top": [
+    "oz2"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "oz16",
+     "oz45",
+     "oz48"
+    ],
+    [
+     "oz20",
+     "oz38",
+     "oz43"
+    ],
+    [
+     "oz10",
+     "oz24",
+     "oz46"
+    ],
+    [
+     "oz21",
+     "oz39",
+     "oz47"
+    ],
+    [
+     "oz19",
+     "oz22",
+     "oz38"
+    ]
+   ],
+   "top": [
+    "oz2",
+    "oz1",
+    "oz4"
+   ]
+  }
+ },
+ "920": {
+  "1": {
+   "random": [
+    [
+     "oz28"
+    ],
+    [
+     "oz12"
+    ],
+    [
+     "oz40"
+    ],
+    [
+     "oz3"
+    ],
+    [
+     "oz46"
+    ]
+   ],
+   "top": [
+    "oz2"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "oz22",
+     "oz27",
+     "oz28"
+    ],
+    [
+     "oz22",
+     "oz26",
+     "oz46"
+    ],
+    [
+     "oz16",
+     "oz19",
+     "oz45"
+    ],
+    [
+     "oz15",
+     "oz25",
+     "oz6"
+    ],
+    [
+     "oz31",
+     "oz37",
+     "oz7"
+    ]
+   ],
+   "top": [
+    "oz2",
+    "oz1",
+    "oz3"
+   ]
+  }
+ },
+ "930": {
+  "1": {
+   "random": [
+    [
+     "Number_of_applications_received"
+    ],
+    [
+     "Public/private_indicator"
+    ],
+    [
+     "Pct._of_faculty_with_Ph.D.s"
+    ],
+    [
+     "Pct.alumni_who_donate"
+    ],
+    [
+     "Room_costs"
+    ]
+   ],
+   "top": [
+    "In-state_tuition"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "Number_of_applications_received",
+     "Number_of_parttime_undergraduates",
+     "Pct._of_faculty_with_terminal_degree"
+    ],
+    [
+     "Number_of_applicants_accepted",
+     "Number_of_new_students_enrolled",
+     "Pct.alumni_who_donate"
+    ],
+    [
+     "Number_of_parttime_undergraduates",
+     "Pct._of_faculty_with_Ph.D.s",
+     "Student/faculty_ratio"
+    ],
+    [
+     "FICE",
+     "Number_of_applications_received",
+     "State"
+    ],
+    [
+     "Number_of_fulltime_undergraduates",
+     "Pct._new_students_from_top_25Perc_of_H.S._class",
+     "Pct.alumni_who_donate"
+    ]
+   ],
+   "top": [
+    "In-state_tuition",
+    "Out-of-state_tuition",
+    "Instructional_expenditure_per_student"
+   ]
+  }
+ },
+ "933": {
+  "1": {
+   "random": [
+    [
+     "oz14"
+    ],
+    [
+     "oz6"
+    ],
+    [
+     "oz13"
+    ],
+    [
+     "oz21"
+    ],
+    [
+     "oz21"
+    ]
+   ],
+   "top": [
+    "oz2"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "oz22",
+     "oz25",
+     "oz9"
+    ],
+    [
+     "oz21",
+     "oz7",
+     "oz8"
+    ],
+    [
+     "oz20",
+     "oz22",
+     "oz5"
+    ],
+    [
+     "oz11",
+     "oz19",
+     "oz23"
+    ],
+    [
+     "oz11",
+     "oz21",
+     "oz24"
+    ]
+   ],
+   "top": [
+    "oz2",
+    "oz1",
+    "oz4"
+   ]
+  }
+ },
+ "935": {
+  "1": {
+   "random": [
+    [
+     "oz9"
+    ],
+    [
+     "oz2"
+    ],
+    [
+     "oz8"
+    ],
+    [
+     "oz2"
+    ],
+    [
+     "oz8"
+    ]
+   ],
+   "top": [
+    "oz4"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "oz3",
+     "oz6",
+     "oz7"
+    ],
+    [
+     "oz10",
+     "oz7",
+     "oz8"
+    ],
+    [
+     "oz10",
+     "oz3",
+     "oz6"
+    ],
+    [
+     "oz3",
+     "oz7",
+     "oz8"
+    ],
+    [
+     "oz3",
+     "oz6",
+     "oz9"
+    ]
+   ],
+   "top": [
+    "oz4",
+    "oz1",
+    "oz2"
+   ]
+  }
+ },
+ "936": {
+  "1": {
+   "random": [
+    [
+     "oz3"
+    ],
+    [
+     "oz8"
+    ],
+    [
+     "oz10"
+    ],
+    [
+     "oz5"
+    ],
+    [
+     "oz3"
+    ]
+   ],
+   "top": [
+    "oz4"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "oz5",
+     "oz8",
+     "oz9"
+    ],
+    [
+     "oz3",
+     "oz6",
+     "oz8"
+    ],
+    [
+     "oz5",
+     "oz6",
+     "oz8"
+    ],
+    [
+     "oz10",
+     "oz8",
+     "oz9"
+    ],
+    [
+     "oz3",
+     "oz5",
+     "oz6"
+    ]
+   ],
+   "top": [
+    "oz4",
+    "oz2",
+    "oz1"
+   ]
+  }
+ },
+ "937": {
+  "1": {
+   "random": [
+    [
+     "oz24"
+    ],
+    [
+     "oz18"
+    ],
+    [
+     "oz39"
+    ],
+    [
+     "oz20"
+    ],
+    [
+     "oz18"
+    ]
+   ],
+   "top": [
+    "oz4"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "oz48",
+     "oz49",
+     "oz7"
+    ],
+    [
+     "oz13",
+     "oz26",
+     "oz45"
+    ],
+    [
+     "oz21",
+     "oz35",
+     "oz48"
+    ],
+    [
+     "oz26",
+     "oz35",
+     "oz44"
+    ],
+    [
+     "oz2",
+     "oz27",
+     "oz41"
+    ]
+   ],
+   "top": [
+    "oz4",
+    "oz20",
+    "oz36"
+   ]
+  }
+ },
+ "957": {
+  "1": {
+   "random": [
+    [
+     "Travel_cost"
+    ],
+    [
+     "Income"
+    ],
+    [
+     "Age"
+    ],
+    [
+     "Income"
+    ],
+    [
+     "Age"
+    ]
+   ],
+   "top": [
+    "Active"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "Access_road",
+     "Income",
+     "Travel_cost"
+    ],
+    [
+     "Income",
+     "Logged_income",
+     "Travel_cost"
+    ],
+    [
+     "Income",
+     "Logged_income",
+     "Sex"
+    ],
+    [
+     "Access_road",
+     "Income",
+     "Logged_income"
+    ],
+    [
+     "Access_road",
+     "Logged_income",
+     "Travel_cost"
+    ]
+   ],
+   "top": [
+    "Active",
+    "Passive",
+    "Age"
+   ]
+  }
+ },
+ "961": {
+  "1": {
+   "random": [
+    [
+     "DN_rating"
+    ],
+    [
+     "Type"
+    ],
+    [
+     "DN_rating"
+    ],
+    [
+     "NYT_rating"
+    ],
+    [
+     "NYT_rating"
+    ]
+   ],
+   "top": [
+    "Award"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "Show",
+     "Type",
+     "Week_1_attendance"
+    ],
+    [
+     "Show",
+     "Type",
+     "Week_1_attendance"
+    ],
+    [
+     "Revival",
+     "Show",
+     "Type"
+    ],
+    [
+     "Revival",
+     "Type",
+     "Week_1_attendance"
+    ],
+    [
+     "Show",
+     "Type",
+     "Week_1_attendance"
+    ]
+   ],
+   "top": [
+    "Award",
+    "DN_rating",
+    "NYT_rating"
+   ]
+  }
+ },
+ "983": {
+  "1": {
+   "random": [
+    [
+     "Wifes_now_working?"
+    ],
+    [
+     "Wifes_age"
+    ],
+    [
+     "Husbands_education"
+    ],
+    [
+     "Wifes_now_working?"
+    ],
+    [
+     "Wifes_age"
+    ]
+   ],
+   "top": [
+    "Wifes_education"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "Husbands_occupation",
+     "Wifes_age",
+     "Wifes_religion"
+    ],
+    [
+     "Husbands_occupation",
+     "Wifes_age",
+     "Wifes_now_working?"
+    ],
+    [
+     "Husbands_occupation",
+     "Wifes_age",
+     "Wifes_religion"
+    ],
+    [
+     "Husbands_occupation",
+     "Media_exposure",
+     "Wifes_now_working?"
+    ],
+    [
+     "Media_exposure",
+     "Wifes_now_working?",
+     "Wifes_religion"
+    ]
+   ],
+   "top": [
+    "Wifes_education",
+    "Number_of_children_ever_born",
+    "Husbands_education"
+   ]
+  }
+ },
+ "989": {
+  "1": {
+   "random": [
+    [
+     "steel"
+    ],
+    [
+     "len"
+    ],
+    [
+     "len"
+    ],
+    [
+     "surface-quality"
+    ],
+    [
+     "carbon"
+    ]
+   ],
+   "top": [
+    "thick"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "bore",
+     "len",
+     "steel"
+    ],
+    [
+     "bore",
+     "product-type",
+     "width"
+    ],
+    [
+     "steel",
+     "strength",
+     "width"
+    ],
+    [
+     "carbon",
+     "product-type",
+     "steel"
+    ],
+    [
+     "carbon",
+     "steel",
+     "width"
+    ]
+   ],
+   "top": [
+    "thick",
+    "shape",
+    "surface-quality"
+   ]
+  }
+ },
+ "990": {
+  "1": {
+   "random": [
+    [
+     "Frosts"
+    ],
+    [
+     "Crown_Fm"
+    ],
+    [
+     "PMCno"
+    ],
+    [
+     "Altitude"
+    ],
+    [
+     "Year"
+    ]
+   ],
+   "top": [
+    "Vig"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "Crown_Fm",
+     "Sp",
+     "Year"
+    ],
+    [
+     "Abbrev",
+     "PMCno",
+     "Rainfall"
+    ],
+    [
+     "Latitude",
+     "Rainfall",
+     "Sp"
+    ],
+    [
+     "Brnch_Fm",
+     "Map_Ref",
+     "Sp"
+    ],
+    [
+     "Frosts",
+     "Latitude",
+     "Locality"
+    ]
+   ],
+   "top": [
+    "Vig",
+    "Ht",
+    "DBH"
+   ]
+  }
+ },
+ "996": {
+  "1": {
+   "random": [
+    [
+     "Fe"
+    ],
+    [
+     "Si"
+    ],
+    [
+     "Mg"
+    ],
+    [
+     "Si"
+    ],
+    [
+     "RI"
+    ]
+   ],
+   "top": [
+    "K"
+   ]
+  },
+  "3": {
+   "random": [
+    [
+     "Al",
+     "Fe",
+     "RI"
+    ],
+    [
+     "Al",
+     "Fe",
+     "Mg"
+    ],
+    [
+     "Al",
+     "Fe",
+     "Mg"
+    ],
+    [
+     "Al",
+     "Fe",
+     "RI"
+    ],
+    [
+     "Ba",
+     "Fe",
+     "Mg"
+    ]
+   ],
+   "top": [
+    "K",
+    "Ca",
+    "Na"
+   ]
+  }
+ }
+}

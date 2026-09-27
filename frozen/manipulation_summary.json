@@ -1,0 +1,38 @@
+{
+ "removal_k1": {
+  "dlog_neff_dn_top": -0.08659428138714095,
+  "dlog_neff_dn_random": -0.06853249102945355,
+  "lift_share_top": 0.22199341191277963,
+  "lift_share_random": 0.06254209384415205
+ },
+ "removal_k3": {
+  "dlog_neff_dn_top": -0.31415029406023404,
+  "dlog_neff_dn_random": -0.12405181821687014,
+  "lift_share_top": 0.4672454820912541,
+  "lift_share_random": 0.12779569651870815
+ },
+ "inject_0.65": {
+  "dlog_neff_dn_concentrated": 0.13849470546238404,
+  "dlog_neff_dn_dispersed": 0.4266857713637568,
+  "dlog_neff_dn_dispersed_noise": 0.42668577136375696,
+  "share_datasets_disp_column_below_threshold": 0.18487394957983194
+ },
+ "inject_0.75": {
+  "dlog_neff_dn_concentrated": 0.03500043501002917,
+  "dlog_neff_dn_dispersed": 0.7997569869770609,
+  "dlog_neff_dn_dispersed_noise": 0.7997569869770609,
+  "share_datasets_disp_column_below_threshold": 0.008403361344537815
+ },
+ "inject_0.85": {
+  "dlog_neff_dn_concentrated": -0.0859138201700077,
+  "dlog_neff_dn_dispersed": 0.8748903281126756,
+  "dlog_neff_dn_dispersed_noise": 0.8748903281126756,
+  "share_datasets_disp_column_below_threshold": 0.0
+ },
+ "inject_0.95": {
+  "dlog_neff_dn_concentrated": -0.20090503848374372,
+  "dlog_neff_dn_dispersed": 0.8512662874351734,
+  "dlog_neff_dn_dispersed_noise": 0.8512662874351734,
+  "share_datasets_disp_column_below_threshold": 0.0
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "instances": 2,
+ "allocated_cores_per_instance": 32,
+ "modules_not_run": [
+  "M3"
+ ],
+ "hosts": [
+  "AutoDL 686 (pre-flight instance)",
+  "AutoDL 214 (second instance; admitted only after reproducing the pre-flight logistic-regression reference to within 1e-12)"
+ ],
+ "cpu_model": "Intel(R) Xeon(R) Platinum 8352V CPU @ 2.10GHz",
+ "decided": "2026-09-27",
+ "basis": "Pilot and pre-flight run times only; no model-comparison result on pool data existed.",
+ "compute_limit_hours": 672,
+ "compute_limit_basis": "The author's schedule: Phase 1 conventional-model runs should finish within about four weeks of registration."
+}

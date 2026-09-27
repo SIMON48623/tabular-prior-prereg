@@ -1,0 +1,12 @@
+{
+ "numpy": "2.4.4",
+ "inject|noise|None|r0": "5cbc8c36c056df00",
+ "inject|concentrated|0.85|r0": "cef5533709727e86",
+ "inject|dispersed|0.85|r1": "ed549ad49c8ede8c",
+ "inject|dispersed_noise|0.85|r2": "e7863ee2cf93fa41",
+ "inject|concentrated|0.65|r2": "c5786c0bb6195dda",
+ "subsample|31|0|250|2": "bb42dca9ce15402b",
+ "removal|31": "1e50d1e6ab20604a",
+ "synth|linear|4|0.0|0.7|300|0|train": "38ddd47f61fe1cf4",
+ "synth|threshold|16|0.3|0.8|1000|5|test": "07b25a19b1f382db"
+}

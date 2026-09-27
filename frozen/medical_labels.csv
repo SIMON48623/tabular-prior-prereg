@@ -1,0 +1,479 @@
+openml_id,name,label,basis
+3,kr-vs-kp,none,default
+13,breast-cancer,clinical,keyword rule + author review
+15,breast-w,clinical,keyword rule + author review
+24,mushroom,none,default
+25,colic,none,keyword rule flagged; rejected on review (not human clinical or biomedical data)
+27,colic,none,default
+29,credit-approval,none,default
+31,credit-g,none,default
+37,diabetes,clinical,keyword rule + author review
+38,sick,clinical,keyword rule + author review
+40,sonar,none,keyword rule flagged; rejected on review (not human clinical or biomedical data)
+44,spambase,none,default
+49,heart-c,clinical,keyword rule + author review
+50,tic-tac-toe,none,default
+51,heart-h,clinical,keyword rule + author review
+53,heart-statlog,clinical,keyword rule + author review
+56,vote,none,default
+59,ionosphere,none,default
+333,monks-problems-1,none,default
+334,monks-problems-2,none,default
+335,monks-problems-3,none,default
+336,SPECT,clinical,keyword rule + author review
+337,SPECTF,clinical,keyword rule + author review
+446,prnn_crabs,none,keyword rule flagged; rejected on review (not human clinical or biomedical data)
+451,irish,none,default
+466,schizo,clinical,keyword rule + author review
+470,profb,none,default
+481,biomed,biomedical,keyword rule + author review
+715,fri_c3_1000_25,none,default
+720,abalone,none,default
+721,pwLinear,none,default
+723,fri_c4_1000_25,none,default
+725,bank8FM,none,default
+728,analcatdata_supreme,none,default
+730,fri_c1_250_5,none,default
+732,fri_c0_250_50,none,default
+733,machine_cpu,none,default
+735,cpu_small,none,default
+737,space_ga,none,default
+740,fri_c3_1000_10,none,default
+743,fri_c1_1000_5,none,default
+744,fri_c3_250_5,none,default
+746,fri_c1_250_25,none,default
+749,fri_c3_500_5,none,default
+751,fri_c4_1000_10,none,default
+752,puma32H,none,default
+757,meta,none,default
+761,cpu_act,none,default
+763,fri_c0_250_10,none,default
+766,fri_c1_500_50,none,default
+769,fri_c1_250_50,none,default
+770,strikes,none,default
+773,fri_c0_250_25,none,default
+776,fri_c0_250_5,none,default
+778,bodyfat,biomedical,author review (not flagged by the keyword rule)
+779,fri_c1_500_25,none,default
+786,cleveland,clinical,author review (not flagged by the keyword rule)
+792,fri_c2_500_5,none,default
+793,fri_c3_250_10,none,default
+794,fri_c2_250_25,none,default
+796,cpu,none,default
+797,fri_c4_1000_50,none,default
+798,cholesterol,clinical,keyword rule + author review
+799,fri_c0_1000_5,none,default
+805,fri_c4_500_50,none,default
+806,fri_c3_1000_50,none,default
+807,kin8nm,none,default
+810,pbc,clinical,author review (not flagged by the keyword rule)
+813,fri_c3_1000_5,none,default
+816,puma8NH,none,default
+818,diggle_table_a2,none,default
+824,fri_c1_500_10,none,default
+825,boston_corrected,none,default
+826,sensory,none,default
+830,fri_c2_250_10,none,default
+831,autoMpg,none,default
+832,fri_c3_250_25,none,default
+833,bank32nh,none,default
+837,fri_c1_1000_50,none,default
+838,fri_c4_500_25,none,default
+840,autoHorse,none,default
+844,breastTumor,clinical,keyword rule + author review
+845,fri_c0_1000_10,none,default
+849,fri_c0_1000_25,none,default
+853,boston,none,default
+855,fri_c4_500_10,none,default
+858,hungarian,clinical,author review (not flagged by the keyword rule)
+863,fri_c4_250_10,none,default
+866,fri_c2_1000_50,none,default
+869,fri_c2_500_10,none,default
+870,fri_c1_500_5,none,default
+873,fri_c3_250_50,none,default
+877,fri_c2_250_50,none,default
+879,fri_c2_500_25,none,default
+880,mu284,none,default
+884,fri_c0_500_5,none,default
+888,fri_c0_500_50,none,default
+896,fri_c3_500_25,none,default
+897,colleges_aaup,none,default
+903,fri_c2_1000_25,none,default
+904,fri_c0_1000_50,none,default
+908,chscase_census3,none,default
+910,fri_c1_1000_10,none,default
+911,fri_c2_250_5,none,default
+912,fri_c2_1000_5,none,default
+913,fri_c2_1000_10,none,default
+915,plasma_retinol,clinical,author review (not flagged by the keyword rule)
+917,fri_c1_1000_25,none,default
+918,fri_c4_250_50,none,default
+920,fri_c2_500_50,none,default
+926,fri_c0_500_25,none,default
+930,colleges_usnews,none,default
+933,fri_c4_250_25,none,default
+934,socmob,none,default
+935,fri_c1_250_10,none,default
+936,fri_c3_500_10,none,default
+937,fri_c3_500_50,none,default
+939,chscase_whale,none,default
+943,fri_c0_500_10,none,default
+957,braziltourism,none,default
+958,segment,none,default
+961,analcatdata_broadwaymult,none,default
+962,mfeat-morphological,none,default
+966,analcatdata_halloffame,none,default
+967,cars,none,default
+975,autos,none,default
+979,waveform-5000,none,default
+983,cmc,none,default
+986,analcatdata_marketing,none,default
+987,collins,none,default
+989,anneal,none,default
+990,eucalyptus,none,default
+991,car,none,default
+993,kdd_ipums_la_97-small,none,default
+994,vehicle,none,default
+995,mfeat-zernike,none,default
+996,prnn_fglass,none,default
+999,audiology,clinical,author review (not flagged by the keyword rule)
+1000,hypothyroid,clinical,keyword rule + author review
+1002,ipums_la_98-small,none,default
+1003,primary-tumor,clinical,keyword rule + author review
+1005,glass,none,default
+1010,dermatology,clinical,author review (not flagged by the keyword rule)
+1011,ecoli,none,default
+1016,vowel,none,default
+1018,ipums_la_99-small,none,default
+1021,page-blocks,none,default
+1023,soybean,none,default
+1024,cjs,none,default
+1025,analcatdata_germangss,none,default
+1037,ada_prior,none,default
+1048,jEdit_4.2_4.3,none,default
+1049,pc4,none,default
+1050,pc3,none,default
+1063,kc2,none,default
+1065,kc3,none,default
+1067,kc1,none,default
+1068,pc1,none,default
+1071,mw1,none,default
+1073,jEdit_4.0_4.2,none,default
+1121,badges2,none,default
+1167,pc1_req,none,default
+1412,lungcancer_GSE31210,biomedical,keyword rule + author review
+1442,MegaWatt1,none,default
+1443,PizzaCutter1,none,default
+1444,PizzaCutter3,none,default
+1446,CostaMadre1,none,default
+1447,CastMetal1,none,default
+1449,MeanWhile1,none,default
+1451,PieChart1,none,default
+1453,PieChart3,none,default
+1467,climate-model-simulation-crashes,none,keyword rule flagged; rejected on review (not human clinical or biomedical data)
+1480,ilpd,clinical,keyword rule + author review
+1489,phoneme,none,keyword rule flagged; rejected on review (not human clinical or biomedical data)
+1494,qsar-biodeg,none,default
+1495,qualitative-bankruptcy,none,default
+1496,ringnorm,none,default
+1498,sa-heart,clinical,keyword rule + author review
+1504,steel-plates-fault,none,default
+1506,thoracic-surgery,clinical,keyword rule + author review
+1507,twonorm,none,default
+1510,wdbc,clinical,keyword rule + author review
+1511,wholesale-customers,none,default
+1524,vertebra-column,clinical,keyword rule + author review
+1547,autoUniv-au1-1000,none,default
+1558,bank-marketing,none,default
+1600,SPECTF,clinical,keyword rule + author review
+4329,thoracic_surgery,clinical,keyword rule + author review
+6332,cylinder-bands,none,default
+23381,dresses-sales,none,keyword rule flagged; rejected on review (not human clinical or biomedical data)
+23499,breast-cancer-dropped-missing-attributes-values,clinical,keyword rule + author review
+40648,GAMETES_Epistasis_3-Way_20atts_0.2H_EDM-1_1,none,default
+40680,mofn-3-7-10,none,default
+40690,threeOf9,none,default
+40693,xd6,none,default
+40701,churn,none,default
+40702,solar-flare,none,default
+40705,tokyo1,none,default
+40710,cleve,clinical,author review (not flagged by the keyword rule)
+40945,Titanic,none,keyword rule flagged; rejected on review (not human clinical or biomedical data)
+40981,Australian,none,default
+40983,wilt,none,keyword rule flagged; rejected on review (not human clinical or biomedical data)
+40999,jungle_chess_2pcs_endgame_elephant_elephant,none,default
+41005,jungle_chess_2pcs_endgame_rat_rat,none,default
+41007,jungle_chess_2pcs_endgame_lion_lion,none,default
+41146,sylvine,none,keyword rule flagged; rejected on review (not human clinical or biomedical data)
+41156,ada,none,default
+41430,DiabeticMellitus,clinical,keyword rule + author review
+41538,conference_attendance,none,default
+41945,ilpd-numeric,clinical,keyword rule + author review
+41946,Sick_numeric,clinical,author review (not flagged by the keyword rule)
+42172,regime_alimentaire,none,default
+42192,compas-two-years,none,default
+42638,titanic,none,default
+43255,1StudentPerfromance,none,default
+43595,Loan-Predication,none,default
+43892,national-longitudinal-survey-binary,none,default
+43893,ibm-employee-attrition,none,default
+43895,ibm-employee-performance,none,default
+43946,eye_movements,none,default
+43947,KDDCup09_upselling,none,default
+43949,rl,none,default
+43958,kdd_ipums_la_97-small,none,default
+43973,phoneme,none,keyword rule flagged; rejected on review (not human clinical or biomedical data)
+43976,eye_movements,none,default
+43980,wine,none,default
+44095,spambase_reproduced,none,default
+44097,credit-g_copy,none,default
+44098,credit-g_reproduced_1,none,default
+44149,Heart_disease_prediction_20,clinical,keyword rule + author review
+44155,credit-approval_reproduced,none,default
+44186,KDDCup09_upselling,none,default
+44227,South_Asian_Churn_dataset,none,default
+44232,UCI_churn,none,default
+44345,credit,none,default
+44347,credit_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44349,credit_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44350,credit_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44351,credit_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44352,credit_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44362,california_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44363,california_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44364,california_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44365,california_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44366,california_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44367,wine_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44368,wine_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44369,wine_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44370,wine_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44371,wine_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44377,covertype_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44378,covertype_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44379,covertype_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44380,covertype_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44381,covertype_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44382,pol_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44383,pol_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44384,pol_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44385,pol_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44386,pol_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44387,house_16H_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44388,house_16H_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44389,house_16H_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44390,house_16H_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44391,house_16H_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44392,kdd_ipums_la_97-small_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44393,kdd_ipums_la_97-small_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44394,kdd_ipums_la_97-small_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44395,kdd_ipums_la_97-small_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44396,kdd_ipums_la_97-small_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44397,MagicTelescope_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44398,MagicTelescope_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44399,MagicTelescope_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44400,MagicTelescope_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44401,MagicTelescope_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44402,bank-marketing_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44403,bank-marketing_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44404,bank-marketing_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44405,bank-marketing_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44406,bank-marketing_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44407,phoneme_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44408,phoneme_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44409,phoneme_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44410,phoneme_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44411,phoneme_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44412,MiniBooNE_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44413,MiniBooNE_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44414,MiniBooNE_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44415,MiniBooNE_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44416,MiniBooNE_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44417,Higgs_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44418,Higgs_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44419,Higgs_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44420,Higgs_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44421,Higgs_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44423,eye_movements_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44424,eye_movements_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44425,eye_movements_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44426,eye_movements_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44427,eye_movements_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44428,jannis_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44429,jannis_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44430,jannis_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44431,jannis_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44432,jannis_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44438,eye_movements_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44439,eye_movements_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44440,eye_movements_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44441,eye_movements_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44442,eye_movements_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44443,covertype_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44444,covertype_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44445,covertype_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44446,covertype_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44447,covertype_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44448,rl_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44449,rl_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44450,rl_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44451,rl_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44452,rl_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44453,road-safety_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44454,road-safety_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44455,road-safety_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44456,road-safety_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44457,road-safety_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44458,compass_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44459,compass_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44460,compass_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44461,compass_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44462,compass_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44463,KDDCup09_upselling_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44464,KDDCup09_upselling_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44465,KDDCup09_upselling_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44466,KDDCup09_upselling_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44467,KDDCup09_upselling_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44483,Australian_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44484,Australian_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44485,Australian_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44486,Australian_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44487,Australian_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44488,wilt_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44489,wilt_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44490,wilt_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44491,wilt_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44492,wilt_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44493,numerai28.6_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44494,numerai28.6_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44495,numerai28.6_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44497,numerai28.6_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44498,credit-g_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44499,credit-g_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44500,credit-g_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44501,credit-g_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44502,credit-g_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44538,albert_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44539,albert_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44540,albert_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44541,albert_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44542,albert_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44568,ada_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44569,ada_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44570,ada_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44571,ada_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44572,ada_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44598,qsar-biodeg_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44599,qsar-biodeg_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44600,qsar-biodeg_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44601,qsar-biodeg_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44602,qsar-biodeg_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44608,pc4_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44609,pc4_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44610,pc4_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44611,pc4_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44612,pc4_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44628,kc1_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44629,kc1_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44630,kc1_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44631,kc1_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44632,kc1_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44643,kr-vs-kp_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44644,kr-vs-kp_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44645,kr-vs-kp_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44646,kr-vs-kp_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44647,kr-vs-kp_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44658,churn_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44659,churn_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44660,churn_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44661,churn_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44662,churn_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44673,PhishingWebsites_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44674,PhishingWebsites_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44675,PhishingWebsites_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44676,PhishingWebsites_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44677,PhishingWebsites_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44678,sylvine_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44679,sylvine_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44680,sylvine_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44681,sylvine_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44682,sylvine_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44708,Amazon_employee_access_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44709,Amazon_employee_access_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44710,Amazon_employee_access_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44711,Amazon_employee_access_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44712,Amazon_employee_access_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44723,adult_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44724,adult_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44725,adult_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44726,adult_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44727,adult_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44758,kick_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44759,kick_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44760,kick_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44761,kick_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44762,kick_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44773,sf-police-incidents_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44774,sf-police-incidents_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44775,sf-police-incidents_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44776,sf-police-incidents_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+44777,sf-police-incidents_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True,none,default
+45023,heloc,none,default
+45039,compas-two-years,none,default
+45059,sick,clinical,keyword rule + author review
+45063,credit-approval,none,default
+45077,qsar,none,default
+45545,Tour-and-Travels-Customer-Churn-Prediction,none,default
+45553,FICO-HELOC-cleaned,none,default
+45562,seismic-bumps,none,keyword rule flagged; rejected on review (not human clinical or biomedical data)
+45604,dummy,none,default
+45686,cylinder-bands,none,default
+45711,doa_bwin,none,default
+45712,doa_bwin_balanced,none,default
+45717,bwin_amlb,none,default
+46116,German-Credit-Risk-with-Target,none,default
+46279,algerian_forest_fires,none,default
+46280,blastchar,none,default
+46281,insurance_company,none,default
+46298,electrical_grid_stability_simulated_classification,none,default
+46358,Fraud-Detection-Updated),none,default
+46359,Fraud-Detection-Updated,none,default
+46365,Credit_Approval_Classification,none,default
+46416,Creditability-German-Credit-Data,none,default
+46421,German-Credit-Data-Creditability,none,default
+46422,Credit-Risk-Classification-Dataset,none,default
+46431,HMEQ_Data,none,default
+46482,German-Credit-Data-Creditability-2,none,default
+46483,HMEQ_Data_New,none,default
+46502,Credit_Approval_Classification,none,default
+46517,HMEQ_Data_Preprocessed,none,default
+46532,dataset_credit-g,none,default
+46535,dataset_credit-approval,none,default
+46562,German-Credit-Data-Creditability-Preprocessed-Dataset,none,default
+46590,heart-statlog-uci,clinical,keyword rule + author review
+46602,Predicting_Risk_Factors_of_Chronic_Kidney_Disease,clinical,keyword rule + author review
+46667,imdb_genre_prediction,none,default
+46846,glioma_grading_clinical_and_mutation_features,clinical,keyword rule + author review
+46860,Support2,clinical,keyword rule + author review
+46868,Phishing_Legitimate_full,none,default
+46876,depression_2020,none,default
+46911,Bank_Customer_Churn,none,default
+46915,churn,none,default
+46916,coil2000_insurance_policies,none,default
+46925,Employee,none,default
+46927,Fitness_Club,none,default
+46930,hazelnut-spread-contaminant-detection,none,default
+46938,Is-this-a-good-customer,none,default
+46940,Marketing_Campaign,none,default
+46950,polish_companies_bankruptcy,none,default
+46951,Pumpkin_Seeds,none,default
+46952,qsar-biodeg,none,default
+46956,seismic-bumps,none,default
+46969,NATICUSdroid,none,default
+47044,Accidents_Prediction_Dataset,none,default
+47050,Accidents_Prediction_Dataset_Pipeline,none,default
+47052,Accidents_Prediction_Balanced_v3,none,default
+47150,CanadaFiresD,none,default
+47151,aztrees3,none,default
+47152,aztrees4,none,default
+47153,spam,none,default

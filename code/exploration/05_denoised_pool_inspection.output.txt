@@ -1,0 +1,17 @@
+    openml_id                   name                 family    n  p_used  minority_rate    auc_lr     N_eff       se0  z1.645  n_sig
+99      41538  conference_attendance  conference_attendance  246     6.0       0.126016  0.606977  1.964355  0.055572     NaN      0
+1.0 rho logp 0.645 logn 0.047 auc_lr 0.231 minority -0.140 raw 0.908
+1.645 rho logp 0.477 logn 0.128 auc_lr 0.349 minority -0.112 raw 0.775
+1.96 rho logp 0.420 logn 0.176 auc_lr 0.419 minority -0.108 raw 0.713
+SD 0.775 resid SD|logp,logn 0.653
+resid SD|logp,logn,auc_lr 0.580
+cuts [1.30211591 1.68081215] [3.6770688 5.3699154]
+     n  fam
+T          
+T1  62   20
+T2  62   22
+T3  62   37
+T1 {'fri_c': 27, 'covertype': 6, 'rl': 5, 'bank-marketing': 5, 'thoracic-surgery': 2, 'magictelescope': 2}
+T2 {'fri_c': 16, 'credit-g': 8, 'phoneme': 7, 'wine': 6, 'magictelescope': 3, 'road-safety': 3}
+T3 {'KDDCup09_upselling': 7, 'credit': 6, 'jannis': 5, 'compass': 5, 'albert': 5, 'ilpd': 2}
+Shell cwd was reset to /home/claude

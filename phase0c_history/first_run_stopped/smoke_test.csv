@@ -1,0 +1,14 @@
+model,ok,proba_shape,fit_seconds,predict_seconds,offline,note
+tabpfn35,True,"(120, 2)",2.2112775295972824,1.1463920138776302,True,"categorical_features_indices=[0,1]"
+tabicl2,True,"(120, 2)",0.44555167481303215,0.1107802577316761,True,pandas category dtype; internal ordinal encoder
+tabpfn2,True,"(120, 2)",0.17039045691490173,0.23197974264621735,True,"categorical_features_indices=[0,1]"
+lr,True,"(120, 2)",0.0038491375744342804,0.00022185593843460083,True,one-hot + standardization; threadpool limit set by process env
+ebm,True,"(120, 2)",69.33352417498827,0.0009137280285358429,True,feature_types nominal for first two; n_jobs=1
+catboost,True,"(120, 2)",2.901472732424736,0.0011164210736751556,True,"cat_features=[0,1]; string categorical columns; thread_count=1"
+lgbm,True,"(120, 2)",0.042879849672317505,0.001689869910478592,True,"categorical_feature=[0,1]; n_jobs=1"
+xgb,True,"(120, 2)",0.03667861595749855,0.0009070597589015961,True,integer codes; n_jobs=1
+rf,True,"(120, 2)",0.13495076075196266,0.006324678659439087,True,integer codes; n_jobs=1
+ftt,True,"(120, 2)",5.5144641399383545,0.0,True,get_default_kwargs; one-hot + standardization; GPU
+tabpfn35_large,True,"(1600, 2)",1.8496252074837685,3.198072835803032,True,GPU n=8000 p=70 scale guard; no metric computed
+tabicl2_large,True,"(1600, 2)",0.9663592092692852,1.094277672469616,True,GPU n=8000 p=70 scale guard; no metric computed
+tabpfn2_large,True,"(1600, 2)",1.4155050180852413,4.0264576487243176,True,GPU n=8000 p=70 scale guard; no metric computed

@@ -1,0 +1,44 @@
+auc=0.7 k= 1 n= 300  log k=0.00 | raw 2.41 soft1 1.61 soft1.96 0.33 bc -1.16
+auc=0.7 k= 1 n=1000  log k=0.00 | raw 1.78 soft1 0.63 soft1.96 0.06 bc -0.61
+auc=0.7 k= 1 n=3000  log k=0.00 | raw 1.35 soft1 0.53 soft1.96 0.09 bc -1.58
+auc=0.7 k= 2 n= 300  log k=0.69 | raw 2.51 soft1 1.72 soft1.96 0.95 bc 0.29
+auc=0.7 k= 2 n=1000  log k=0.69 | raw 1.83 soft1 1.11 soft1.96 0.80 bc -1.40
+auc=0.7 k= 2 n=3000  log k=0.69 | raw 1.72 soft1 1.04 soft1.96 0.70 bc 0.17
+auc=0.7 k= 4 n= 300  log k=1.39 | raw 2.53 soft1 1.86 soft1.96 0.84 bc -1.35
+auc=0.7 k= 4 n=1000  log k=1.39 | raw 2.39 soft1 1.90 soft1.96 1.46 bc 1.12
+auc=0.7 k= 4 n=3000  log k=1.39 | raw 2.19 soft1 1.64 soft1.96 1.40 bc 1.62
+auc=0.7 k= 8 n= 300  log k=2.08 | raw 2.76 soft1 2.37 soft1.96 1.49 bc -0.08
+auc=0.7 k= 8 n=1000  log k=2.08 | raw 2.74 soft1 2.38 soft1.96 1.99 bc 1.56
+auc=0.7 k= 8 n=3000  log k=2.08 | raw 2.55 soft1 2.24 soft1.96 2.07 bc 1.96
+auc=0.7 k=16 n= 300  log k=2.77 | raw 2.91 soft1 2.31 soft1.96 0.99 bc 2.22
+auc=0.7 k=16 n=1000  log k=2.77 | raw 2.92 soft1 2.55 soft1.96 2.13 bc 2.35
+auc=0.7 k=16 n=3000  log k=2.77 | raw 2.92 soft1 2.76 soft1.96 2.62 bc 2.67
+auc=0.7 k=32 n= 300  log k=3.47 | raw 2.97 soft1 2.54 soft1.96 1.48 bc 2.31
+auc=0.7 k=32 n=1000  log k=3.47 | raw 3.18 soft1 2.84 soft1.96 2.14 bc 3.13
+auc=0.7 k=32 n=3000  log k=3.47 | raw 3.37 soft1 3.28 soft1.96 3.03 bc 3.44
+auc=0.8 k= 1 n= 300  log k=0.00 | raw 2.12 soft1 1.02 soft1.96 0.15 bc 0.24
+auc=0.8 k= 1 n=1000  log k=0.00 | raw 1.54 soft1 0.60 soft1.96 0.10 bc -0.99
+auc=0.8 k= 1 n=3000  log k=0.00 | raw 1.25 soft1 0.48 soft1.96 0.09 bc 0.61
+auc=0.8 k= 2 n= 300  log k=0.69 | raw 2.25 soft1 1.46 soft1.96 0.81 bc -0.60
+auc=0.8 k= 2 n=1000  log k=0.69 | raw 1.86 soft1 1.11 soft1.96 0.73 bc 0.10
+auc=0.8 k= 2 n=3000  log k=0.69 | raw 1.63 soft1 1.02 soft1.96 0.72 bc 1.08
+auc=0.8 k= 4 n= 300  log k=1.39 | raw 2.56 soft1 1.88 soft1.96 1.41 bc 1.50
+auc=0.8 k= 4 n=1000  log k=1.39 | raw 2.24 soft1 1.70 soft1.96 1.42 bc 1.22
+auc=0.8 k= 4 n=3000  log k=1.39 | raw 1.95 soft1 1.58 soft1.96 1.40 bc 1.33
+auc=0.8 k= 8 n= 300  log k=2.08 | raw 2.75 soft1 2.24 soft1.96 1.71 bc 1.81
+auc=0.8 k= 8 n=1000  log k=2.08 | raw 2.56 soft1 2.23 soft1.96 2.01 bc 1.99
+auc=0.8 k= 8 n=3000  log k=2.08 | raw 2.41 soft1 2.18 soft1.96 2.08 bc 1.98
+auc=0.8 k=16 n= 300  log k=2.77 | raw 2.90 soft1 2.47 soft1.96 1.93 bc 2.07
+auc=0.8 k=16 n=1000  log k=2.77 | raw 2.92 soft1 2.72 soft1.96 2.52 bc 2.57
+auc=0.8 k=16 n=3000  log k=2.77 | raw 2.92 soft1 2.81 soft1.96 2.75 bc 2.69
+auc=0.8 k=32 n= 300  log k=3.47 | raw 3.08 soft1 2.71 soft1.96 1.97 bc 2.87
+auc=0.8 k=32 n=1000  log k=3.47 | raw 3.31 soft1 3.12 soft1.96 2.70 bc 3.43
+auc=0.8 k=32 n=3000  log k=3.47 | raw 3.43 soft1 3.40 soft1.96 3.34 bc 3.47
+raw mean abs log error 0.812 mean bias 0.731
+soft1 mean abs log error 0.431 mean bias 0.212
+soft1.96 mean abs log error 0.362 mean bias -0.277
+bc mean abs log error 0.598 mean bias -0.509
+
+real	0m47.811s
+user	0m47.193s
+sys	0m0.140s
