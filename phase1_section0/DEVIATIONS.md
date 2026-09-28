@@ -60,8 +60,9 @@ that is merely slow still completes.
   standardisation), so a dataset with many categorical levels gives one token per one-hot column.
   Datasets where this exceeds GPU memory are recorded as FT-Transformer failures under Section 6.8.
   FT-Transformer enters only exploratory analysis E5.
-- **GPU instance.** The foundation models run on a cloned RTX 4090 instance (`host_registry.json`).
-  This is the same GPU type the plan registers.
+- **GPU instance.** The foundation models run on an RTX 4090, the GPU type the plan registers. From
+  correction C1 (see `README.md`) the GPU machine is identified by its GPU model rather than by host
+  name; its host name and NVIDIA driver version are recorded for every run.
 - **Injection sanity check** (brief, M2 step 4). 35 of 2,856 injected-column checks differ from the
   target level by more than 0.06 (`injection_sanity.csv`). They come from 17 datasets, 16 of which have
   at most 705 rows (the target-region median is 1,471), where sampling variation is expected. The brief

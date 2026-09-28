@@ -136,10 +136,18 @@ def aggregate_complete(
     plan: list[WorkUnit],
     identity_factory: Callable[[str], CheckpointIdentity],
     modules: set[str] | None = None,
+    groups: set[str] | None = None,
     migrations: list[dict[str, Any]] | None = None,
 ) -> None:
     output_root.mkdir(parents=True, exist_ok=True)
-    selected = [unit for unit in plan if modules is None or unit.module in modules]
+    requested_groups = groups or {"cpu", "gpu", "ftt"}
+    plan_groups: set[str] = set()
+    for group in requested_groups:
+        plan_groups.update({"cpu", "none"} if group == "cpu" else {group})
+    selected = [
+        unit for unit in plan
+        if (modules is None or unit.module in modules) and unit.group in plan_groups
+    ]
     expected_all = {checkpoint_path(checkpoint_root, unit).resolve() for unit in selected}
     # The checkpoint tree is scanned exactly once. Other modules are allowed to
     # coexist because Phase 1 is delivered one module at a time.
@@ -147,7 +155,8 @@ def aggregate_complete(
     selected_roots = {(checkpoint_root / module).resolve() for module in (modules or {u.module for u in selected})}
     actual_selected = {
         path for path in actual_all
-        if any(root == path or root in path.parents for root in selected_roots)
+        if path.stem in plan_groups
+        and any(root == path or root in path.parents for root in selected_roots)
     }
     extras = actual_selected - expected_all
     if extras:
@@ -221,6 +230,7 @@ def main() -> None:
     parser.add_argument("--checkpoint-root", required=True, type=Path)
     parser.add_argument("--output-root", required=True, type=Path)
     parser.add_argument("--modules", nargs="+", choices=("M1", "M2", "M4", "M5", "M6"), required=True)
+    parser.add_argument("--groups", nargs="+", choices=("cpu", "gpu", "ftt"), required=True)
     parser.add_argument("--migration-file", type=Path)
     args = parser.parse_args()
     registered_root = args.registered_root.resolve()
@@ -238,7 +248,7 @@ def main() -> None:
     migrations = load_migrations(args.migration_file.resolve() if args.migration_file else None)
     aggregate_complete(
         args.checkpoint_root.resolve(), args.output_root.resolve(), plan, identity,
-        modules=set(args.modules), migrations=migrations,
+        modules=set(args.modules), groups=set(args.groups), migrations=migrations,
     )
 
 

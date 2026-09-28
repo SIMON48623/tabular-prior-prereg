@@ -53,7 +53,7 @@ class SchedulerEnvironmentTests(unittest.TestCase):
                 "TRANSFORMERS_OFFLINE": "1", "HF_DATASETS_OFFLINE": "1",
             })
             record = scheduler._environment_record(
-                "machine-686", "686", "Xeon 8352V", "", {"a": "b"}, {"c": "d"},
+                "machine-686", "686", "Xeon 8352V", "", "", {"a": "b"}, {"c": "d"},
                 "e" * 64, {"tabpfn35": Weight()},
             )
         finally:

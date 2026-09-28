@@ -18,8 +18,8 @@ from .execution import (
 from .planner import build_plan, execution_stage
 from .runtime import (
     assert_process_environment, cpu_model_name, ensure_cleaned_data_manifest,
-    gpu_model_name, offline_socket_guard, registered_checkpoint_paths,
-    resolve_registered_host, set_offline_environment, sha256_file,
+    gpu_driver_version, gpu_model_name, machine_host_label, offline_socket_guard,
+    registered_checkpoint_paths, resolve_registered_host, set_offline_environment, sha256_file,
     validate_hardware, verify_driver_manifest, verify_registered_inputs,
 )
 from .timeouts import unit_timeout_seconds
@@ -129,13 +129,14 @@ def _checkpoint_state(path: Path, identity: CheckpointIdentity,
 
 
 def _environment_record(
-    actual_host: str, role: str, cpu_name: str, gpu_name: str,
+    actual_host: str, role: str, cpu_name: str, gpu_name: str, gpu_driver: str,
     registered_hashes: dict[str, str], cleaned_hashes: dict[str, str],
     driver_hash: str, weights: dict[str, Any],
 ) -> dict[str, Any]:
     return {
         "host": actual_host, "registered_role": role,
         "cpu_model": cpu_name, "gpu_model": gpu_name,
+        "gpu_driver_version": gpu_driver,
         "registered_manifest_entries": len(registered_hashes),
         "cleaned_data_entries": len(cleaned_hashes),
         "driver_manifest_sha256": driver_hash,
@@ -152,6 +153,12 @@ def _environment_record(
             "seed": config.SEED,
         },
     }
+
+
+def _resolve_scheduler_host(group: str, host_registry: Path) -> tuple[str, str]:
+    if group == "gpu":
+        return "4090", machine_host_label()
+    return resolve_registered_host(host_registry)
 
 
 def _supervised_task(
@@ -226,16 +233,19 @@ def parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
     parser.add_argument("--host-assignment", required=True, type=Path)
     parser.add_argument("--checkpoint-root", required=True, type=Path)
     parser.add_argument("--runtime-root", required=True, type=Path)
-    parser.add_argument("--authorization-file", required=True, type=Path)
+    parser.add_argument("--authorization-file", type=Path)
     parser.add_argument("--host-registry", type=Path)
     parser.add_argument("--migration-file", type=Path)
     parser.add_argument("--group", choices=("cpu", "gpu"), required=True)
     parser.add_argument("--workers", type=int, required=True)
     parser.add_argument("--stages", nargs="+", choices=config.EXECUTION_STAGES, required=True)
+    parser.add_argument("--verify-only", action="store_true")
     args = parser.parse_args(argv)
     ranks = [config.EXECUTION_STAGES.index(stage) for stage in args.stages]
     if ranks != sorted(set(ranks)):
         parser.error("--stages must be unique and follow the registered Section 1 order")
+    if not args.verify_only and args.authorization_file is None:
+        parser.error("--authorization-file is required unless --verify-only is used")
     return args
 
 
@@ -245,7 +255,6 @@ def main(argv: Sequence[str] | None = None) -> None:
     set_offline_environment()
     if "TABPFN_TOKEN" in os.environ:
         raise RuntimeError("TABPFN_TOKEN must be unset during Phase 1 execution")
-    _authorized(args.authorization_file.resolve())
     expected_workers = 1 if args.group == "gpu" else 32
     if args.workers != expected_workers:
         raise RuntimeError(f"{args.group} scheduler requires {expected_workers} workers")
@@ -262,9 +271,10 @@ def main(argv: Sequence[str] | None = None) -> None:
     driver_hash = verify_driver_manifest(driver_dir)
     cleaned_hashes = ensure_cleaned_data_manifest(root, runtime_root)
     plan = build_plan(root, assignment)
-    role, actual_host = resolve_registered_host(host_registry)
+    role, actual_host = _resolve_scheduler_host(args.group, host_registry)
     cpu_name = cpu_model_name()
     gpu_name = gpu_model_name() if args.group == "gpu" else ""
+    gpu_driver = gpu_driver_version() if args.group == "gpu" else ""
     validate_hardware(
         WorkUnit("M1", "probe", "raw", 0, "gpu" if args.group == "gpu" else "cpu", role),
         role, actual_host, cpu_name, gpu_name,
@@ -274,9 +284,21 @@ def main(argv: Sequence[str] | None = None) -> None:
     weights = registered_checkpoint_paths(root) if args.group == "gpu" else {}
     identity_for = _identity_factory(root, driver_dir, assignment)
     environment = _environment_record(
-        actual_host, role, cpu_name, gpu_name, registered_hashes,
+        actual_host, role, cpu_name, gpu_name, gpu_driver, registered_hashes,
         cleaned_hashes, driver_hash, weights,
     )
+
+    if args.verify_only:
+        print(json.dumps({
+            "status": "verified", "group": args.group,
+            "host": actual_host, "registered_role": role,
+            "cpu_model": cpu_name, "gpu_model": gpu_name,
+            "gpu_driver_version": gpu_driver,
+            "driver_manifest_sha256": driver_hash,
+        }, ensure_ascii=False, sort_keys=True))
+        return
+
+    _authorized(args.authorization_file.resolve())
 
     groups = {"gpu", "ftt"} if args.group == "gpu" else {"cpu", "none"}
     selected_stages = set(args.stages)

@@ -62,7 +62,7 @@ class RuntimeAttestationTests(unittest.TestCase):
         driver.mkdir()
         (driver / "runtime.py").write_text("candidate\n", encoding="utf-8")
         (base / "phase1_driver_sha256.txt").write_text(
-            f"{digest(driver / 'runtime.py')}  runtime.py\n", encoding="utf-8"
+            f"{digest(driver / 'runtime.py')}  phase1_driver/runtime.py\n", encoding="utf-8"
         )
         return driver
 

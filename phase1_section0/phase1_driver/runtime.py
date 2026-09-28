@@ -5,6 +5,7 @@ import json
 import os
 import platform
 import socket
+import subprocess
 from contextlib import contextmanager
 from dataclasses import dataclass
 from pathlib import Path
@@ -161,12 +162,13 @@ def resolve_registered_host(host_registry: Path) -> tuple[str, str]:
 
 def verify_driver_manifest(driver_dir: Path) -> str:
     driver_dir = driver_dir.resolve()
-    manifest_path = driver_dir.parent / "phase1_driver_sha256.txt"
+    manifest_root = driver_dir.parent
+    manifest_path = manifest_root / "phase1_driver_sha256.txt"
     if not manifest_path.is_file():
         raise RuntimeError(f"driver manifest missing: {manifest_path}")
     entries = _hash_manifest(manifest_path)
     for relative, expected in entries.items():
-        path = driver_dir / relative
+        path = manifest_root / relative
         if not path.is_file():
             raise RuntimeError(f"driver file missing: {relative}")
         actual = sha256_file(path)
@@ -175,7 +177,7 @@ def verify_driver_manifest(driver_dir: Path) -> str:
                 f"driver hash mismatch for {relative}: expected {expected}, got {actual}"
             )
     actual_files = {
-        path.relative_to(driver_dir).as_posix()
+        path.relative_to(manifest_root).as_posix()
         for path in driver_dir.rglob("*")
         if path.is_file() and "__pycache__" not in path.parts and path.suffix != ".pyc"
     }
@@ -292,3 +294,17 @@ def cpu_model_name() -> str:
 def gpu_model_name() -> str:
     import torch
     return str(torch.cuda.get_device_name(0))
+
+
+def gpu_driver_version() -> str:
+    try:
+        completed = subprocess.run(
+            ["nvidia-smi", "--query-gpu=driver_version", "--format=csv,noheader"],
+            check=True, capture_output=True, text=True, timeout=30,
+        )
+    except (OSError, subprocess.SubprocessError) as exc:
+        raise RuntimeError(f"unable to read NVIDIA driver version: {exc}") from exc
+    versions = [line.strip() for line in completed.stdout.splitlines() if line.strip()]
+    if not versions:
+        raise RuntimeError("nvidia-smi returned no NVIDIA driver version")
+    return ",".join(versions)

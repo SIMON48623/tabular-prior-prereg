@@ -1,0 +1,1 @@
+{"cpu_model": "Intel(R) Xeon(R) Platinum 8352V CPU @ 2.10GHz", "driver_manifest_sha256": "136c1e4207c5168be34288ac4846aae147bc4234ba4e566f23d8adcdfd0cc68c", "gpu_driver_version": "", "gpu_model": "", "group": "cpu", "host": "autodl-container-68ab428934-5b50cf53", "registered_role": "686", "status": "verified"}
