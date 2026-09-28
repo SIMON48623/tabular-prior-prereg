@@ -1,0 +1,14 @@
+{
+  "tabicl2": {
+    "parameter_sha256": "a0842ed20731a708a88ce9c1ebcc6666e3f02d17008ebd8148e6a4f55d1e44d8",
+    "weight_sha256": "bdc7dbd5e4ff21f8f0456fcf90c6b7cdf72dbea960f2d05b19bec19f9b3d4ed0"
+  },
+  "tabpfn2": {
+    "parameter_sha256": "f1fa31642be5efb42621b576450d8390d21f94b49012454977924bc2527a74f2",
+    "weight_sha256": "cf8c519c01eaf1613ee91239006d57b1c806ff5f23ac1aeb1315ba1015210e49"
+  },
+  "tabpfn35": {
+    "parameter_sha256": "6ac4478f8eb2c5674b5273b96399617b915321bfaefae660d99615cf34c785aa",
+    "weight_sha256": "ece4d67eadfea42eb0e610df5189bea60cb7f31073d81e9c7a019b76eacf0be3"
+  }
+}
