@@ -1,0 +1,15 @@
+{
+  "host": "214",
+  "start_unix": 1790687584.2871516,
+  "checked_unix": 1790688516.0757124,
+  "elapsed_seconds": 931.7885608673096,
+  "pid": 295108,
+  "scheduler_alive": true,
+  "worker_count": 32,
+  "worker_lock_count": 32,
+  "baseline_failure_lines": 76,
+  "failure_lines": 76,
+  "failure_delta": 0,
+  "traceback_present": false,
+  "health_gate_passed": true
+}
